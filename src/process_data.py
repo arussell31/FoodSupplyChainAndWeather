@@ -22,7 +22,13 @@ def process_agricultural_land_percentage_data():
     return
 
 def process_disaster_data():
+    # the file format is xlsx (i did get it converted to csv so will try this first)
+    # header row is on row 7
     return
 
 def process_grow_season_data():
+    # first header col value is empty and is unnecessary as it just represents an index
+    return
+
+def create_dataframe():
     return
