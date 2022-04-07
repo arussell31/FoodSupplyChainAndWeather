@@ -57,19 +57,63 @@ The data can be found [here](https://public.emdat.be/).
     Admin2 Code
     Geo Locations
 
-## Temperature and Rainfall by Country by Month
+## Temperature by Country by Month
 
 The data can be found [here](https://climateknowledgeportal.worldbank.org/download-data)
 
-* download time series data for each country
+    row 2 col 2 = Country
+    *blank header value* (this is the year)
+    Jan
+    Feb
+    Mar
+    Apr
+    May
+    Jun
+    Jul
+    Aug
+    Sep
+    Oct
+    Nov
+    Dec
+
+## Rainfall by Country by Month
+
+The data can be found [here](https://climateknowledgeportal.worldbank.org/download-data)
+
+    row 2 col 2 = Country
+    *blank header value* (this is the year)
+    Jan
+    Feb
+    Mar
+    Apr
+    May
+    Jun
+    Jul
+    Aug
+    Sep
+    Oct
+    Nov
+    Dec
 
 ## Crop Production by Country
 
 The data can be found [here](https://ourworldindata.org/agricultural-production)
 
+Entity
+Code
+Year
+Crops*crop_name*Production in tonnes
+
+NOTE: Crop name can be extracted from the 4th column header or the filename
+
 ## Agricultural Land Percentage by Country
 
 The data can be found [here](https://ourworldindata.org/grapher/share-of-land-area-used-for-agriculture?tab=chart)
+
+    Entity
+    Code
+    Year
+    Agricultural land (% of land area)
 
 ## Crop Growing season by Region
 

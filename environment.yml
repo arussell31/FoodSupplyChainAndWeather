@@ -1,0 +1,9 @@
+name: myenv
+dependencies:
+  - jupyter
+  - numpy
+  - requests
+  - networkx
+  - pandas
+  - ipywidgets
+  - scikit-learn
