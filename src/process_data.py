@@ -33,7 +33,7 @@ def load_weather_data_from_file(file_path: string, df_columns: list(), prefix=""
                     if i == 3:
                         prev_row = row[1:]
                     if i > 3:
-                        to_append = [row[0]]
+                        to_append = [int(row[0].strip())]
                         to_append.extend(prev_row)
                         to_append.extend(row[1:])
                         values.append(to_append)
@@ -130,6 +130,9 @@ def process_crop_yield_data():
         df.rename(columns={'Entity': 'Country',
                   df.columns[2]: 'Yield'}, inplace=True)
         df["Crop"] = crop_name
+        df = df.reset_index()  # make sure indexes pair with number of rows
+        for index, row in df.iterrows():
+            row['Country'] = row['Country'].strip()
         crop_data = pd.concat([crop_data, df], ignore_index=True)
     return crop_data
 
@@ -150,7 +153,7 @@ def create_dataframe():
     temp_df = process_temperature_data()
     crop_yield_df = process_crop_yield_data()
     weather_df = pd.merge(precip_df, temp_df, on=["Year", "Country"], how='outer')
-    final_df = pd.merge(crop_yield_df, weather_df, on=["Year", "Country"], how='left')
+    final_df = pd.merge(crop_yield_df, weather_df, on=["Year", "Country"], how='inner')
     print(final_df)
     weather_filepath = Path('weather_out.csv')
     crop_filepath = Path('crop_out.csv')
