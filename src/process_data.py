@@ -154,6 +154,7 @@ def create_dataframe():
     crop_yield_df = process_crop_yield_data()
     weather_df = pd.merge(precip_df, temp_df, on=["Year", "Country"], how='outer')
     final_df = pd.merge(crop_yield_df, weather_df, on=["Year", "Country"], how='inner')
+    final_df = final_df.drop(columns=["index"])
     print(final_df)
     weather_filepath = Path('weather_out.csv')
     crop_filepath = Path('crop_out.csv')
