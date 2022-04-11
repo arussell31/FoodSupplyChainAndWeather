@@ -62,9 +62,6 @@ def load_disaster_data_from_file(file_path: string, df_columns: list()):
                 prev_row = list()
                 values = []
                 for i, row in enumerate(csv_reader):
-                    print(i)
-                    if i == 12217:
-                        print()
                     if i >= 7:
                         country = row[10].strip()
                         year = int(row[1].strip())
@@ -169,11 +166,6 @@ def load_disaster_data_from_file(file_path: string, df_columns: list()):
                                     # no processing needed
                                     index += 1
                             values.extend(multiple_years)
-                # before turning values into a df iterate over it and check for any duplicates
-                # where country and year are both equal. 
-                # if there are any. trim it down to one list and add true where necessary
-                # add together the total ppl affected number as well
-                print(values)
                 df = pd.DataFrame(values, columns=df_columns)
                 return df
 
@@ -313,21 +305,29 @@ def process_grow_season_data():
 
 def create_dataframe():
     precip_df = process_precipitation_data()
-    print(precip_df)
     temp_df = process_temperature_data()
-    print(temp_df)
     crop_yield_df = process_crop_yield_data()
-    print(crop_yield_df)
     disaster_df = process_disaster_data()
-    print(disaster_df)
     weather_df = pd.merge(precip_df, temp_df, on=["Year", "Country"], how='outer')
     weather_and_crop_df = pd.merge(crop_yield_df, weather_df, on=["Year", "Country"], how='inner')
     final_df = pd.merge(weather_and_crop_df, disaster_df, on=["Year", "Country"], how='left')
     final_df = final_df.drop(columns=["index"])
-    print(final_df)
-    final_filepath = Path('final_out.csv')
-    final_df.to_csv(final_filepath)  
-    return final_df
+    # final_filepath = Path('final_out.csv')
+    # final_df.to_csv(final_filepath)  
+
+    countries_list = final_df.Country.unique()
+    crop_list = final_df.Crop.unique()
+    print(countries_list)
+    print(crop_list)
+    df_list = []
+    for country in countries_list:
+        country_df = final_df[final_df['Country'] == country]
+        for crop in crop_list:
+            country_crop_df = country_df[country_df['Crop'] == crop]
+            df_list.append(country_crop_df)
+            final_filepath = Path(f"output/{country}-{crop}-final_out.csv")
+            final_df.to_csv(final_filepath)
+    return df_list
 
 def main():
     create_dataframe()
