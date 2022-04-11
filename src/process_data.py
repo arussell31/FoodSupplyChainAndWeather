@@ -8,7 +8,6 @@ import pandas as pd
 import os
 import glob
 
-
 def load_data_from_folder(file_path: string, header_row: int):
     '''takes in path to folder where data is stored and the header row.
     yields dataframes from those csv files'''
@@ -307,6 +306,31 @@ def create_dataframe():
     temp_df = process_temperature_data()
     crop_yield_df = process_crop_yield_data()
     disaster_df = process_disaster_data()
+    print(len(disaster_df.index))
+    #disaster_df = disaster_df.groupby(["Country", "Year"]).max()
+    disaster_df = disaster_df.groupby(["Country", "Year"]).agg(
+        {
+            "flood_0":"max", "flood_1":"max", "flood_2":"max", "flood_3":"max",
+            "flood_4":"max", "flood_5":"max", "flood_6":"max", "flood_7":"max",
+            "flood_8":"max", "flood_9":"max", "flood_10":"max", "flood_11":"max",
+            "flood_12":"max", "flood_13":"max", "flood_14":"max", "flood_15":"max",
+            "flood_16":"max", "flood_17":"max", "flood_18":"max", "flood_19":"max",
+            "flood_20":"max", "flood_21":"max", "flood_22":"max", "flood_23":"max",
+            "drought_0":"max","drought_1":"max","drought_2":"max","drought_3":"max",
+            "drought_4":"max","drought_5":"max","drought_6":"max","drought_7":"max",
+            "drought_8":"max","drought_9":"max","drought_10":"max","drought_11":"max",
+            "drought_12":"max","drought_13":"max","drought_14":"max","drought_15":"max",
+            "drought_16":"max","drought_17":"max","drought_18":"max","drought_19":"max",
+            "drought_20":"max","drought_21":"max","drought_22":"max","drought_23":"max",
+            "disaster_0":"max","disaster_1":"max","disaster_2":"max","disaster_3":"max",
+            "disaster_4":"max","disaster_5":"max","disaster_6":"max","disaster_7":"max",
+            "disaster_8":"max","disaster_9":"max","disaster_10":"max","disaster_11":"max",
+            "disaster_12":"max","disaster_13":"max","disaster_14":"max","disaster_15":"max",
+            "disaster_16":"max","disaster_17":"max","disaster_18":"max","disaster_19":"max",
+            "disaster_20":"max","disaster_21":"max","disaster_22":"max","disaster_23":"max",
+            "total_ppl_affected":"sum"
+        })
+    print(len(disaster_df.index))
     weather_df = pd.merge(precip_df, temp_df, on=["Year", "Country"], how='outer')
     weather_and_crop_df = pd.merge(crop_yield_df, weather_df, on=["Year", "Country"], how='inner')
     final_df = pd.merge(weather_and_crop_df, disaster_df, on=["Year", "Country"], how='left')
@@ -335,7 +359,7 @@ def create_dataframe():
 
 def main():
     create_dataframe()
-    #process_disaster_data()
+    # process_disaster_data()
 
 if __name__ == "__main__":
     main()
