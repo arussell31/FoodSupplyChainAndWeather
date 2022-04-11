@@ -35,7 +35,10 @@ def load_weather_data_from_file(file_path: string, df_columns: list(), prefix=""
                     if i == 3:
                         prev_row = row[1:]
                     if i > 3:
-                        to_append = [int(row[0].strip())]
+                        year = int(row[0].strip())
+                        if year < 1960:
+                            continue
+                        to_append = [year]
                         to_append.extend(prev_row)
                         to_append.extend(row[1:])
                         values.append(to_append)
@@ -62,6 +65,8 @@ def load_disaster_data_from_file(file_path: string, df_columns: list()):
                     if i >= 7:
                         country = row[10].strip()
                         year = int(row[1].strip())
+                        if year < 1960:
+                            continue
                         flood = [False] * 24
                         drought = [False] * 24
                         disaster = [False] * 24
@@ -165,7 +170,7 @@ def load_disaster_data_from_file(file_path: string, df_columns: list()):
                 # add together the total ppl affected number as well
                 print(values)
                 df = pd.DataFrame(values, columns=df_columns)
-                yield df
+                return df
 
         except FileNotFoundError as e:
             raise e
@@ -294,11 +299,7 @@ def process_disaster_data():
                     "total_ppl_affected"
                     ])
     
-    df_list = list(load_disaster_data_from_file(path, disaster_cols))
-    disaster_data = pd.DataFrame()
-    for df in df_list:
-        disaster_data = pd.concat([disaster_data, df], ignore_index=True)
-
+    disaster_data = load_disaster_data_from_file(path, disaster_cols)
     return disaster_data
 
 def process_grow_season_data():
@@ -325,7 +326,7 @@ def create_dataframe():
 
 def main():
     create_dataframe()
-    # process_disaster_data()
+    #process_disaster_data()
 
 if __name__ == "__main__":
     main()
