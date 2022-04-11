@@ -59,7 +59,6 @@ def load_disaster_data_from_file(file_path: string, df_columns: list()):
         try:
             with open(f, newline='', encoding="utf8") as data_file:
                 csv_reader = reader(data_file, delimiter=',')
-                prev_row = list()
                 values = []
                 for i, row in enumerate(csv_reader):
                     if i >= 7:
@@ -67,9 +66,9 @@ def load_disaster_data_from_file(file_path: string, df_columns: list()):
                         year = int(row[1].strip())
                         if year < 1960:
                             continue
-                        flood = [False] * 24
-                        drought = [False] * 24
-                        disaster = [False] * 24
+                        flood = [0] * 24
+                        drought = [0] * 24
+                        disaster = [0] * 24
                         total_ppl_affected = 0
                         to_append = [country, year]
                         to_append.extend(flood)
@@ -125,20 +124,20 @@ def load_disaster_data_from_file(file_path: string, df_columns: list()):
                             while j < num_years + 1:
                                 multiple_years.append(to_append.copy())
                                 j += 1
-                            prev_year = [False] * 12
+                            prev_year = [0] * 12
                             num_months = ((num_years-1) * 12) + (end_month - start_month + 1)
                             if (num_months <= 0):
                                 continue
                             index = 0
                             current_month = start_month - 1
                             while index < len(multiple_years):
-                                this_year = [False] * 12
+                                this_year = [0] * 12
                                 multiple_years[index][1] = multiple_years[index][1] + index
                                 if index < len(multiple_years) - 1:
                                     while current_month < (start_month + num_months - 1):
                                         mod_current_month = current_month%12
                                         if (mod_current_month != 0 or current_month == 0 or index == current_month/12):
-                                            this_year[mod_current_month] = True
+                                            this_year[mod_current_month] = 1
                                             current_month += 1
                                         else:
                                             two_year_data = prev_year.copy()
@@ -312,6 +311,7 @@ def create_dataframe():
     weather_and_crop_df = pd.merge(crop_yield_df, weather_df, on=["Year", "Country"], how='inner')
     final_df = pd.merge(weather_and_crop_df, disaster_df, on=["Year", "Country"], how='left')
     final_df = final_df.drop(columns=["index"])
+    final_df.fillna(0, inplace=True)
     # final_filepath = Path('final_out.csv')
     # final_df.to_csv(final_filepath)  
 
@@ -321,12 +321,16 @@ def create_dataframe():
     print(crop_list)
     df_list = []
     for country in countries_list:
-        country_df = final_df[final_df['Country'] == country]
+        country_mask = final_df['Country'] == country
+        country_df = final_df[country_mask]
         for crop in crop_list:
-            country_crop_df = country_df[country_df['Crop'] == crop]
+            crop_mask = country_df['Crop'] == crop
+            country_crop_df = country_df[crop_mask]
+            if (country_crop_df.empty):
+                continue
             df_list.append(country_crop_df)
             final_filepath = Path(f"output/{country}-{crop}-final_out.csv")
-            final_df.to_csv(final_filepath)
+            country_crop_df.to_csv(final_filepath)
     return df_list
 
 def main():
