@@ -57,11 +57,14 @@ def load_disaster_data_from_file(file_path: string, df_columns: list()):
     csv_files = glob.glob(full_path)
     for f in csv_files:
         try:
-            with open(f, newline='') as data_file:
+            with open(f, newline='', encoding="utf8") as data_file:
                 csv_reader = reader(data_file, delimiter=',')
                 prev_row = list()
                 values = []
                 for i, row in enumerate(csv_reader):
+                    print(i)
+                    if i == 12217:
+                        print()
                     if i >= 7:
                         country = row[10].strip()
                         year = int(row[1].strip())
@@ -127,6 +130,8 @@ def load_disaster_data_from_file(file_path: string, df_columns: list()):
                                 j += 1
                             prev_year = [False] * 12
                             num_months = ((num_years-1) * 12) + (end_month - start_month + 1)
+                            if (num_months <= 0):
+                                continue
                             index = 0
                             current_month = start_month - 1
                             while index < len(multiple_years):
@@ -308,19 +313,19 @@ def process_grow_season_data():
 
 def create_dataframe():
     precip_df = process_precipitation_data()
+    print(precip_df)
     temp_df = process_temperature_data()
+    print(temp_df)
     crop_yield_df = process_crop_yield_data()
+    print(crop_yield_df)
     disaster_df = process_disaster_data()
+    print(disaster_df)
     weather_df = pd.merge(precip_df, temp_df, on=["Year", "Country"], how='outer')
     weather_and_crop_df = pd.merge(crop_yield_df, weather_df, on=["Year", "Country"], how='inner')
     final_df = pd.merge(weather_and_crop_df, disaster_df, on=["Year", "Country"], how='left')
     final_df = final_df.drop(columns=["index"])
     print(final_df)
-    weather_filepath = Path('weather_out.csv')
-    crop_filepath = Path('crop_out.csv')
     final_filepath = Path('final_out.csv')
-    #weather_df.to_csv(weather_filepath)  
-    #crop_yield_df.to_csv(crop_filepath)  
     final_df.to_csv(final_filepath)  
     return final_df
 
