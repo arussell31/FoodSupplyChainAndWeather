@@ -170,6 +170,36 @@ def load_disaster_data_from_file(file_path: string, df_columns: list()):
         except FileNotFoundError as e:
             raise e
 
+def load_land_mass_data_from_file(file_path: string, df_columns: list()):
+    '''load land mass data'''
+    full_path = os.path.join(file_path, "*.csv")
+    csv_files = glob.glob(full_path)
+    for f in csv_files:
+        header_row = None
+        try:
+            with open(f, newline='') as data_file:
+                csv_reader = reader(data_file, delimiter=',')
+                values = []
+                for i, row in enumerate(csv_reader):
+                    if i == 4:
+                        header_row = row
+                        #check col 5 over
+                    if i > 4:
+                        country = row[0].strip()
+                        for j, col in enumerate(row):
+                            if j >= 5:
+                                if header_row[j] == '':
+                                    continue
+                                year = int(header_row[j])
+                                if row[j] == '':
+                                    continue
+                                land_mass = float(row[j])
+                                values.append([country, year, land_mass])
+                df = pd.DataFrame(values, columns=df_columns)
+                return df
+        except FileNotFoundError as e:
+            raise e
+
 def process_temperature_data():
     '''processes temperature data'''
     avg_path = "./data/temp_data/"
@@ -262,8 +292,32 @@ def process_crop_yield_data():
     return crop_data
 
 def process_agricultural_land_percentage_data():
-    '''processes agricultural data'''
-    return
+    '''processes land percentage data'''
+    # crop name can be extracted from header col 4 or the file name
+    path = "./data/agricultural_land_percentage_data/"
+
+    # loop over the list of csv files
+    df_list = list(load_data_from_folder(path, 0))
+    land_percent_data = pd.DataFrame(columns=["Country", "Year", "Agricultural Land Percentage"])
+    # keep cols 1,3,4 and add the crop name extracted from col 4 name.
+    for df in df_list:
+        df = df.drop(columns=['Code'])
+        df.rename(columns={'Entity': 'Country',
+                  df.columns[2]: 'Agricultural Land Percentage'}, inplace=True)
+        df = df.reset_index()  # make sure indexes pair with number of rows
+        for index, row in df.iterrows():
+            df.at[index, 'Agricultural Land Percentage'] = \
+                float(row['Agricultural Land Percentage'] / 100.0)
+        land_percent_data = pd.concat([land_percent_data, df], ignore_index=True)
+
+    precip_cols = list(["Country", "Year", "Land Mass"])
+    land_mass_path = "./data/land_mass_by_country/"
+    land_mass_df = load_land_mass_data_from_file(land_mass_path, precip_cols)
+    agricultural_land_mass_df = pd.merge(land_percent_data, land_mass_df, on=["Year", "Country"], how='inner')
+    agricultural_land_mass_df['Agricultural Land Mass'] = agricultural_land_mass_df['Land Mass'] * agricultural_land_mass_df['Agricultural Land Percentage']
+    agricultural_land_mass_df = agricultural_land_mass_df.drop(columns=['Land Mass', 'Agricultural Land Percentage', 'index'])
+    
+    return agricultural_land_mass_df
 
 def process_disaster_data():
     '''processes disaster data'''
@@ -293,21 +347,17 @@ def process_disaster_data():
                     "disaster_20","disaster_21","disaster_22","disaster_23",
                     "total_ppl_affected"
                     ])
-    
+
     disaster_data = load_disaster_data_from_file(path, disaster_cols)
     return disaster_data
 
-def process_grow_season_data():
-    # first header col value is empty and is unnecessary as it just represents an index
-    return
-
 def create_dataframe():
+    '''create final dataframe'''
     precip_df = process_precipitation_data()
     temp_df = process_temperature_data()
     crop_yield_df = process_crop_yield_data()
     disaster_df = process_disaster_data()
-    print(len(disaster_df.index))
-    #disaster_df = disaster_df.groupby(["Country", "Year"]).max()
+    land_mass_df = process_agricultural_land_percentage_data()
     disaster_df = disaster_df.groupby(["Country", "Year"]).agg(
         {
             "flood_0":"max", "flood_1":"max", "flood_2":"max", "flood_3":"max",
@@ -333,7 +383,8 @@ def create_dataframe():
     print(len(disaster_df.index))
     weather_df = pd.merge(precip_df, temp_df, on=["Year", "Country"], how='outer')
     weather_and_crop_df = pd.merge(crop_yield_df, weather_df, on=["Year", "Country"], how='inner')
-    final_df = pd.merge(weather_and_crop_df, disaster_df, on=["Year", "Country"], how='left')
+    weather_crop_landmass_df = pd.merge(weather_and_crop_df, land_mass_df, on=["Year", "Country"], how='inner')
+    final_df = pd.merge(weather_crop_landmass_df, disaster_df, on=["Year", "Country"], how='left')
     final_df = final_df.drop(columns=["index"])
     final_df.fillna(0, inplace=True)
     # final_filepath = Path('final_out.csv')
@@ -354,12 +405,13 @@ def create_dataframe():
                 continue
             df_list.append(country_crop_df)
             final_filepath = Path(f"output/{country}-{crop}-final_out.csv")
+            print(f"{country} {crop}")
             country_crop_df.to_csv(final_filepath)
     return df_list
 
 def main():
     create_dataframe()
-    # process_disaster_data()
+    # land_percent_data = process_agricultural_land_percentage_data()
 
 if __name__ == "__main__":
     main()

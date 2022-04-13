@@ -115,6 +115,8 @@ The data can be found [here](https://ourworldindata.org/grapher/share-of-land-ar
     Year
     Agricultural land (% of land area)
 
+Land Area of each country can be found [here](https://data.worldbank.org/indicator/AG.LND.TOTL.K2)
+
 ## Crop Growing season by Region
 
 The data can be found [here](https://sage.nelson.wisc.edu/data-and-models/datasets/crop-calendar-dataset/)
