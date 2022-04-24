@@ -207,6 +207,10 @@
             alert("Please select a crop from the dropdown. If the dropdown is blank, there is no crop data available for your chosen country. Choose a different country.");
             return false;
           };
+          var page = country + '-' + crop + '.html?' + country + '|' + crop
+          var test = 'Forecast_Crop_Yield_Form.html?' + country + '|' + crop
+          window.location = test;
+          window.open(test);
         }
 
         // this function should create a Choropleth and legend using the world and gameData arguments for a selectedGame
