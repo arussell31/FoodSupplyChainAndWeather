@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
+  <meta charset="utf-8">
+  <title>Forecast Crop Yield</title>
+  <!-- Favicon -->
+  <!-- <link rel="icon" href="favicon.png"> -->
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Rochester&display=swap" rel="stylesheet">
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./lib/css/styles.css">
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/v4-shims.js"></script>
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Add Javascript to Project -->
+  <script src="./lib/js/script.js"></script>
+
+  <!-- uncomment below script and comment above script to switch for easy local testing -->
+  <!-- <script src="./lib/js/get-data-test.js"></script> -->
+
+  <!-- Nav Bar -->
+
+  <nav class="navbar navbar-expand-xl navbar-dark">
+
+    <button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav nav nav-fill w-100">
+        <li class="nav-item">
+          <a class="nav-link menu-text-large" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link menu-text-large" href="reviewJournal.html">Map</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+  <!--Form-->
+  <section class="white-section">
+    <div class="container-fluid">
+      <div class="row">
+        <h2 class="header-home-text centered">Adjust Weather Inputs for 2022 Crop Yield Forecast</h2>
+      </div>
+      <!-- <form class="" onsubmit="return false;"> -->
+      <!-- <form class="" onsubmit="submitButton();" method="post"> -->
+      <div class="row">
+        <p>The following fields are pre-populated with a combination of actual and projected weather data based on available data. To get a more accurate crop yield forecast, update these values with the most up-to-date information or forecasts.</p>
+      </div>
+      <div class="row">
+        <label class="form-label-not-checkbox">Precipitation, cm:</label>
+      </div>
+      <div class="row">
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Jan 2021</label>
+          <input type="number" class="not-checkbox" id="precipJan1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Feb 2021</label>
+          <input type="number" class="not-checkbox" id="precipFeb1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Mar 2021</label>
+          <input type="number" class="not-checkbox" id="precipMar1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Apr 2021</label>
+          <input type="number" class="not-checkbox" id="precipApr1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">May 2021</label>
+          <input type="number" class="not-checkbox" id="precipMay1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Jun 2021</label>
+          <input type="number" class="not-checkbox" id="precipJun1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Jul 2021</label>
+          <input type="number" class="not-checkbox" id="precipJul1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Aug 2021</label>
+          <input type="number" class="not-checkbox" id="precipAug1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Sep 2021</label>
+          <input type="number" class="not-checkbox" id="precipSep1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Oct 2021</label>
+          <input type="number" class="not-checkbox" id="precipOct1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Nov 2021</label>
+          <input type="number" class="not-checkbox" id="precipNov1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Dec 2021</label>
+          <input type="number" class="not-checkbox" id="precipDec1" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Jan 2022</label>
+          <input type="number" class="not-checkbox" id="precipJan2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Feb 2022</label>
+          <input type="number" class="not-checkbox" id="precipFeb2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Mar 2022</label>
+          <input type="number" class="not-checkbox" id="precipMar2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Apr 2022</label>
+          <input type="number" class="not-checkbox" id="precipApr2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">May 2022</label>
+          <input type="number" class="not-checkbox" id="precipMay2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Jun 2022</label>
+          <input type="number" class="not-checkbox" id="precipJun2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Jul 2022</label>
+          <input type="number" class="not-checkbox" id="precipJul2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Aug 2022</label>
+          <input type="number" class="not-checkbox" id="precipAug2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Sep 2022</label>
+          <input type="number" class="not-checkbox" id="precipSep2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Oct 2022</label>
+          <input type="number" class="not-checkbox" id="precipOct2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Nov 2022</label>
+          <input type="number" class="not-checkbox" id="precipNov2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Dec 2022</label>
+          <input type="number" class="not-checkbox" id="precipDec2" />
+        </div>
+      </div>
+
+      <div class="row">
+        <label class="form-label-not-checkbox">Minimum Monthly Temperature, Celsius:</label>
+      </div>
+      <div class="row">
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Jan 2021</label>
+          <input type="number" class="not-checkbox" id="minTJan1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Feb 2021</label>
+          <input type="number" class="not-checkbox" id="minTFeb1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Mar 2021</label>
+          <input type="number" class="not-checkbox" id="minTMar1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Apr 2021</label>
+          <input type="number" class="not-checkbox" id="minTApr1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">May 2021</label>
+          <input type="number" class="not-checkbox" id="minTMay1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Jun 2021</label>
+          <input type="number" class="not-checkbox" id="minTJun1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Jul 2021</label>
+          <input type="number" class="not-checkbox" id="minTJul1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Aug 2021</label>
+          <input type="number" class="not-checkbox" id="minTAug1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Sep 2021</label>
+          <input type="number" class="not-checkbox" id="minTSep1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Oct 2021</label>
+          <input type="number" class="not-checkbox" id="minTOct1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Nov 2021</label>
+          <input type="number" class="not-checkbox" id="minTNov1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Dec 2021</label>
+          <input type="number" class="not-checkbox" id="minTDec1" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Jan 2022</label>
+          <input type="number" class="not-checkbox" id="minTJan2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Feb 2022</label>
+          <input type="number" class="not-checkbox" id="minTFeb2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Mar 2022</label>
+          <input type="number" class="not-checkbox" id="minTMar2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Apr 2022</label>
+          <input type="number" class="not-checkbox" id="minTApr2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">May 2022</label>
+          <input type="number" class="not-checkbox" id="minTMay2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Jun 2022</label>
+          <input type="number" class="not-checkbox" id="minTJun2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Jul 2022</label>
+          <input type="number" class="not-checkbox" id="minTJul2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Aug 2022</label>
+          <input type="number" class="not-checkbox" id="minTAug2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Sep 2022</label>
+          <input type="number" class="not-checkbox" id="minTSep2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Oct 2022</label>
+          <input type="number" class="not-checkbox" id="minTOct2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Nov 2022</label>
+          <input type="number" class="not-checkbox" id="minTNov2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Dec 2022</label>
+          <input type="number" class="not-checkbox" id="minTDec2" />
+        </div>
+      </div>
+
+      <div class="row">
+        <label class="form-label-not-checkbox">Average Monthly Temperature, Celsius:</label>
+      </div>
+      <div class="row">
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Jan 2021</label>
+          <input type="number" class="not-checkbox" id="avgTJan1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Feb 2021</label>
+          <input type="number" class="not-checkbox" id="avgTFeb1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Mar 2021</label>
+          <input type="number" class="not-checkbox" id="avgTMar1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Apr 2021</label>
+          <input type="number" class="not-checkbox" id="avgTApr1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">May 2021</label>
+          <input type="number" class="not-checkbox" id="avgTMay1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Jun 2021</label>
+          <input type="number" class="not-checkbox" id="avgTJun1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Jul 2021</label>
+          <input type="number" class="not-checkbox" id="avgTJul1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Aug 2021</label>
+          <input type="number" class="not-checkbox" id="avgTAug1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Sep 2021</label>
+          <input type="number" class="not-checkbox" id="avgTSep1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Oct 2021</label>
+          <input type="number" class="not-checkbox" id="avgTOct1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Nov 2021</label>
+          <input type="number" class="not-checkbox" id="avgTNov1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Dec 2021</label>
+          <input type="number" class="not-checkbox" id="avgTDec1" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Jan 2022</label>
+          <input type="number" class="not-checkbox" id="avgTJan2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Feb 2022</label>
+          <input type="number" class="not-checkbox" id="avgTFeb2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Mar 2022</label>
+          <input type="number" class="not-checkbox" id="avgTMar2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Apr 2022</label>
+          <input type="number" class="not-checkbox" id="avgTApr2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">May 2022</label>
+          <input type="number" class="not-checkbox" id="avgTMay2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Jun 2022</label>
+          <input type="number" class="not-checkbox" id="avgTJun2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Jul 2022</label>
+          <input type="number" class="not-checkbox" id="avgTJul2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Aug 2022</label>
+          <input type="number" class="not-checkbox" id="avgTAug2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Sep 2022</label>
+          <input type="number" class="not-checkbox" id="avgTSep2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Oct 2022</label>
+          <input type="number" class="not-checkbox" id="avgTOct2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Nov 2022</label>
+          <input type="number" class="not-checkbox" id="avgTNov2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Dec 2022</label>
+          <input type="number" class="not-checkbox" id="avgTDec2" />
+        </div>
+      </div>
+
+      <div class="row">
+        <label class="form-label-not-checkbox">Maximum Monthly Temperature, Celsius:</label>
+      </div>
+      <div class="row">
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Jan 2021</label>
+          <input type="number" class="not-checkbox" id="maxTJan1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Feb 2021</label>
+          <input type="number" class="not-checkbox" id="maxTFeb1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Mar 2021</label>
+          <input type="number" class="not-checkbox" id="maxTMar1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Apr 2021</label>
+          <input type="number" class="not-checkbox" id="maxTApr1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">May 2021</label>
+          <input type="number" class="not-checkbox" id="maxTMay1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Jun 2021</label>
+          <input type="number" class="not-checkbox" id="maxTJun1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Jul 2021</label>
+          <input type="number" class="not-checkbox" id="maxTJul1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Aug 2021</label>
+          <input type="number" class="not-checkbox" id="maxTAug1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Sep 2021</label>
+          <input type="number" class="not-checkbox" id="maxTSep1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Oct 2021</label>
+          <input type="number" class="not-checkbox" id="maxTOct1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Nov 2021</label>
+          <input type="number" class="not-checkbox" id="maxTNov1" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Dec 2021</label>
+          <input type="number" class="not-checkbox" id="maxTDec1" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Jan 2022</label>
+          <input type="number" class="not-checkbox" id="maxTJan2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Feb 2022</label>
+          <input type="number" class="not-checkbox" id="maxTFeb2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Mar 2022</label>
+          <input type="number" class="not-checkbox" id="maxTMar2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Apr 2022</label>
+          <input type="number" class="not-checkbox" id="maxTApr2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">May 2022</label>
+          <input type="number" class="not-checkbox" id="maxTMay2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Jun 2022</label>
+          <input type="number" class="not-checkbox" id="maxTJun2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Jul 2022</label>
+          <input type="number" class="not-checkbox" id="maxTJul2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Aug 2022</label>
+          <input type="number" class="not-checkbox" id="maxTAug2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Sep 2022</label>
+          <input type="number" class="not-checkbox" id="maxTSep2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Oct 2022</label>
+          <input type="number" class="not-checkbox" id="maxTOct2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Nov 2022</label>
+          <input type="number" class="not-checkbox" id="maxTNov2" />
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-not-checkbox">Dec 2022</label>
+          <input type="number" class="not-checkbox" id="maxTDec2" />
+        </div>
+      </div>
+
+      <div class="row">
+        <label class="form-label-not-checkbox">Did a Flood Occur?</label>
+      </div>
+      <div class="row">
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Jan 2021</label>
+          <input type="checkbox" class="checkbox" id="floodJan1">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Feb 2021</label>
+          <input type="checkbox" class="checkbox" id="floodFeb1">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Mar 2021</label>
+          <input type="checkbox" class="checkbox" id="floodMar1">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Apr 2021</label>
+          <input type="checkbox" class="checkbox" id="floodApr1">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">May 2021</label>
+          <input type="checkbox" class="checkbox" id="floodMay1">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Jun 2021</label>
+          <input type="checkbox" class="checkbox" id="floodJun1">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Jul 2021</label>
+          <input type="checkbox" class="checkbox" id="floodJul1">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Aug 2021</label>
+          <input type="checkbox" class="checkbox" id="floodAug1">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Sep 2021</label>
+          <input type="checkbox" class="checkbox" id="floodSep1">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Oct 2021</label>
+          <input type="checkbox" class="checkbox" id="floodOct1">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Nov 2021</label>
+          <input type="checkbox" class="checkbox" id="floodNov1">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Dec 2021</label>
+          <input type="checkbox" class="checkbox" id="floodDec1">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Jan 2022</label>
+          <input type="checkbox" class="checkbox" id="floodJan2">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Feb 2022</label>
+          <input type="checkbox" class="checkbox" id="floodFeb2">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Mar 2022</label>
+          <input type="checkbox" class="checkbox" id="floodMar2">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Apr 2022</label>
+          <input type="checkbox" class="checkbox" id="floodApr2">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">May 2022</label>
+          <input type="checkbox" class="checkbox" id="floodMay2">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Jun 2022</label>
+          <input type="checkbox" class="checkbox" id="floodJun2">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Jul 2022</label>
+          <input type="checkbox" class="checkbox" id="floodJul2">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Aug 2022</label>
+          <input type="checkbox" class="checkbox" id="floodAug2">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Sep 2022</label>
+          <input type="checkbox" class="checkbox" id="floodSep2">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Oct 2022</label>
+          <input type="checkbox" class="checkbox" id="floodOct2">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Nov 2022</label>
+          <input type="checkbox" class="checkbox" id="floodNov2">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Dec 2022</label>
+          <input type="checkbox" class="checkbox" id="floodDec2">
+        </div>
+      </div>
+
+      <div class="row">
+        <label class="form-label-not-checkbox">Did a Drought Occur?</label>
+      </div>
+      <div class="row">
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Jan 2021</label>
+          <input type="checkbox" class="checkbox" id="droughtJan1">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Feb 2021</label>
+          <input type="checkbox" class="checkbox" id="droughtFeb1">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Mar 2021</label>
+          <input type="checkbox" class="checkbox" id="droughtMar1">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Apr 2021</label>
+          <input type="checkbox" class="checkbox" id="droughtApr1">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">May 2021</label>
+          <input type="checkbox" class="checkbox" id="droughtMay1">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Jun 2021</label>
+          <input type="checkbox" class="checkbox" id="droughtJun1">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Jul 2021</label>
+          <input type="checkbox" class="checkbox" id="droughtJul1">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Aug 2021</label>
+          <input type="checkbox" class="checkbox" id="droughtAug1">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Sep 2021</label>
+          <input type="checkbox" class="checkbox" id="droughtSep1">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Oct 2021</label>
+          <input type="checkbox" class="checkbox" id="droughtOct1">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Nov 2021</label>
+          <input type="checkbox" class="checkbox" id="droughtNov1">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Dec 2021</label>
+          <input type="checkbox" class="checkbox" id="droughtDec1">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Jan 2022</label>
+          <input type="checkbox" class="checkbox" id="droughtJan2">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Feb 2022</label>
+          <input type="checkbox" class="checkbox" id="droughtFeb2">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Mar 2022</label>
+          <input type="checkbox" class="checkbox" id="droughtMar2">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Apr 2022</label>
+          <input type="checkbox" class="checkbox" id="droughtApr2">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">May 2022</label>
+          <input type="checkbox" class="checkbox" id="droughtMay2">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Jun 2022</label>
+          <input type="checkbox" class="checkbox" id="droughtJun2">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Jul 2022</label>
+          <input type="checkbox" class="checkbox" id="droughtJul2">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Aug 2022</label>
+          <input type="checkbox" class="checkbox" id="droughtAug2">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Sep 2022</label>
+          <input type="checkbox" class="checkbox" id="droughtSep2">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Oct 2022</label>
+          <input type="checkbox" class="checkbox" id="droughtOct2">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Nov 2022</label>
+          <input type="checkbox" class="checkbox" id="droughtNov2">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Dec 2022</label>
+          <input type="checkbox" class="checkbox" id="droughtDec2">
+        </div>
+      </div>
+
+      <div class="row">
+        <label class="form-label-not-checkbox">Did another Natural Disaster Occur?</label>
+      </div>
+      <div class="row">
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Jan 2021</label>
+          <input type="checkbox" class="checkbox" id="otherJan1">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Feb 2021</label>
+          <input type="checkbox" class="checkbox" id="otherFeb1">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Mar 2021</label>
+          <input type="checkbox" class="checkbox" id="otherMar1">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Apr 2021</label>
+          <input type="checkbox" class="checkbox" id="otherApr1">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">May 2021</label>
+          <input type="checkbox" class="checkbox" id="otherMay1">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Jun 2021</label>
+          <input type="checkbox" class="checkbox" id="otherJun1">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Jul 2021</label>
+          <input type="checkbox" class="checkbox" id="otherJul1">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Aug 2021</label>
+          <input type="checkbox" class="checkbox" id="otherAug1">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Sep 2021</label>
+          <input type="checkbox" class="checkbox" id="otherSep1">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Oct 2021</label>
+          <input type="checkbox" class="checkbox" id="otherOct1">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Nov 2021</label>
+          <input type="checkbox" class="checkbox" id="otherNov1">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Dec 2021</label>
+          <input type="checkbox" class="checkbox" id="otherDec1">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Jan 2022</label>
+          <input type="checkbox" class="checkbox" id="otherJan2">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Feb 2022</label>
+          <input type="checkbox" class="checkbox" id="otherFeb2">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Mar 2022</label>
+          <input type="checkbox" class="checkbox" id="otherMar2">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Apr 2022</label>
+          <input type="checkbox" class="checkbox" id="otherApr2">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">May 2022</label>
+          <input type="checkbox" class="checkbox" id="otherMay2">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Jun 2022</label>
+          <input type="checkbox" class="checkbox" id="otherJun2">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Jul 2022</label>
+          <input type="checkbox" class="checkbox" id="otherJul2">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Aug 2022</label>
+          <input type="checkbox" class="checkbox" id="otherAug2">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Sep 2022</label>
+          <input type="checkbox" class="checkbox" id="otherSep2">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Oct 2022</label>
+          <input type="checkbox" class="checkbox" id="otherOct2">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Nov 2022</label>
+          <input type="checkbox" class="checkbox" id="otherNov2">
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">
+          <label class="form-label-checkbox">Dec 2022</label>
+          <input type="checkbox" class="checkbox" id="otherDec2">
+        </div>
+      </div>
+
+        <div class="row top-spacing">
+          <a class="btn btn-lg booking-button centered" id="recalculateButton">Recalculate</a>
+          <!-- <input type="submit" name="Submit" onclick="submitButton();"/> -->
+          <!-- <input type="submit" name="Submit"/> -->
+        </div>
+      <!-- </form> -->
+    </div>
+  </section>
+
+</body>
+</html>
