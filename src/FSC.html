@@ -34,6 +34,9 @@
         <h1>Select A Country:</h1>
       </div>
     </div>
+    <div class="container-fluid" id="mapContainer">
+    </div>
+
 
 
     <!-- Create dropdown element here. Options should be added after reading in game file, they should not be created here.-->
@@ -67,7 +70,7 @@
 
         // enter code to create svg
     var svg = d3
-      .select("body")
+      .select("#mapContainer")
       .append("svg")
       .attr("id", "choropleth")
       .style("overflow", "visible")
@@ -78,13 +81,14 @@
       // g legend
     //div tooltip
     var tooltip = d3
-      .select("body")
+      .select("#mapContainer")
       .append("div")
       .attr("id", "tooltip")
       .style("position", "absolute")
       .style("color", "green")
       .style("font-weight", "bold")
       .style("visibility", "hidden");
+
         // enter code to create color scale
 
         // enter code to define tooltip
