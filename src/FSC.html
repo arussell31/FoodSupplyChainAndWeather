@@ -2,7 +2,7 @@
 <meta charset="utf-8">
 <head>
     <!-- add title -->
-    
+
     <!-- import required libraries here -->
     <script type="text/javascript" src="../lib/d3.v5.min.js"></script>
     <script type="text/javascript" src="../lib/d3-dsv.min.js"></script>
@@ -10,26 +10,43 @@
     <script type="text/javascript" src="../lib/topojson.v2.min.js"></script>
     <script type="text/javascript" src="../lib/d3-legend.min.js"></script>
     <script type="text/javascript" src="../lib/d3-tip.min.js"></script>
-    
-    <style>
-        /* define CSS rules here */
-    
-    </style>
+    <script src="../lib/map.js"></script>
 
-    <title></title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../lib/styles.css">
+    <!-- bootstrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+    <title>Map</title>
 
 </head>
 
 
 <body>
     <!-- Add heading for the visualization -->
-    <h1>Average Rating of Board Games Across the World</h1>
-    
+    <div class="container-fluid">
+      <div class="row top-spacing">
+        <h1 class="centered" id="countryHeading">1. Select A Country:</h1>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row" id="mapContainer">
+      </div>
+    </div>
+
+
+
     <!-- Create dropdown element here. Options should be added after reading in game file, they should not be created here.-->
-    <select id="gameDropdown"></select>
+
+
 
     <script>
-    
+
         // enter code to define margin and dimensions for svg
     var margin = {
       top: 20,
@@ -55,7 +72,7 @@
 
         // enter code to create svg
     var svg = d3
-      .select("body")
+      .select("#mapContainer")
       .append("svg")
       .attr("id", "choropleth")
       .style("overflow", "visible")
@@ -66,24 +83,25 @@
       // g legend
     //div tooltip
     var tooltip = d3
-      .select("body")
+      .select("#mapContainer")
       .append("div")
       .attr("id", "tooltip")
       .style("position", "absolute")
-      .style("color", "green")
+      .style("color", "#4D77FF")
       .style("font-weight", "bold")
       .style("visibility", "hidden");
+
         // enter code to create color scale
-        
+
         // enter code to define tooltip
-        
+
         // enter code to define projection and path required for Choropleth
         // For grading, set the name of functions for projection and path as "projection" and "path"
-        // var projection = 
+        // var projection =
         // var path =
 
 
-        // define any other global variables 
+        // define any other global variables
         var worldmap = d3.json("world_countries.json");
         var gameData = d3.csv("country-crop.csv");
         var projection = d3.geoMercator().translate([width/2, height/2]).scale(100).center([0,40]);
@@ -91,18 +109,18 @@
 
         Promise.all([worldmap,gameData
             // enter code to read files
-            
-        ]).then(function(values){    
+
+        ]).then(function(values){
         // draw map
             ready(values[0],values[1])
         });
-        
+
         // this function should be called once the data from files have been read
         // world: topojson from world_countries.json
         // gameData: data from ratings-by-country.csv
-        
+
         function ready(world, gameData, error) {
-            var data_by_game = d3.nest() 
+            var data_by_game = d3.nest()
                 .key(d => d.Country)
                 .entries(gameData);
 
@@ -135,8 +153,9 @@
                 })
                 .on("click", function(d,i){
                     var games_array = [];
-                    country_name = d["properties"]["name"];
+                    var country_name = d["properties"]["name"];
                     console.log(country_name);
+                    document.getElementById('countryHeading').innerHTML = "1. Select A Country: " + country_name;
                     for (var j = 0; j < data_by_game.length; j++){
                         if (data_by_game[j].key.normalize() === country_name.normalize()){
                             console.log(data_by_game[j].key);
@@ -157,6 +176,7 @@
                     .text(function(d) { return d; });
                 });
 
+
             // enter code to append the game options to the dropdown
 
             // var games_array = [];
@@ -169,20 +189,47 @@
             // .enter().append("option")
             // .attr("value", function(d) { return d; })
             // .text(function(d) { return d; });
-            
+
             // event listener for the dropdown. Update choropleth and legend when selection changes. Call createMapAndLegend() with required arguments.
-            
-            // create Choropleth with default option. Call createMapAndLegend() with required arguments. 
+
+            // create Choropleth with default option. Call createMapAndLegend() with required arguments.
+        }
+
+        function openPage(){
+          var countryString = document.getElementById("countryHeading").innerHTML
+          var country = countryString.split(": ")[1];
+          var crop = document.getElementById("gameDropdown").value
+          if (typeof country == 'undefined') {
+            alert("Please select a country by clicking it on the map.");
+            return false;
+          };
+          if (crop == '') {
+            alert("Please select a crop from the dropdown. If the dropdown is blank, there is no crop data available for your chosen country. Choose a different country.");
+            return false;
+          };
+          var country = country.replaceAll(" ","_");
+          var crop = crop.replaceAll(" ","_");
+          var page = country + '-' + crop + '.html?' + country + '|' + crop
+          var test = 'Forecast_Crop_Yield_Form.html?' + country + '|' + crop
+          window.location = test;
+          window.open(test);
         }
 
         // this function should create a Choropleth and legend using the world and gameData arguments for a selectedGame
         // also use this function to update Choropleth and legend when a different game is selected from the dropdown
-        function createMapAndLegend(world, gameData, selectedGame){ 
-        
-            
-        }
-    </script>
 
+    </script>
+  <div class="container-fluid">
+    <div class="row top-spacing">
+      <h1 class="centered top-spacing">2. Select a Crop:</h1>
+    </div>
+    <div class="row top-spacing">
+      <select class="centered" id="gameDropdown"></select>
+    </div>
+    <div class="row top-spacing">
+      <a class="btn btn-lg booking-button centered" id="mapButton" onclick="openPage();">Submit</a>
+    </div>
+  </div>
 </body>
 
 </html>
