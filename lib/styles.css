@@ -46,7 +46,13 @@ h3{
   background-color: #1ea6ff;
 }
 
-
+.projection-text {
+  color: #4D77FF;
+  font-size: 2rem;
+  font-weight:bold;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
 .main {
   grid-area: main;
   background-color: #2b4865;
