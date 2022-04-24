@@ -2,7 +2,7 @@
 <meta charset="utf-8">
 <head>
     <!-- add title -->
-    
+
     <!-- import required libraries here -->
     <script type="text/javascript" src="../lib/d3.v5.min.js"></script>
     <script type="text/javascript" src="../lib/d3-dsv.min.js"></script>
@@ -10,10 +10,11 @@
     <script type="text/javascript" src="../lib/topojson.v2.min.js"></script>
     <script type="text/javascript" src="../lib/d3-legend.min.js"></script>
     <script type="text/javascript" src="../lib/d3-tip.min.js"></script>
-    
+    <script src="../lib/map.js"></script>
+
     <style>
         /* define CSS rules here */
-    
+
     </style>
 
     <title></title>
@@ -24,12 +25,12 @@
 <body>
     <!-- Add heading for the visualization -->
     <h1>Average Rating of Board Games Across the World</h1>
-    
+
     <!-- Create dropdown element here. Options should be added after reading in game file, they should not be created here.-->
     <select id="gameDropdown"></select>
 
     <script>
-    
+
         // enter code to define margin and dimensions for svg
     var margin = {
       top: 20,
@@ -74,16 +75,16 @@
       .style("font-weight", "bold")
       .style("visibility", "hidden");
         // enter code to create color scale
-        
+
         // enter code to define tooltip
-        
+
         // enter code to define projection and path required for Choropleth
         // For grading, set the name of functions for projection and path as "projection" and "path"
-        // var projection = 
+        // var projection =
         // var path =
 
 
-        // define any other global variables 
+        // define any other global variables
         var worldmap = d3.json("world_countries.json");
         var gameData = d3.csv("country-crop.csv");
         var projection = d3.geoMercator().translate([width/2, height/2]).scale(100).center([0,40]);
@@ -91,18 +92,18 @@
 
         Promise.all([worldmap,gameData
             // enter code to read files
-            
-        ]).then(function(values){    
+
+        ]).then(function(values){
         // draw map
             ready(values[0],values[1])
         });
-        
+
         // this function should be called once the data from files have been read
         // world: topojson from world_countries.json
         // gameData: data from ratings-by-country.csv
-        
+
         function ready(world, gameData, error) {
-            var data_by_game = d3.nest() 
+            var data_by_game = d3.nest()
                 .key(d => d.Country)
                 .entries(gameData);
 
@@ -169,17 +170,17 @@
             // .enter().append("option")
             // .attr("value", function(d) { return d; })
             // .text(function(d) { return d; });
-            
+
             // event listener for the dropdown. Update choropleth and legend when selection changes. Call createMapAndLegend() with required arguments.
-            
-            // create Choropleth with default option. Call createMapAndLegend() with required arguments. 
+
+            // create Choropleth with default option. Call createMapAndLegend() with required arguments.
         }
 
         // this function should create a Choropleth and legend using the world and gameData arguments for a selectedGame
         // also use this function to update Choropleth and legend when a different game is selected from the dropdown
-        function createMapAndLegend(world, gameData, selectedGame){ 
-        
-            
+        function createMapAndLegend(world, gameData, selectedGame){
+
+
         }
     </script>
 
