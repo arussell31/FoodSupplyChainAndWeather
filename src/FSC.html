@@ -24,7 +24,7 @@
 
 <body>
     <!-- Add heading for the visualization -->
-    <!-- <h1>Select A Country:</h1> -->
+    <h1>Select A Country:</h1>
 
     <!-- Create dropdown element here. Options should be added after reading in game file, they should not be created here.-->
     <select id="gameDropdown"></select>
@@ -55,11 +55,6 @@
       height = innerHeight - padding.top - padding.bottom;
 
         // enter code to create svg
-    var pageHeading = d3
-      .select("body")
-      .append("h1")
-      .attr("id","heading")
-      .attr("innerHTML","Select A Country:")
     var svg = d3
       .select("body")
       .append("svg")
