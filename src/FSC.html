@@ -31,7 +31,7 @@
     <!-- Add heading for the visualization -->
     <div class="container-fluid">
       <div class="row top-spacing">
-        <h1 class="centered">1. Select A Country:</h1>
+        <h1 class="centered" id="countryHeading">1. Select A Country:</h1>
       </div>
     </div>
     <div class="container-fluid">
@@ -153,8 +153,9 @@
                 })
                 .on("click", function(d,i){
                     var games_array = [];
-                    country_name = d["properties"]["name"];
+                    var country_name = d["properties"]["name"];
                     console.log(country_name);
+                    document.getElementById('countryHeading').innerHTML = "1. Select A Country: " + country_name;
                     for (var j = 0; j < data_by_game.length; j++){
                         if (data_by_game[j].key.normalize() === country_name.normalize()){
                             console.log(data_by_game[j].key);
@@ -175,6 +176,7 @@
                     .text(function(d) { return d; });
                 });
 
+
             // enter code to append the game options to the dropdown
 
             // var games_array = [];
@@ -193,12 +195,14 @@
             // create Choropleth with default option. Call createMapAndLegend() with required arguments.
         }
 
+        function openPage(){
+          var countryString = document.getElementById("countryHeading").innerHTML
+          var country = countryString.split(": ")[1];
+        }
+
         // this function should create a Choropleth and legend using the world and gameData arguments for a selectedGame
         // also use this function to update Choropleth and legend when a different game is selected from the dropdown
-        function createMapAndLegend(world, gameData, selectedGame){
 
-
-        }
     </script>
   <div class="container-fluid">
     <div class="row top-spacing">
@@ -208,7 +212,7 @@
       <select class="centered" id="gameDropdown"></select>
     </div>
     <div class="row top-spacing">
-      <a class="btn btn-lg booking-button centered" id="mapButton">Submit</a>
+      <a class="btn btn-lg booking-button centered" id="mapButton" onclick="openPage();">Submit</a>
     </div>
   </div>
 </body>
