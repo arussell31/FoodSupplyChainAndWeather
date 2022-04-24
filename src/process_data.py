@@ -387,18 +387,20 @@ def create_dataframe():
     final_df = pd.merge(weather_crop_landmass_df, disaster_df, on=["Year", "Country"], how='left')
     final_df = final_df.drop(columns=["index"])
     final_df.fillna(0, inplace=True)
-    # final_filepath = Path('final_out.csv')
-    # final_df.to_csv(final_filepath)  
+    #final_filepath = Path('src/final_out.csv')
+    #final_df.to_csv(final_filepath)  
 
     countries_list = final_df.Country.unique()
     crop_list = final_df.Crop.unique()
     print(countries_list)
     print(crop_list)
     df_list = []
+    country_crop_list_df = pd.DataFrame(columns=["Country", "Crop"])
     for country in countries_list:
         country_mask = final_df['Country'] == country
         country_df = final_df[country_mask]
         for crop in crop_list:
+            country_crop_list_df.loc[country_crop_list_df.shape[0]] = [country, crop]
             crop_mask = country_df['Crop'] == crop
             country_crop_df = country_df[crop_mask]
             if (country_crop_df.empty):
@@ -407,6 +409,7 @@ def create_dataframe():
             final_filepath = Path(f"output/{country}-{crop}-final_out.csv")
             print(f"{country} {crop}")
             country_crop_df.to_csv(final_filepath)
+    country_crop_list_df.to_csv("src/country-crop.csv", index=False)
     return df_list
 
 def main():
