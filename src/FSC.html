@@ -31,10 +31,12 @@
     <!-- Add heading for the visualization -->
     <div class="container-fluid">
       <div class="row top-spacing">
-        <h1>Select A Country:</h1>
+        <h1 class="centered">1. Select A Country:</h1>
       </div>
     </div>
-    <div class="container-fluid" id="mapContainer">
+    <div class="container-fluid">
+      <div class="row" id="mapContainer">
+      </div>
     </div>
 
 
@@ -200,7 +202,10 @@
     </script>
   <div class="container-fluid">
     <div class="row top-spacing">
-      <select id="gameDropdown"></select>
+      <h1 class="centered top-spacing">2. Select a Crop:</h1>
+    </div>
+    <div class="row top-spacing">
+      <select class="centered" id="gameDropdown"></select>
     </div>
     <div class="row top-spacing">
       <a class="btn btn-lg booking-button centered" id="mapButton">Submit</a>
