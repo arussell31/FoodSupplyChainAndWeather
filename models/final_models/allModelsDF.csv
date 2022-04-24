@@ -1,0 +1,1824 @@
+,Country,Crop,Model_Type,R2
+0,Afghanistan,Apples,lasso_0.02,0.35447979270817065
+1,Afghanistan,Barley,mir_0.4_classic_linear_regression,0.7751034454405049
+2,Afghanistan,Cereals (Rice Milled Eqv),mir_0.5_classic_linear_regression,0.6097705144598072
+3,Afghanistan,Grapes,mir_0.4_lasso_0.02,0.4694231494521217
+4,Afghanistan,Maize,mir_0.3_lasso_20,0.6108917721401474
+5,Afghanistan,Oranges,mir_0.3_lasso_400,0.37984109731878823
+6,Afghanistan,Potatoes,lasso_0.5,0.48630928085449887
+7,Afghanistan,"Rice, paddy",mir_0.4_classic_linear_regression,0.6140708023644332
+8,Afghanistan,Sesame seed,mir_0.3_lasso_200,0.4442837250211725
+9,Afghanistan,Sugar beet,mir_0.5_classic_linear_regression,0.5044993600850609
+10,Afghanistan,Sugar cane,mir_0.2_lasso_0.5,0.32172006350143834
+11,Afghanistan,Sunflower seed,mir_0.4_lasso_400,0.5274360682382488
+12,Afghanistan,Wheat,mir_0.4_classic_linear_regression,0.689818215973762
+13,Albania,Apples,mir_0.4_classic_linear_regression,0.11020878745998275
+14,Albania,Barley,mir_0.5_classic_linear_regression,0.16565232447483635
+15,Albania,"Beans, dry",mir_0.2_lasso_400,0.45015819012986436
+16,Albania,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.7343006976601438
+17,Albania,Grapes,mir_0.3_lasso_400,0.6576044006271958
+18,Albania,Maize,mir_0.4_classic_linear_regression,0.559525257814192
+19,Albania,Oranges,mir_0.4_classic_linear_regression,0.7415619266264853
+20,Albania,Potatoes,mir_0.4_classic_linear_regression,0.42364537844070316
+21,Albania,Rye,mir_0.3_lasso_2,0.5858129752869348
+22,Albania,Sugar beet,mir_0.4_lasso_400,0.5779552997609486
+23,Albania,Sunflower seed,mir_0.4_classic_linear_regression,0.7425591923201289
+24,Albania,"Tobacco, unmanufactured",mir_0.2_lasso_400,0.4607028189432155
+25,Albania,Tomatoes,lasso_2,0.580288185478901
+26,Albania,Wheat,lasso_0.8,0.5445928846211159
+27,Algeria,Apples,mir_0.3_lasso_400,0.6097195927893595
+28,Algeria,Barley,lasso_0.8,0.5765866501221306
+29,Algeria,"Beans, dry",mir_0.4_classic_linear_regression,0.7720197800383566
+30,Algeria,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.36996474562268244
+31,Algeria,Grapes,lasso_0.5,0.19436187528882498
+32,Algeria,Maize,mir_0.2_lasso_400,0.3807128836873974
+33,Algeria,Oranges,lasso_2,0.6797428583849918
+34,Algeria,"Peas, dry",mir_0.3_lasso_400,0.4641553962477257
+35,Algeria,Potatoes,mir_0.3_lasso_400,0.5425845033552152
+36,Algeria,"Rice, paddy",lasso_0.8,0.5378548394646034
+37,Algeria,Sunflower seed,mir_0.3_classic_linear_regression,0.5971300080347103
+38,Algeria,"Tobacco, unmanufactured",mir_0.4_lasso_400,0.3418250096615527
+39,Algeria,Tomatoes,mir_0.4_classic_linear_regression,0.6957342399525238
+40,Algeria,Wheat,mir_0.5_classic_linear_regression,0.2984050002829183
+41,American Samoa,Bananas,mir_0.5_classic_linear_regression,0.7557625695822853
+42,American Samoa,Cassava,mir_0.4_classic_linear_regression,0.42370480948861855
+43,American Samoa,"Cocoa, beans",mir_0.4_classic_linear_regression,0.6062962189412225
+44,American Samoa,Sugar cane,mir_0.4_classic_linear_regression,0.5725580026296966
+45,American Samoa,Yams,mir_0.4_lasso_400,0.8335620688130878
+46,Angola,Bananas,mir_0.3_lasso_200,0.6394474552275088
+47,Angola,"Beans, dry",mir_0.4_lasso_400,0.3905613584369384
+48,Angola,"Cashew nuts, with shell",mir_0.4_classic_linear_regression,0.6130509649067846
+49,Angola,Cassava,mir_0.5_classic_linear_regression,0.19216298682966815
+50,Angola,Cereals (Rice Milled Eqv),mir_0.2_lasso_400,0.5770431767315296
+51,Angola,"Cocoa, beans",mir_0.4_classic_linear_regression,0.36782492743178885
+52,Angola,"Coffee, green",lasso_0.5,0.20744135049785006
+53,Angola,Maize,mir_0.4_lasso_400,0.6342113815954966
+54,Angola,"Oil, palm",mir_0.4_classic_linear_regression,0.5632332824710685
+55,Angola,Potatoes,mir_0.5_classic_linear_regression,0.7216198962986005
+56,Angola,"Rice, paddy",lasso_400,0.44011141754475214
+57,Angola,Sesame seed,mir_0.3_lasso_400,0.47253867089817747
+58,Angola,Sugar cane,mir_0.3_classic_linear_regression,0.6930940419203293
+59,Angola,Sunflower seed,lasso_0.5,0.5642746731606323
+60,Angola,Sweet potatoes,mir_0.4_classic_linear_regression,0.555948694538682
+61,Angola,"Tobacco, unmanufactured",mir_0.4_classic_linear_regression,0.5031887923909135
+62,Angola,Tomatoes,mir_0.5_classic_linear_regression,0.49455412069930416
+63,Angola,Wheat,mir_0.5_classic_linear_regression,0.23127539986641577
+64,Antigua and Barbuda,Cassava,lasso_0.5,0.549639063752987
+65,Antigua and Barbuda,Sweet potatoes,mir_0.3_lasso_400,0.5573226953038357
+66,Antigua and Barbuda,Tomatoes,lasso_0.8,0.5342938114313392
+67,Antigua and Barbuda,Yams,mir_0.3_lasso_400,0.7170618772666955
+68,Argentina,Apples,lasso_0.8,0.6104629614360766
+69,Argentina,Avocados,mir_0.3_lasso_0.02,0.4785075154477936
+70,Argentina,Bananas,mir_0.4_lasso_0.02,0.5856294792023196
+71,Argentina,Barley,mir_0.4_classic_linear_regression,0.7618251077222836
+72,Argentina,"Beans, dry",mir_0.5_classic_linear_regression,0.1717244206847054
+73,Argentina,Cassava,mir_0.4_classic_linear_regression,0.6832117737787544
+74,Argentina,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.3921782348910936
+75,Argentina,Grapes,mir_0.4_classic_linear_regression,0.7420422664486449
+76,Argentina,Maize,mir_0.4_classic_linear_regression,0.7966937754188039
+77,Argentina,Oranges,mir_0.4_classic_linear_regression,0.6927488127906396
+78,Argentina,"Peas, dry",mir_0.3_lasso_400,0.5254938342918085
+79,Argentina,Potatoes,mir_0.3_lasso_400,0.7188733393013595
+80,Argentina,Rapeseed,mir_0.3_lasso_400,0.4737653757115349
+81,Argentina,"Rice, paddy",mir_0.3_classic_linear_regression,0.5692846913844262
+82,Argentina,Rye,mir_0.4_lasso_400,0.49913890493696766
+83,Argentina,Soybeans,mir_0.4_lasso_0.02,0.5467535516475357
+84,Argentina,Sugar cane,lasso_0.8,0.577480265917439
+85,Argentina,Sunflower seed,mir_0.3_lasso_0.02,0.5078400247194708
+86,Argentina,Sweet potatoes,mir_0.3_lasso_50,0.6436941494328494
+87,Argentina,Tea,lasso_0.02,0.6967750163852833
+88,Argentina,"Tobacco, unmanufactured",mir_0.2_lasso_400,0.25972986726173586
+89,Argentina,Tomatoes,mir_0.4_classic_linear_regression,0.8610193757908113
+90,Argentina,Wheat,mir_0.5_classic_linear_regression,0.5781840835889613
+91,Australia,Apples,mir_0.3_lasso_400,0.6314246259726117
+92,Australia,Avocados,mir_0.5_classic_linear_regression,0.5040744696315639
+93,Australia,Bananas,mir_0.4_classic_linear_regression,0.6538855706128128
+94,Australia,Barley,mir_0.3_lasso_200,0.5506397585053848
+95,Australia,"Beans, dry",mir_0.4_classic_linear_regression,0.6584174529799806
+96,Australia,Cereals (Rice Milled Eqv),mir_0.3_lasso_20,0.4628306238307235
+97,Australia,Grapes,mir_0.4_classic_linear_regression,0.49545257889044514
+98,Australia,Maize,classic_linear_regression,0.5997890710581172
+99,Australia,Oranges,mir_0.4_classic_linear_regression,0.670843344078792
+100,Australia,"Peas, dry",mir_0.5_classic_linear_regression,0.44054779511513975
+101,Australia,Potatoes,mir_0.3_lasso_400,0.7655026617715509
+102,Australia,"Rice, paddy",mir_0.5_classic_linear_regression,0.22458432217972912
+103,Australia,Rye,mir_0.5_classic_linear_regression,0.4849054668599272
+104,Australia,Soybeans,mir_0.3_lasso_0.02,0.6218422077671623
+105,Australia,Sugar cane,mir_0.4_classic_linear_regression,0.5214135181852553
+106,Australia,Sunflower seed,mir_0.4_classic_linear_regression,0.6156842913078209
+107,Australia,Sweet potatoes,mir_0.3_lasso_400,0.3247616398509078
+108,Australia,"Tobacco, unmanufactured",lasso_400,0.40075245568567
+109,Australia,Tomatoes,mir_0.5_classic_linear_regression,0.5676593655109603
+110,Australia,Wheat,mir_0.4_lasso_400,0.5421433404900496
+111,Austria,Apples,mir_0.4_lasso_2,0.3662986779137445
+112,Austria,Barley,lasso_0.8,0.4124927995190846
+113,Austria,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.694636017092696
+114,Austria,Grapes,mir_0.4_classic_linear_regression,0.6508720516562321
+115,Austria,Maize,lasso_0.8,0.5426582882721527
+116,Austria,"Peas, dry",mir_0.4_classic_linear_regression,0.6201724102078031
+117,Austria,Potatoes,mir_0.4_lasso_0.5,0.32090681615979644
+118,Austria,Rapeseed,mir_0.3_lasso_8,0.6042046120094909
+119,Austria,Rye,mir_0.4_classic_linear_regression,0.7034263165758493
+120,Austria,Sugar beet,mir_0.4_lasso_400,0.23027750143402836
+121,Austria,Sunflower seed,mir_0.2_lasso_200,0.4948109539350902
+122,Austria,"Tobacco, unmanufactured",mir_0.4_lasso_0.02,0.5533031911914751
+123,Austria,Tomatoes,mir_0.4_classic_linear_regression,0.7908914057034513
+124,Austria,Wheat,mir_0.5_classic_linear_regression,0.3330678234079152
+125,Bahrain,Bananas,mir_0.5_classic_linear_regression,0.3824877907569023
+126,Bahrain,Grapes,mir_0.4_classic_linear_regression,0.655075664856245
+127,Bahrain,Tomatoes,mir_0.4_classic_linear_regression,0.6989950724072078
+128,Bangladesh,Bananas,lasso_20,0.540404430641747
+129,Bangladesh,Barley,mir_0.3_lasso_400,0.4768302048426968
+130,Bangladesh,"Beans, dry",mir_0.2_lasso_0.02,0.5077131649617623
+131,Bangladesh,Cereals (Rice Milled Eqv),mir_0.2_lasso_400,0.36054901208539536
+132,Bangladesh,Maize,mir_0.4_lasso_0.02,0.7110268485577595
+133,Bangladesh,Oranges,mir_0.3_lasso_100,0.3613477212668451
+134,Bangladesh,"Peas, dry",mir_0.4_classic_linear_regression,0.4548328985872321
+135,Bangladesh,Potatoes,mir_0.3_lasso_400,0.4876415184083801
+136,Bangladesh,Rapeseed,mir_0.3_classic_linear_regression,0.6233442036008656
+137,Bangladesh,"Rice, paddy",mir_0.3_lasso_0.02,0.6371203802784947
+138,Bangladesh,Sesame seed,mir_0.5_classic_linear_regression,0.49506619830969945
+139,Bangladesh,Sugar cane,lasso_400,0.49088628763733555
+140,Bangladesh,Sweet potatoes,mir_0.4_classic_linear_regression,0.7309560074285375
+141,Bangladesh,Tea,mir_0.3_lasso_2,0.5042633003251225
+142,Bangladesh,"Tobacco, unmanufactured",lasso_0.8,0.5120349568598244
+143,Bangladesh,Tomatoes,mir_0.3_lasso_8,0.7667686294182817
+144,Bangladesh,Wheat,mir_0.5_classic_linear_regression,0.38691978059179066
+145,Barbados,Avocados,mir_0.3_lasso_200,0.5332196215456892
+146,Barbados,Bananas,mir_0.4_classic_linear_regression,0.3678346996482388
+147,Barbados,Cassava,mir_0.3_lasso_400,0.4612510657679951
+148,Barbados,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.626642401464174
+149,Barbados,Maize,mir_0.2_lasso_200,0.5749858092101976
+150,Barbados,Sugar cane,mir_0.4_classic_linear_regression,0.6641816353422462
+151,Barbados,Sweet potatoes,mir_0.5_classic_linear_regression,0.5354308728825077
+152,Barbados,Tomatoes,mir_0.3_lasso_30,0.35971240667150783
+153,Barbados,Yams,mir_0.3_lasso_400,0.482487222755142
+154,Belize,Bananas,mir_0.5_classic_linear_regression,0.11813409196885438
+155,Belize,"Beans, dry",mir_0.2_lasso_0.5,0.4445223139382749
+156,Belize,Cereals (Rice Milled Eqv),mir_0.3_lasso_200,0.4907322220186453
+157,Belize,"Cocoa, beans",mir_0.4_classic_linear_regression,0.541332817322081
+158,Belize,Maize,mir_0.4_lasso_400,0.4968889133978366
+159,Belize,Oranges,mir_0.5_classic_linear_regression,0.17202197416643106
+160,Belize,"Rice, paddy",mir_0.5_classic_linear_regression,0.04294505619303701
+161,Belize,Sugar cane,mir_0.4_classic_linear_regression,0.40587546660289753
+162,Benin,Bananas,mir_0.4_lasso_400,0.3388567724837348
+163,Benin,"Beans, dry",mir_0.3_lasso_400,0.42362562271058934
+164,Benin,"Cashew nuts, with shell",mir_0.2_lasso_400,0.34898310603470173
+165,Benin,Cassava,mir_0.5_classic_linear_regression,0.6816720718474922
+166,Benin,Cereals (Rice Milled Eqv),mir_0.3_lasso_400,-0.14373342453128957
+167,Benin,"Coffee, green",mir_0.4_classic_linear_regression,0.6855537570931854
+168,Benin,Maize,mir_0.3_lasso_400,0.5298017185902463
+169,Benin,"Oil, palm",mir_0.3_classic_linear_regression,0.6207256071902292
+170,Benin,Oranges,mir_0.3_lasso_400,0.6502075520307604
+171,Benin,"Rice, paddy",mir_0.3_lasso_400,0.6081936266675795
+172,Benin,Sesame seed,mir_0.4_classic_linear_regression,0.6379165882965065
+173,Benin,Sweet potatoes,mir_0.3_lasso_400,0.4393325354632557
+174,Benin,"Tobacco, unmanufactured",mir_0.4_classic_linear_regression,0.6922144260415646
+175,Benin,Tomatoes,lasso_2,0.5838074571243643
+176,Benin,Yams,mir_0.5_classic_linear_regression,0.6631031919768897
+177,Bermuda,Bananas,mir_0.4_classic_linear_regression,0.7439448903354282
+178,Bermuda,Potatoes,mir_0.3_lasso_400,0.5454712220182145
+179,Bermuda,Sweet potatoes,mir_0.3_lasso_400,0.6162348617156519
+180,Bermuda,Tomatoes,mir_0.3_lasso_50,0.5560410613813905
+181,Bhutan,Apples,mir_0.3_lasso_400,0.501072465480536
+182,Bhutan,Barley,mir_0.2_lasso_400,0.39839687609784136
+183,Bhutan,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.7281618308097388
+184,Bhutan,Maize,mir_0.5_classic_linear_regression,0.2309305137299117
+185,Bhutan,Oranges,lasso_0.02,0.5359414775568915
+186,Bhutan,Potatoes,mir_0.3_lasso_400,0.6421889569468877
+187,Bhutan,"Rice, paddy",mir_0.4_classic_linear_regression,0.6956880356388377
+188,Bhutan,Wheat,mir_0.5_lasso_400,0.5903735210071641
+189,Bolivia,Apples,mir_0.4_classic_linear_regression,0.38979592660341356
+190,Bolivia,Avocados,mir_0.3_lasso_20,0.6348417913917712
+191,Bolivia,Bananas,mir_0.4_classic_linear_regression,0.675863732502404
+192,Bolivia,Barley,mir_0.4_classic_linear_regression,0.21552455811315574
+193,Bolivia,"Beans, dry",mir_0.4_classic_linear_regression,0.5798817684091775
+194,Bolivia,Cassava,mir_0.2_lasso_400,0.5067702253888406
+195,Bolivia,Cereals (Rice Milled Eqv),mir_0.5_classic_linear_regression,0.527896726893959
+196,Bolivia,"Cocoa, beans",mir_0.4_classic_linear_regression,0.8219187295769487
+197,Bolivia,"Coffee, green",mir_0.4_classic_linear_regression,0.21074553051767897
+198,Bolivia,Grapes,mir_0.5_classic_linear_regression,0.2604494940939418
+199,Bolivia,Maize,mir_0.3_lasso_200,0.66907309187999
+200,Bolivia,Oranges,mir_0.4_lasso_100,0.36517203793313413
+201,Bolivia,"Peas, dry",mir_0.3_lasso_30,0.5239601480887301
+202,Bolivia,Potatoes,lasso_400,0.5594600742590832
+203,Bolivia,"Rice, paddy",mir_0.2_lasso_400,0.49184384628180433
+204,Bolivia,Rye,mir_0.3_lasso_400,0.5213860775328187
+205,Bolivia,Sugar cane,mir_0.4_lasso_0.02,0.5500346252112698
+206,Bolivia,Sweet potatoes,mir_0.3_lasso_8,0.534447922448735
+207,Bolivia,Tea,lasso_0.5,0.4555704573674866
+208,Bolivia,"Tobacco, unmanufactured",mir_0.4_lasso_400,0.526960389532656
+209,Bolivia,Tomatoes,mir_0.3_lasso_400,0.6304144008617761
+210,Bolivia,Wheat,mir_0.4_classic_linear_regression,0.6461005389159894
+211,Botswana,Cereals (Rice Milled Eqv),mir_0.5_classic_linear_regression,0.7452204877117491
+212,Botswana,Maize,mir_0.3_lasso_400,0.774766003337199
+213,Botswana,Oranges,mir_0.3_lasso_8,0.4561711580114325
+214,Brazil,Apples,mir_0.5_lasso_400,0.30699237393864964
+215,Brazil,Avocados,lasso_400,0.425997585348607
+216,Brazil,Bananas,mir_0.4_classic_linear_regression,0.5319143512609383
+217,Brazil,Barley,mir_0.3_lasso_400,0.5855583186192025
+218,Brazil,"Beans, dry",mir_0.4_classic_linear_regression,0.706976684096537
+219,Brazil,"Cashew nuts, with shell",mir_0.5_classic_linear_regression,-0.006351545550833171
+220,Brazil,Cassava,mir_0.3_lasso_400,0.7124652539509128
+221,Brazil,Cereals (Rice Milled Eqv),mir_0.4_lasso_0.02,0.6018112678666359
+222,Brazil,"Cocoa, beans",mir_0.5_classic_linear_regression,0.4718786383303363
+223,Brazil,"Coffee, green",mir_0.5_classic_linear_regression,0.4932703739114409
+224,Brazil,Grapes,mir_0.4_classic_linear_regression,0.6633448499869385
+225,Brazil,Maize,mir_0.4_classic_linear_regression,0.6471940735749582
+226,Brazil,"Oil, palm",mir_0.3_lasso_200,0.5001875547035526
+227,Brazil,Oranges,mir_0.3_lasso_400,0.796926571482621
+228,Brazil,Potatoes,lasso_0.02,0.46515888438669295
+229,Brazil,"Rice, paddy",mir_0.3_classic_linear_regression,0.5849603668599224
+230,Brazil,Rye,mir_0.3_lasso_400,0.46141393827470745
+231,Brazil,Sesame seed,lasso_0.8,0.5792241075538446
+232,Brazil,Soybeans,mir_0.4_classic_linear_regression,0.5787753159493145
+233,Brazil,Sugar cane,mir_0.3_lasso_8,0.672563321279042
+234,Brazil,Sweet potatoes,lasso_0.02,0.5779134596225171
+235,Brazil,Tea,mir_0.4_lasso_0.02,0.6016061379859061
+236,Brazil,"Tobacco, unmanufactured",mir_0.3_lasso_400,0.5546163884797941
+237,Brazil,Tomatoes,mir_0.3_lasso_400,0.51296917588444
+238,Brazil,Wheat,mir_0.4_classic_linear_regression,0.5707351686956785
+239,Brazil,Yams,mir_0.3_lasso_400,0.4323471927563475
+240,Bulgaria,Apples,mir_0.4_lasso_400,0.3596367462726471
+241,Bulgaria,Barley,mir_0.5_classic_linear_regression,0.2820832051104061
+242,Bulgaria,"Beans, dry",mir_0.4_classic_linear_regression,0.7248337623433105
+243,Bulgaria,Cereals (Rice Milled Eqv),mir_0.3_lasso_400,0.4993588726327901
+244,Bulgaria,Grapes,mir_0.4_classic_linear_regression,0.6198997072414082
+245,Bulgaria,Maize,mir_0.4_classic_linear_regression,0.4868126118250877
+246,Bulgaria,"Peas, dry",mir_0.4_classic_linear_regression,0.39722769539017544
+247,Bulgaria,Potatoes,mir_0.3_lasso_400,0.4462608481696022
+248,Bulgaria,"Rice, paddy",mir_0.5_classic_linear_regression,0.408206182519134
+249,Bulgaria,Rye,mir_0.4_classic_linear_regression,0.7080577203871481
+250,Bulgaria,Soybeans,mir_0.3_lasso_400,0.6314325646083826
+251,Bulgaria,Sunflower seed,mir_0.5_classic_linear_regression,0.2932395805786958
+252,Bulgaria,"Tobacco, unmanufactured",mir_0.2_lasso_200,0.4309608526420867
+253,Bulgaria,Tomatoes,lasso_2,0.45218875308228557
+254,Bulgaria,Wheat,mir_0.4_classic_linear_regression,0.3908004005392385
+255,Burkina Faso,Cassava,lasso_0.8,0.5209240829251147
+256,Burkina Faso,Cereals (Rice Milled Eqv),mir_0.5_classic_linear_regression,0.18203503701946122
+257,Burkina Faso,Maize,lasso_0.02,0.4698136622095658
+258,Burkina Faso,"Rice, paddy",mir_0.3_lasso_400,0.4796154291228528
+259,Burkina Faso,Sesame seed,mir_0.5_classic_linear_regression,0.605369988075866
+260,Burkina Faso,Sweet potatoes,mir_0.5_classic_linear_regression,0.05690719417830237
+261,Burkina Faso,"Tobacco, unmanufactured",lasso_0.8,0.16521037180813525
+262,Burkina Faso,Tomatoes,mir_0.5_classic_linear_regression,0.7856606739864219
+263,Burkina Faso,Yams,mir_0.4_lasso_0.02,0.5956891072361188
+264,Burundi,Bananas,mir_0.4_lasso_400,0.3524421274345928
+265,Burundi,"Beans, dry",mir_0.3_lasso_400,0.35424010980402065
+266,Burundi,Cassava,mir_0.4_classic_linear_regression,0.7316972412047686
+267,Burundi,Cereals (Rice Milled Eqv),mir_0.4_lasso_400,0.40251314123050264
+268,Burundi,"Coffee, green",mir_0.4_classic_linear_regression,0.5581656688277205
+269,Burundi,Maize,mir_0.4_lasso_0.02,0.29453151764119645
+270,Burundi,"Oil, palm",mir_0.4_classic_linear_regression,0.5690381358612628
+271,Burundi,"Peas, dry",mir_0.2_lasso_400,0.357841262085802
+272,Burundi,Potatoes,mir_0.3_lasso_400,0.43509870608472223
+273,Burundi,"Rice, paddy",mir_0.4_classic_linear_regression,0.7117372980133225
+274,Burundi,Soybeans,mir_0.3_lasso_400,0.6113752882044237
+275,Burundi,Sweet potatoes,mir_0.4_lasso_0.02,0.6077575991621811
+276,Burundi,"Tobacco, unmanufactured",mir_0.5_classic_linear_regression,0.40201911424809655
+277,Burundi,Wheat,mir_0.3_lasso_20,0.3785993232043081
+278,Burundi,Yams,mir_0.3_lasso_2,0.54171008369282
+279,Cambodia,Bananas,mir_0.4_classic_linear_regression,0.3519592943790566
+280,Cambodia,"Beans, dry",mir_0.5_classic_linear_regression,0.6086301280789077
+281,Cambodia,Cassava,mir_0.4_lasso_400,0.5137581098660244
+282,Cambodia,Cereals (Rice Milled Eqv),mir_0.4_lasso_400,0.4720325055085891
+283,Cambodia,"Coffee, green",mir_0.4_classic_linear_regression,0.7440080609604833
+284,Cambodia,Maize,mir_0.4_lasso_0.02,0.628014885401113
+285,Cambodia,Oranges,mir_0.3_lasso_50,0.6191523286301515
+286,Cambodia,"Rice, paddy",mir_0.3_lasso_400,0.5382227062283594
+287,Cambodia,Sesame seed,mir_0.3_lasso_400,0.5881300976436943
+288,Cambodia,Soybeans,mir_0.4_classic_linear_regression,0.7454031820352076
+289,Cambodia,Sugar cane,mir_0.2_lasso_400,0.4683946764838015
+290,Cambodia,Sweet potatoes,lasso_0.5,0.5477398570386398
+291,Cambodia,"Tobacco, unmanufactured",mir_0.4_classic_linear_regression,0.6272481458741992
+292,Cameroon,Avocados,mir_0.4_classic_linear_regression,0.12473084460742523
+293,Cameroon,Bananas,mir_0.5_classic_linear_regression,0.5504378791850117
+294,Cameroon,"Beans, dry",mir_0.5_classic_linear_regression,0.35642342678880523
+295,Cameroon,Cassava,mir_0.3_lasso_400,0.6413955996405611
+296,Cameroon,Cereals (Rice Milled Eqv),mir_0.5_classic_linear_regression,0.3936513806478389
+297,Cameroon,"Cocoa, beans",mir_0.4_lasso_0.02,0.5761883430804945
+298,Cameroon,"Coffee, green",mir_0.3_lasso_400,0.31947328758914384
+299,Cameroon,Maize,mir_0.4_classic_linear_regression,0.609450222073044
+300,Cameroon,"Oil, palm",lasso_0.8,0.5963719849848163
+301,Cameroon,Potatoes,mir_0.4_classic_linear_regression,0.5682398860176716
+302,Cameroon,"Rice, paddy",mir_0.5_classic_linear_regression,0.8515618908964626
+303,Cameroon,Sesame seed,mir_0.2_lasso_400,0.5083279046828352
+304,Cameroon,Sugar cane,mir_0.2_lasso_400,0.40932347465936714
+305,Cameroon,Sweet potatoes,mir_0.4_classic_linear_regression,0.3864469936846372
+306,Cameroon,Tea,mir_0.4_lasso_400,0.6319041934256238
+307,Cameroon,"Tobacco, unmanufactured",mir_0.3_lasso_400,0.47112173127750845
+308,Cameroon,Tomatoes,mir_0.4_lasso_0.02,0.6267961427915143
+309,Cameroon,Yams,mir_0.5_classic_linear_regression,0.22404255411374996
+310,Canada,Apples,mir_0.2_lasso_400,0.4590203396204495
+311,Canada,Barley,mir_0.3_lasso_400,0.46378041618216415
+312,Canada,"Beans, dry",mir_0.4_classic_linear_regression,0.33726317822290885
+313,Canada,Cereals (Rice Milled Eqv),lasso_2,0.4521883640217579
+314,Canada,Grapes,mir_0.5_classic_linear_regression,0.21272658650250642
+315,Canada,Maize,lasso_2,0.5605940341236959
+316,Canada,"Peas, dry",mir_0.5_classic_linear_regression,0.588611208994817
+317,Canada,Potatoes,mir_0.4_classic_linear_regression,0.5463157831716288
+318,Canada,Rapeseed,mir_0.5_classic_linear_regression,0.4463949978133466
+319,Canada,Rye,mir_0.3_lasso_400,0.5732331939437338
+320,Canada,Soybeans,mir_0.3_lasso_2,0.5255038748675049
+321,Canada,Sugar beet,lasso_0.8,0.34445104465774956
+322,Canada,Sunflower seed,mir_0.4_lasso_400,0.6387352851899772
+323,Canada,"Tobacco, unmanufactured",mir_0.4_classic_linear_regression,0.6118671307046146
+324,Canada,Tomatoes,mir_0.4_classic_linear_regression,0.6444536786515187
+325,Canada,Wheat,mir_0.3_lasso_400,0.45795810993726693
+326,Central African Republic,Avocados,mir_0.3_lasso_400,-0.28237882737459397
+327,Central African Republic,Bananas,mir_0.4_lasso_400,0.626037280409212
+328,Central African Republic,Cassava,mir_0.3_lasso_400,0.24773507927886862
+329,Central African Republic,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.38560007328591717
+330,Central African Republic,"Cocoa, beans",lasso_2,0.4809215553661593
+331,Central African Republic,"Coffee, green",mir_0.4_classic_linear_regression,0.4215301606088391
+332,Central African Republic,Maize,mir_0.4_classic_linear_regression,0.7741188850027092
+333,Central African Republic,"Oil, palm",mir_0.4_classic_linear_regression,0.3947706028664675
+334,Central African Republic,Oranges,mir_0.4_lasso_400,0.43448115421500155
+335,Central African Republic,Potatoes,mir_0.4_classic_linear_regression,0.4967173076390303
+336,Central African Republic,"Rice, paddy",mir_0.4_classic_linear_regression,0.7185612106350179
+337,Central African Republic,Sesame seed,mir_0.5_classic_linear_regression,0.352760839507
+338,Central African Republic,"Tobacco, unmanufactured",mir_0.4_lasso_400,0.39178531419221874
+339,Central African Republic,Yams,mir_0.5_classic_linear_regression,0.603045700088044
+340,Chad,"Beans, dry",mir_0.4_lasso_0.02,0.5464749087105049
+341,Chad,Cassava,mir_0.5_classic_linear_regression,0.5688623160449293
+342,Chad,Cereals (Rice Milled Eqv),mir_0.3_lasso_400,0.5523523572719259
+343,Chad,Maize,mir_0.3_lasso_400,0.5102854682307021
+344,Chad,Potatoes,lasso_0.02,0.5003274670051772
+345,Chad,"Rice, paddy",mir_0.3_lasso_0.02,0.6272875472347779
+346,Chad,Sesame seed,mir_0.5_classic_linear_regression,0.5149711318907532
+347,Chad,Sugar cane,mir_0.3_lasso_400,0.4147661440804493
+348,Chad,Sweet potatoes,lasso_0.02,0.2078778884811987
+349,Chad,Wheat,mir_0.4_lasso_30,0.5961375522513934
+350,Chad,Yams,mir_0.3_lasso_400,0.7131038307620177
+351,Chile,Apples,mir_0.3_lasso_400,0.3853326238930104
+352,Chile,Avocados,mir_0.3_lasso_400,0.5202016522924453
+353,Chile,Barley,mir_0.4_classic_linear_regression,0.6510020526833058
+354,Chile,"Beans, dry",lasso_200,0.44570169389039693
+355,Chile,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.7512018078498284
+356,Chile,Grapes,mir_0.3_lasso_20,0.607643062437891
+357,Chile,Maize,lasso_8,0.4541758267237148
+358,Chile,Oranges,mir_0.4_classic_linear_regression,0.6831047134830539
+359,Chile,"Peas, dry",mir_0.3_lasso_8,0.5656549394664387
+360,Chile,Potatoes,mir_0.3_lasso_400,0.563354479965495
+361,Chile,Rapeseed,lasso_0.5,0.6628493612557061
+362,Chile,"Rice, paddy",mir_0.4_lasso_0.02,0.42027667351180253
+363,Chile,Rye,mir_0.3_lasso_0.02,0.5595882784206725
+364,Chile,Sugar beet,mir_0.2_lasso_400,0.47116937265357217
+365,Chile,Sunflower seed,mir_0.3_lasso_0.02,0.6066517781862286
+366,Chile,Sweet potatoes,mir_0.2_lasso_400,0.4220896966062594
+367,Chile,"Tobacco, unmanufactured",mir_0.4_lasso_400,0.4777455336296079
+368,Chile,Tomatoes,mir_0.4_lasso_200,0.3606819673790602
+369,Chile,Wheat,mir_0.4_lasso_400,0.37527699386265
+370,China,Apples,mir_0.4_classic_linear_regression,0.6658570848588565
+371,China,Bananas,mir_0.4_lasso_50,0.3826424579841857
+372,China,Barley,mir_0.3_lasso_400,0.46663223869697457
+373,China,"Beans, dry",lasso_200,0.3019086801455506
+374,China,"Cashew nuts, with shell",mir_0.4_lasso_0.02,0.39742178213937684
+375,China,Cassava,mir_0.4_classic_linear_regression,0.6192949949219482
+376,China,Cereals (Rice Milled Eqv),lasso_0.8,0.6935203071809992
+377,China,"Coffee, green",lasso_400,0.38860758771201387
+378,China,Grapes,mir_0.3_lasso_400,0.464586522873082
+379,China,Maize,mir_0.4_classic_linear_regression,0.568209634777092
+380,China,"Oil, palm",mir_0.3_lasso_0.02,0.4748357052253256
+381,China,Oranges,mir_0.4_classic_linear_regression,0.5813227992259027
+382,China,"Peas, dry",mir_0.3_lasso_400,0.8241928941512062
+383,China,Potatoes,mir_0.4_classic_linear_regression,0.575889435602979
+384,China,Rapeseed,mir_0.3_lasso_400,0.5283138644484812
+385,China,"Rice, paddy",mir_0.5_classic_linear_regression,0.534158896954088
+386,China,Rye,mir_0.5_classic_linear_regression,-0.039808032772670865
+387,China,Sesame seed,mir_0.3_lasso_400,0.47807589230162095
+388,China,Soybeans,mir_0.2_lasso_400,0.48343590625092925
+389,China,Sugar beet,mir_0.4_classic_linear_regression,0.5700983072156898
+390,China,Sugar cane,mir_0.3_lasso_200,0.7457656948378488
+391,China,Sunflower seed,mir_0.4_classic_linear_regression,0.5096110122294828
+392,China,Sweet potatoes,mir_0.4_classic_linear_regression,0.7253756409569099
+393,China,Tea,mir_0.3_lasso_200,0.4970153828025389
+394,China,"Tobacco, unmanufactured",mir_0.3_lasso_400,0.6400622500354519
+395,China,Tomatoes,mir_0.4_classic_linear_regression,0.7499969247862912
+396,China,Wheat,mir_0.4_lasso_0.02,0.6597791757832047
+397,Colombia,Avocados,mir_0.4_classic_linear_regression,0.7855023678921217
+398,Colombia,Bananas,mir_0.4_classic_linear_regression,0.7726685457046613
+399,Colombia,Barley,lasso_0.5,0.6111607395473997
+400,Colombia,"Beans, dry",mir_0.4_classic_linear_regression,0.6892221642424288
+401,Colombia,Cassava,mir_0.3_lasso_400,0.4245781502147852
+402,Colombia,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.5775247332083395
+403,Colombia,"Cocoa, beans",lasso_100,0.29941642434434235
+404,Colombia,"Coffee, green",mir_0.3_lasso_400,0.46818343828325226
+405,Colombia,Grapes,mir_0.4_classic_linear_regression,0.6371590209189214
+406,Colombia,Maize,mir_0.4_classic_linear_regression,0.40257928807375476
+407,Colombia,"Oil, palm",lasso_0.8,0.5363775658864041
+408,Colombia,Oranges,mir_0.4_lasso_400,0.5707968404061542
+409,Colombia,"Peas, dry",mir_0.5_classic_linear_regression,0.3680702310745909
+410,Colombia,Potatoes,mir_0.5_classic_linear_regression,0.5679049444229675
+411,Colombia,"Rice, paddy",mir_0.3_lasso_400,0.4949530061450558
+412,Colombia,Sesame seed,mir_0.4_lasso_0.02,0.5648923220376736
+413,Colombia,Soybeans,mir_0.4_classic_linear_regression,0.5701661702114214
+414,Colombia,Sugar cane,mir_0.5_lasso_0.02,0.02222516202839009
+415,Colombia,"Tobacco, unmanufactured",mir_0.2_lasso_400,0.33395653971128625
+416,Colombia,Tomatoes,mir_0.5_classic_linear_regression,0.6059160854307277
+417,Colombia,Wheat,mir_0.5_classic_linear_regression,0.6705441648163698
+418,Colombia,Yams,mir_0.3_lasso_50,0.8360639948875181
+419,Comoros,Bananas,mir_0.3_lasso_400,0.5323166490967699
+420,Comoros,Cassava,mir_0.4_lasso_30,0.3970216283491915
+421,Comoros,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.6730766938615311
+422,Comoros,"Cocoa, beans",mir_0.2_lasso_400,0.43075956323109565
+423,Comoros,"Coffee, green",mir_0.3_lasso_400,0.7747904780141281
+424,Comoros,Maize,lasso_0.8,0.6391852980101946
+425,Comoros,"Rice, paddy",mir_0.5_classic_linear_regression,0.20401029892427536
+426,Comoros,Sweet potatoes,mir_0.4_classic_linear_regression,0.3740178867825049
+427,Costa Rica,Avocados,mir_0.4_classic_linear_regression,0.6143759800288006
+428,Costa Rica,Bananas,mir_0.3_lasso_400,0.683277814542038
+429,Costa Rica,"Beans, dry",lasso_8,0.4211960589683278
+430,Costa Rica,Cassava,mir_0.5_classic_linear_regression,0.6012884517909118
+431,Costa Rica,Cereals (Rice Milled Eqv),mir_0.5_classic_linear_regression,0.17587571516690725
+432,Costa Rica,"Cocoa, beans",mir_0.2_lasso_200,0.40052994882384196
+433,Costa Rica,"Coffee, green",mir_0.3_lasso_400,0.54536141011607
+434,Costa Rica,Maize,mir_0.3_lasso_400,0.6123118477283376
+435,Costa Rica,"Oil, palm",mir_0.3_lasso_400,0.5037873768949794
+436,Costa Rica,Oranges,lasso_0.5,0.3599665461419551
+437,Costa Rica,Potatoes,mir_0.3_lasso_400,0.40910208593003516
+438,Costa Rica,"Rice, paddy",mir_0.4_lasso_200,0.33262709632943743
+439,Costa Rica,Sesame seed,mir_0.3_lasso_400,0.5665225260704668
+440,Costa Rica,Sugar cane,mir_0.4_classic_linear_regression,0.435534552909392
+441,Costa Rica,"Tobacco, unmanufactured",mir_0.3_lasso_30,0.6129613309180535
+442,Costa Rica,Tomatoes,mir_0.3_lasso_400,0.72629532892683
+443,Cote d'Ivoire,Avocados,mir_0.4_classic_linear_regression,0.6227517576750021
+444,Cote d'Ivoire,Bananas,lasso_0.8,0.5277015789493495
+445,Cote d'Ivoire,"Cashew nuts, with shell",mir_0.3_lasso_400,0.6921289354167681
+446,Cote d'Ivoire,Cassava,mir_0.3_lasso_8,0.5031142150097985
+447,Cote d'Ivoire,Cereals (Rice Milled Eqv),mir_0.2_lasso_400,0.2635097048132886
+448,Cote d'Ivoire,"Cocoa, beans",mir_0.5_classic_linear_regression,0.08434495289685318
+449,Cote d'Ivoire,"Coffee, green",mir_0.4_lasso_400,0.39290399726337
+450,Cote d'Ivoire,Maize,mir_0.5_lasso_0.02,0.5636034503460219
+451,Cote d'Ivoire,"Oil, palm",mir_0.5_classic_linear_regression,0.6729995841962872
+452,Cote d'Ivoire,Oranges,mir_0.4_lasso_400,0.6678739146542344
+453,Cote d'Ivoire,"Rice, paddy",mir_0.5_classic_linear_regression,0.532927131311218
+454,Cote d'Ivoire,Sesame seed,mir_0.2_lasso_400,0.4111330727426672
+455,Cote d'Ivoire,Sweet potatoes,mir_0.4_classic_linear_regression,0.7169508397881392
+456,Cote d'Ivoire,"Tobacco, unmanufactured",mir_0.5_classic_linear_regression,0.5434864153905902
+457,Cote d'Ivoire,Tomatoes,mir_0.2_lasso_400,0.449684020197909
+458,Cote d'Ivoire,Yams,mir_0.4_classic_linear_regression,0.3607574511432422
+459,Cuba,Avocados,mir_0.4_classic_linear_regression,0.6049850153427223
+460,Cuba,Bananas,lasso_0.02,0.6861820170657604
+461,Cuba,"Beans, dry",lasso_400,-0.7137553381615278
+462,Cuba,Cassava,mir_0.3_lasso_400,0.4925857659666606
+463,Cuba,Cereals (Rice Milled Eqv),lasso_0.8,0.4745471606692345
+464,Cuba,"Cocoa, beans",mir_0.4_classic_linear_regression,0.7630852652536414
+465,Cuba,"Coffee, green",mir_0.4_lasso_400,0.38792304115160525
+466,Cuba,Maize,mir_0.4_classic_linear_regression,0.5895112511766517
+467,Cuba,Oranges,mir_0.5_classic_linear_regression,0.6350687692550627
+468,Cuba,Potatoes,mir_0.3_classic_linear_regression,0.5212189006894963
+469,Cuba,"Rice, paddy",mir_0.4_lasso_0.02,0.3371716221747064
+470,Cuba,Sugar cane,mir_0.5_classic_linear_regression,0.6551669702380227
+471,Cuba,Sweet potatoes,lasso_2,0.5871974725162137
+472,Cuba,"Tobacco, unmanufactured",lasso_0.5,0.43590224869853533
+473,Cuba,Tomatoes,mir_0.4_lasso_400,0.6118579598073182
+474,Cyprus,Apples,mir_0.4_classic_linear_regression,0.6770235149741297
+475,Cyprus,Avocados,lasso_2,0.6433481297984264
+476,Cyprus,Bananas,mir_0.5_classic_linear_regression,0.40442124492597653
+477,Cyprus,Barley,mir_0.5_classic_linear_regression,0.3671093687124498
+478,Cyprus,"Beans, dry",mir_0.3_lasso_400,0.5928456939864921
+479,Cyprus,Cereals (Rice Milled Eqv),lasso_2,0.404899791918796
+480,Cyprus,Grapes,mir_0.3_lasso_400,0.2568163969756493
+481,Cyprus,Oranges,mir_0.4_classic_linear_regression,0.6377566243141659
+482,Cyprus,Potatoes,mir_0.4_lasso_0.02,0.5742008922514916
+483,Cyprus,Sesame seed,mir_0.3_lasso_400,0.4868911543600406
+484,Cyprus,Tomatoes,mir_0.3_classic_linear_regression,0.7186969282571947
+485,Cyprus,Wheat,mir_0.4_classic_linear_regression,0.7813862670602074
+486,Denmark,Apples,mir_0.5_classic_linear_regression,0.5587354871647539
+487,Denmark,Barley,mir_0.3_lasso_400,0.6296929771207892
+488,Denmark,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.45816337747472713
+489,Denmark,"Peas, dry",mir_0.4_classic_linear_regression,0.6309093655184339
+490,Denmark,Potatoes,mir_0.4_lasso_0.02,0.7348324035382252
+491,Denmark,Rapeseed,mir_0.4_classic_linear_regression,0.04615731721127381
+492,Denmark,Rye,mir_0.4_classic_linear_regression,0.7060237340814512
+493,Denmark,Sugar beet,mir_0.4_lasso_400,0.6625127658919328
+494,Denmark,Tomatoes,mir_0.3_classic_linear_regression,0.5934267556237979
+495,Denmark,Wheat,mir_0.4_lasso_400,0.3729605602387436
+496,Djibouti,Tomatoes,mir_0.2_lasso_400,0.5116138739287341
+497,Dominica,Avocados,mir_0.4_lasso_0.02,0.46663528580729685
+498,Dominica,Bananas,mir_0.5_classic_linear_regression,0.6449729409676853
+499,Dominica,Cassava,mir_0.4_classic_linear_regression,0.7425198977787972
+500,Dominica,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.5606013905365973
+501,Dominica,"Cocoa, beans",mir_0.4_classic_linear_regression,0.7301295278396176
+502,Dominica,Maize,mir_0.4_lasso_0.02,0.5852224699858967
+503,Dominica,Oranges,mir_0.4_classic_linear_regression,0.7145579383895155
+504,Dominica,Potatoes,mir_0.4_lasso_400,0.7335770865337715
+505,Dominica,Sugar cane,mir_0.4_classic_linear_regression,0.6214628469407886
+506,Dominica,Sweet potatoes,mir_0.3_lasso_400,0.63970434498783
+507,Dominica,Yams,lasso_400,0.17122172961872884
+508,Dominican Republic,Avocados,mir_0.3_lasso_8,0.5251788085107574
+509,Dominican Republic,Bananas,mir_0.2_lasso_400,0.482127993604231
+510,Dominican Republic,"Beans, dry",mir_0.3_classic_linear_regression,0.44560174405939534
+511,Dominican Republic,"Cashew nuts, with shell",mir_0.4_lasso_0.02,0.6114738972886464
+512,Dominican Republic,Cassava,mir_0.3_lasso_0.5,0.6058675143490972
+513,Dominican Republic,Cereals (Rice Milled Eqv),mir_0.4_lasso_30,0.6806078007856533
+514,Dominican Republic,"Cocoa, beans",mir_0.4_classic_linear_regression,-0.18097718173195054
+515,Dominican Republic,"Coffee, green",lasso_0.02,-0.31638552967633604
+516,Dominican Republic,Maize,mir_0.3_lasso_400,0.5032918013562231
+517,Dominican Republic,Oranges,mir_0.3_lasso_400,0.4938594186687765
+518,Dominican Republic,"Peas, dry",mir_0.3_lasso_50,0.6954659367732821
+519,Dominican Republic,Potatoes,mir_0.4_classic_linear_regression,0.4976871730017257
+520,Dominican Republic,"Rice, paddy",mir_0.3_lasso_0.8,0.6669001917650634
+521,Dominican Republic,Sugar cane,lasso_0.8,0.5005814679679945
+522,Dominican Republic,Sweet potatoes,mir_0.3_lasso_400,0.5366143096665934
+523,Dominican Republic,"Tobacco, unmanufactured",mir_0.4_classic_linear_regression,0.7238276814256214
+524,Dominican Republic,Tomatoes,mir_0.4_lasso_50,0.7187070720212516
+525,Dominican Republic,Yams,lasso_2,0.2973718540513557
+526,Ecuador,Apples,mir_0.3_lasso_30,0.7861297923683656
+527,Ecuador,Avocados,mir_0.4_lasso_400,0.6036445023196033
+528,Ecuador,Bananas,mir_0.4_lasso_200,0.32637651793010325
+529,Ecuador,Barley,mir_0.4_classic_linear_regression,0.6079598695052577
+530,Ecuador,"Beans, dry",mir_0.4_lasso_400,0.4691116232031437
+531,Ecuador,Cassava,mir_0.3_lasso_400,0.44783082410542785
+532,Ecuador,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.7368236973722364
+533,Ecuador,"Cocoa, beans",mir_0.4_classic_linear_regression,0.6407445782620446
+534,Ecuador,"Coffee, green",lasso_0.8,0.6062398139235761
+535,Ecuador,Grapes,mir_0.3_lasso_400,0.4838681437899979
+536,Ecuador,Maize,mir_0.4_classic_linear_regression,0.5626653309965788
+537,Ecuador,"Oil, palm",mir_0.5_classic_linear_regression,0.35810383548406766
+538,Ecuador,Oranges,lasso_2,0.3392836026065039
+539,Ecuador,"Peas, dry",mir_0.4_classic_linear_regression,0.4669746207934833
+540,Ecuador,Potatoes,mir_0.4_classic_linear_regression,0.4854201176380535
+541,Ecuador,"Rice, paddy",lasso_0.5,0.5305497855087731
+542,Ecuador,Rye,mir_0.4_classic_linear_regression,0.3970395540104181
+543,Ecuador,Sesame seed,mir_0.3_lasso_400,0.48307508210644456
+544,Ecuador,Soybeans,mir_0.4_classic_linear_regression,0.6047906756139435
+545,Ecuador,Sugar beet,mir_0.4_lasso_0.02,0.6399837513857278
+546,Ecuador,Sugar cane,mir_0.3_lasso_400,0.6495286680510399
+547,Ecuador,Sweet potatoes,mir_0.3_lasso_400,0.4816506221328468
+548,Ecuador,Tea,mir_0.3_lasso_400,0.6245711749191879
+549,Ecuador,"Tobacco, unmanufactured",lasso_0.02,0.3331452338011457
+550,Ecuador,Tomatoes,mir_0.4_classic_linear_regression,0.7051627797583726
+551,Ecuador,Wheat,mir_0.3_lasso_400,0.43964797241023146
+552,El Salvador,Avocados,mir_0.4_classic_linear_regression,0.3747656264074575
+553,El Salvador,"Beans, dry",mir_0.5_classic_linear_regression,0.7141146137657597
+554,El Salvador,"Cashew nuts, with shell",mir_0.4_lasso_0.02,0.5259606840598243
+555,El Salvador,Cassava,mir_0.5_classic_linear_regression,0.3445588053128825
+556,El Salvador,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.48933198697212976
+557,El Salvador,"Cocoa, beans",mir_0.4_classic_linear_regression,0.7929351704622847
+558,El Salvador,"Coffee, green",mir_0.4_classic_linear_regression,0.5664838284738338
+559,El Salvador,Maize,mir_0.3_lasso_8,0.5781219730890781
+560,El Salvador,Oranges,mir_0.4_classic_linear_regression,0.6813428561896689
+561,El Salvador,Potatoes,mir_0.3_lasso_400,0.4411437312235509
+562,El Salvador,"Rice, paddy",mir_0.4_classic_linear_regression,0.3398857112120468
+563,El Salvador,Sesame seed,lasso_0.02,0.32314732368581733
+564,El Salvador,Sugar cane,mir_0.5_classic_linear_regression,0.3032502469869165
+565,El Salvador,Sweet potatoes,mir_0.2_lasso_400,0.392634148610578
+566,El Salvador,"Tobacco, unmanufactured",lasso_0.8,0.48765166167253793
+567,El Salvador,Tomatoes,mir_0.5_lasso_0.02,0.4546804785730456
+568,Equatorial Guinea,Bananas,mir_0.2_classic_linear_regression,0.22869530598565535
+569,Equatorial Guinea,Cassava,mir_0.3_lasso_400,0.42592207484128997
+570,Equatorial Guinea,"Cocoa, beans",mir_0.3_lasso_400,0.6470294881716321
+571,Equatorial Guinea,"Coffee, green",mir_0.3_classic_linear_regression,0.668532005676523
+572,Equatorial Guinea,"Oil, palm",mir_0.4_lasso_200,0.4015588013590998
+573,Equatorial Guinea,Sweet potatoes,mir_0.3_lasso_200,0.5306960670306646
+574,Eswatini,Bananas,lasso_0.5,0.5078615288450747
+575,Eswatini,"Beans, dry",mir_0.4_classic_linear_regression,0.44790296123451956
+576,Eswatini,Cereals (Rice Milled Eqv),mir_0.3_lasso_2,0.5606604523527604
+577,Eswatini,Maize,mir_0.5_classic_linear_regression,0.498870724253743
+578,Eswatini,Oranges,mir_0.4_classic_linear_regression,0.768412974627734
+579,Eswatini,Potatoes,lasso_0.8,0.496003584129335
+580,Eswatini,"Rice, paddy",mir_0.4_lasso_0.02,0.29581947238124184
+581,Eswatini,Sugar cane,mir_0.3_lasso_400,0.703676829601751
+582,Eswatini,Sweet potatoes,lasso_400,0.24243573642488658
+583,Eswatini,"Tobacco, unmanufactured",mir_0.3_lasso_400,0.7020162340977265
+584,Eswatini,Tomatoes,mir_0.3_lasso_400,0.5043136049104648
+585,Fiji,Bananas,lasso_0.8,0.518587341338496
+586,Fiji,Cassava,mir_0.3_classic_linear_regression,0.6668637144185905
+587,Fiji,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.7529620716603013
+588,Fiji,"Cocoa, beans",mir_0.3_lasso_400,0.4215189474133545
+589,Fiji,Maize,mir_0.4_lasso_400,0.5020506420912703
+590,Fiji,Oranges,lasso_400,0.3309470237063281
+591,Fiji,Potatoes,mir_0.4_classic_linear_regression,0.5834681451258805
+592,Fiji,"Rice, paddy",mir_0.3_lasso_400,0.582094129995409
+593,Fiji,Sugar cane,mir_0.4_lasso_400,-0.5370193894028208
+594,Fiji,Sweet potatoes,mir_0.2_lasso_200,0.4883978834713767
+595,Fiji,"Tobacco, unmanufactured",mir_0.3_lasso_400,0.6806975604687244
+596,Fiji,Yams,mir_0.3_lasso_100,-0.9945972355553021
+597,Finland,Apples,mir_0.4_lasso_0.02,0.49716395010282843
+598,Finland,Barley,mir_0.4_lasso_0.02,0.3865748217624484
+599,Finland,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.6088386015681724
+600,Finland,"Peas, dry",mir_0.5_classic_linear_regression,0.18904668020874316
+601,Finland,Potatoes,mir_0.2_lasso_400,0.5812304055398052
+602,Finland,Rapeseed,mir_0.4_classic_linear_regression,0.6403900296550087
+603,Finland,Rye,mir_0.3_lasso_400,0.5680213833052836
+604,Finland,Sugar beet,mir_0.5_classic_linear_regression,0.6994764976710459
+605,Finland,Tomatoes,mir_0.4_classic_linear_regression,0.6193074010831097
+606,Finland,Wheat,lasso_0.8,0.6033160756325138
+607,France,Apples,mir_0.3_lasso_400,0.569733364888007
+608,France,Barley,mir_0.5_classic_linear_regression,-0.14416348898688702
+609,France,"Beans, dry",mir_0.3_lasso_0.8,0.6145598658427784
+610,France,Cereals (Rice Milled Eqv),lasso_0.5,0.5065044495271449
+611,France,Grapes,mir_0.3_lasso_400,0.5762076702900891
+612,France,Maize,mir_0.4_lasso_400,0.3047613803725494
+613,France,Oranges,mir_0.4_classic_linear_regression,0.43064561926796907
+614,France,"Peas, dry",mir_0.4_classic_linear_regression,0.6523072167416983
+615,France,Potatoes,lasso_0.8,0.5469175230442647
+616,France,Rapeseed,mir_0.5_lasso_0.02,0.6566767003742886
+617,France,"Rice, paddy",mir_0.4_lasso_400,0.40927072458751346
+618,France,Rye,mir_0.4_classic_linear_regression,0.49928559143094886
+619,France,Sugar beet,lasso_0.02,0.46211406136879274
+620,France,Sunflower seed,mir_0.3_lasso_400,0.6183362966889021
+621,France,"Tobacco, unmanufactured",mir_0.4_classic_linear_regression,0.5761037139722106
+622,France,Tomatoes,mir_0.4_lasso_400,0.5322507181594232
+623,France,Wheat,lasso_400,0.5849786042367997
+624,French Polynesia,Bananas,mir_0.4_lasso_0.02,0.7034238108425919
+625,French Polynesia,Cassava,mir_0.4_classic_linear_regression,0.5877974816219057
+626,French Polynesia,"Coffee, green",mir_0.3_lasso_0.02,0.5201314172102578
+627,French Polynesia,Oranges,mir_0.4_classic_linear_regression,0.6245426161398853
+628,French Polynesia,Potatoes,mir_0.4_classic_linear_regression,0.5954310867860484
+629,French Polynesia,Sugar cane,mir_0.4_lasso_400,0.38206001257973665
+630,French Polynesia,Tomatoes,mir_0.4_classic_linear_regression,0.6562639799731762
+631,Gabon,Bananas,mir_0.5_classic_linear_regression,0.479774697239586
+632,Gabon,Cassava,lasso_0.02,0.4935006309567139
+633,Gabon,Cereals (Rice Milled Eqv),mir_0.2_lasso_400,0.4199303293068323
+634,Gabon,"Cocoa, beans",lasso_0.5,0.49888333705187704
+635,Gabon,"Coffee, green",mir_0.4_lasso_400,0.37122104908680953
+636,Gabon,Maize,mir_0.3_lasso_400,0.37197374946700956
+637,Gabon,"Oil, palm",mir_0.5_classic_linear_regression,0.6611791512268134
+638,Gabon,"Rice, paddy",mir_0.4_classic_linear_regression,0.5668163931923915
+639,Gabon,Sugar cane,mir_0.3_classic_linear_regression,0.6784652844247192
+640,Gabon,Sweet potatoes,mir_0.3_lasso_0.8,0.6739566025691446
+641,Gabon,Yams,lasso_0.8,0.3413796112879284
+642,Germany,Apples,mir_0.4_classic_linear_regression,0.6780503704100546
+643,Germany,Barley,mir_0.4_classic_linear_regression,0.6110066510668573
+644,Germany,Cereals (Rice Milled Eqv),mir_0.5_classic_linear_regression,0.18848958447480768
+645,Germany,Grapes,mir_0.4_lasso_0.02,0.6744309885980837
+646,Germany,Maize,mir_0.3_lasso_400,0.5953942833634769
+647,Germany,"Peas, dry",mir_0.4_classic_linear_regression,0.4988514685616432
+648,Germany,Potatoes,mir_0.3_lasso_30,0.5599869293644981
+649,Germany,Rapeseed,mir_0.5_classic_linear_regression,0.319040055523106
+650,Germany,Rye,mir_0.3_lasso_400,0.6347584370526487
+651,Germany,Sugar beet,mir_0.5_classic_linear_regression,0.6024528036933736
+652,Germany,"Tobacco, unmanufactured",mir_0.4_lasso_0.02,0.35600966382495736
+653,Germany,Tomatoes,mir_0.4_lasso_0.02,0.5802546987633871
+654,Germany,Wheat,mir_0.4_classic_linear_regression,0.29600829134883155
+655,Ghana,Avocados,mir_0.5_classic_linear_regression,0.48199232219070676
+656,Ghana,Bananas,mir_0.3_lasso_30,0.3922921476228477
+657,Ghana,Cassava,mir_0.4_classic_linear_regression,0.612303530752228
+658,Ghana,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.8242924294947818
+659,Ghana,"Cocoa, beans",mir_0.3_lasso_0.02,0.4430314405500293
+660,Ghana,"Coffee, green",mir_0.5_lasso_0.02,0.6555752560483992
+661,Ghana,Maize,mir_0.4_classic_linear_regression,0.6091897609351753
+662,Ghana,"Oil, palm",mir_0.3_lasso_400,0.5109197491098297
+663,Ghana,Oranges,mir_0.3_lasso_400,0.478499333578568
+664,Ghana,"Rice, paddy",mir_0.3_lasso_50,0.48108703145662945
+665,Ghana,Sugar cane,mir_0.4_classic_linear_regression,0.6695069884798017
+666,Ghana,"Tobacco, unmanufactured",mir_0.2_lasso_200,0.43619604657769007
+667,Ghana,Tomatoes,mir_0.4_classic_linear_regression,0.5409152560535031
+668,Ghana,Yams,mir_0.2_lasso_400,0.290939662810926
+669,Greece,Apples,lasso_0.02,0.5408919829055441
+670,Greece,Bananas,lasso_0.8,0.4379071665860411
+671,Greece,Barley,lasso_100,0.4442968129949115
+672,Greece,"Beans, dry",mir_0.5_classic_linear_regression,0.20849969912996935
+673,Greece,Cereals (Rice Milled Eqv),lasso_20,0.4136917970500873
+674,Greece,Grapes,mir_0.5_classic_linear_regression,0.5759304536172096
+675,Greece,Maize,mir_0.4_classic_linear_regression,0.27503300697654987
+676,Greece,Oranges,mir_0.4_lasso_400,0.23827453555233336
+677,Greece,"Peas, dry",mir_0.3_lasso_200,0.501621994329709
+678,Greece,Potatoes,mir_0.4_lasso_30,0.538963241348468
+679,Greece,"Rice, paddy",mir_0.4_lasso_400,0.34922042347680504
+680,Greece,Rye,mir_0.3_lasso_0.02,0.591856617210282
+681,Greece,Sesame seed,mir_0.3_lasso_400,0.5806056968114663
+682,Greece,Sugar beet,lasso_0.8,0.3831015397316604
+683,Greece,Sunflower seed,mir_0.4_lasso_0.02,0.3415034320011052
+684,Greece,Sweet potatoes,mir_0.5_classic_linear_regression,0.26492865869465554
+685,Greece,"Tobacco, unmanufactured",lasso_0.5,0.6258271018405301
+686,Greece,Tomatoes,mir_0.4_lasso_200,0.4045021016072361
+687,Greece,Wheat,mir_0.5_classic_linear_regression,0.5242992778478528
+688,Grenada,Apples,mir_0.3_lasso_400,0.58133114876511
+689,Grenada,Avocados,mir_0.3_lasso_400,0.5533464775890229
+690,Grenada,Bananas,mir_0.4_classic_linear_regression,0.5979382415074759
+691,Grenada,"Beans, dry",lasso_0.8,0.49166899950041154
+692,Grenada,Cassava,mir_0.4_lasso_400,0.3740869575235196
+693,Grenada,Cereals (Rice Milled Eqv),mir_0.4_lasso_400,0.5351438444206518
+694,Grenada,"Cocoa, beans",mir_0.5_classic_linear_regression,0.7677170278517303
+695,Grenada,Maize,lasso_200,0.38746097035412597
+696,Grenada,Oranges,mir_0.4_lasso_400,0.3348878780395317
+697,Grenada,Sugar cane,mir_0.4_classic_linear_regression,0.5830875147611014
+698,Grenada,Sweet potatoes,mir_0.4_classic_linear_regression,0.6526576363819849
+699,Grenada,Tomatoes,lasso_20,0.4172030926179918
+700,Grenada,Yams,mir_0.4_lasso_0.02,0.3911305108167331
+701,Guam,Bananas,mir_0.5_classic_linear_regression,0.09630464946857198
+702,Guam,Cereals (Rice Milled Eqv),lasso_2,0.25770166398035954
+703,Guam,Maize,mir_0.5_classic_linear_regression,0.47904977777586966
+704,Guam,Sweet potatoes,mir_0.4_lasso_400,0.5246108266888747
+705,Guam,Tomatoes,lasso_8,0.43262910811763566
+706,Guatemala,Apples,mir_0.3_classic_linear_regression,0.6399664324910044
+707,Guatemala,Avocados,mir_0.4_classic_linear_regression,0.6520972070745117
+708,Guatemala,Bananas,lasso_0.8,0.42552596330025727
+709,Guatemala,Barley,mir_0.3_lasso_400,0.31091989333069536
+710,Guatemala,"Beans, dry",mir_0.3_lasso_400,0.4380231044224552
+711,Guatemala,Cassava,mir_0.4_classic_linear_regression,0.23913569997161355
+712,Guatemala,Cereals (Rice Milled Eqv),mir_0.3_lasso_400,0.561921565698483
+713,Guatemala,"Cocoa, beans",mir_0.4_lasso_0.02,0.5861182717299567
+714,Guatemala,"Coffee, green",mir_0.4_classic_linear_regression,0.7591664549073952
+715,Guatemala,Grapes,mir_0.5_classic_linear_regression,0.514601555508789
+716,Guatemala,Maize,mir_0.4_classic_linear_regression,0.7171597449263218
+717,Guatemala,Potatoes,mir_0.3_lasso_400,0.48828972191989284
+718,Guatemala,"Rice, paddy",mir_0.4_lasso_0.02,0.559652809835159
+719,Guatemala,Sesame seed,mir_0.4_classic_linear_regression,0.349580942599901
+720,Guatemala,Sugar cane,mir_0.3_lasso_400,0.5073998495472818
+721,Guatemala,"Tobacco, unmanufactured",mir_0.3_lasso_400,0.5208007609094665
+722,Guatemala,Tomatoes,mir_0.4_classic_linear_regression,0.45675981632756923
+723,Guatemala,Wheat,mir_0.4_classic_linear_regression,0.5645579566325561
+724,Guinea,Bananas,mir_0.3_lasso_400,0.5974061139914517
+725,Guinea,Bissau,mir_0.3_classic_linear_regression,0.6464110331532644
+726,Guinea,Cassava,mir_0.4_lasso_0.02,0.5554271222541111
+727,Guinea,Cereals (Rice Milled Eqv),mir_0.4_lasso_400,0.3183471292890834
+728,Guinea,"Cocoa, beans",mir_0.4_classic_linear_regression,0.5343612024262326
+729,Guinea,"Coffee, green",mir_0.2_lasso_400,0.23459691154784246
+730,Guinea,Maize,mir_0.5_lasso_0.02,-0.025940128512024208
+731,Guinea,"Oil, palm",mir_0.3_lasso_400,0.4468581391904125
+732,Guinea,"Rice, paddy",mir_0.4_classic_linear_regression,0.3966232592359702
+733,Guinea,Sesame seed,lasso_0.02,0.2367275664183084
+734,Guinea,Sweet potatoes,mir_0.2_lasso_400,0.27923123159615815
+735,Guinea,"Tobacco, unmanufactured",mir_0.4_classic_linear_regression,0.6004243836146189
+736,Guinea,Yams,mir_0.3_lasso_400,0.4884141829228198
+737,Guyana,Avocados,mir_0.5_classic_linear_regression,0.5938356701561401
+738,Guyana,Bananas,mir_0.3_lasso_400,0.46268968692703705
+739,Guyana,Cereals (Rice Milled Eqv),mir_0.5_classic_linear_regression,0.5441235577302947
+740,Guyana,"Cocoa, beans",mir_0.4_classic_linear_regression,0.5456845592168831
+741,Guyana,"Coffee, green",lasso_0.8,0.5845870894714151
+742,Guyana,Maize,mir_0.4_lasso_400,0.36106624911110763
+743,Guyana,Oranges,mir_0.3_lasso_20,0.626917170218696
+744,Guyana,"Peas, dry",mir_0.3_lasso_0.02,0.5769673709154
+745,Guyana,"Rice, paddy",lasso_0.5,0.6448413762198009
+746,Guyana,Sugar cane,mir_0.3_lasso_0.02,0.6237583110932291
+747,Guyana,"Tobacco, unmanufactured",mir_0.3_lasso_400,0.42833758494199203
+748,Guyana,Tomatoes,mir_0.3_lasso_400,0.226819972826104
+749,Haiti,Avocados,mir_0.4_lasso_0.02,0.6552844034747525
+750,Haiti,Bananas,mir_0.3_lasso_8,0.5876174359545421
+751,Haiti,"Beans, dry",mir_0.4_classic_linear_regression,0.7600525841910877
+752,Haiti,Cassava,mir_0.4_classic_linear_regression,0.7275270715342583
+753,Haiti,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.577499969982181
+754,Haiti,"Cocoa, beans",mir_0.5_classic_linear_regression,0.5337249190110507
+755,Haiti,"Coffee, green",mir_0.3_lasso_400,0.2510289163810455
+756,Haiti,Maize,mir_0.4_classic_linear_regression,0.6767078265104242
+757,Haiti,Oranges,lasso_2,0.26256445746994217
+758,Haiti,Potatoes,lasso_0.8,0.549751971968284
+759,Haiti,"Rice, paddy",mir_0.3_lasso_400,0.6818444328408565
+760,Haiti,Sesame seed,mir_0.4_classic_linear_regression,0.8537507002415532
+761,Haiti,Sugar cane,mir_0.5_classic_linear_regression,0.5250595741233477
+762,Haiti,Sweet potatoes,mir_0.4_classic_linear_regression,0.5797563969710426
+763,Haiti,"Tobacco, unmanufactured",mir_0.5_classic_linear_regression,0.4231531968379568
+764,Haiti,Tomatoes,mir_0.4_classic_linear_regression,0.6295071393420475
+765,Haiti,Yams,mir_0.4_classic_linear_regression,0.7167519556362212
+766,Honduras,Avocados,mir_0.3_lasso_400,0.43321233691709615
+767,Honduras,Bananas,mir_0.4_classic_linear_regression,0.9142732888209155
+768,Honduras,"Beans, dry",mir_0.3_lasso_400,0.44700446370148883
+769,Honduras,Cassava,mir_0.3_lasso_400,0.5499039728518723
+770,Honduras,Cereals (Rice Milled Eqv),lasso_0.5,0.4291274027830043
+771,Honduras,"Cocoa, beans",mir_0.2_lasso_400,0.4854863105502618
+772,Honduras,"Coffee, green",mir_0.5_classic_linear_regression,-0.06936001809110826
+773,Honduras,Maize,mir_0.3_lasso_400,0.4522693070243231
+774,Honduras,"Oil, palm",mir_0.2_lasso_400,0.38871300444878043
+775,Honduras,Oranges,mir_0.3_lasso_2,0.6145576219408093
+776,Honduras,Potatoes,mir_0.2_lasso_200,0.4348727691781279
+777,Honduras,"Rice, paddy",mir_0.4_classic_linear_regression,0.3145653703608262
+778,Honduras,Sesame seed,mir_0.4_classic_linear_regression,0.6853882472287435
+779,Honduras,Sugar cane,mir_0.3_classic_linear_regression,0.5879016065889798
+780,Honduras,Sweet potatoes,mir_0.4_lasso_100,0.3663731270616384
+781,Honduras,"Tobacco, unmanufactured",mir_0.3_lasso_400,0.37395249144098064
+782,Honduras,Tomatoes,mir_0.3_lasso_8,0.6714647150118602
+783,Honduras,Wheat,mir_0.5_classic_linear_regression,0.5721499700382751
+784,Hungary,Apples,mir_0.5_classic_linear_regression,0.5353072191017612
+785,Hungary,Barley,mir_0.4_classic_linear_regression,0.3506813504419838
+786,Hungary,"Beans, dry",mir_0.4_lasso_400,0.4106458520048565
+787,Hungary,Cereals (Rice Milled Eqv),mir_0.5_classic_linear_regression,0.4478284328390626
+788,Hungary,Grapes,mir_0.3_classic_linear_regression,0.5141959963350268
+789,Hungary,Maize,mir_0.3_lasso_400,0.5695964075668974
+790,Hungary,"Peas, dry",mir_0.3_lasso_400,0.5394249772117653
+791,Hungary,Potatoes,mir_0.4_lasso_400,0.42122032798636444
+792,Hungary,Rapeseed,mir_0.4_classic_linear_regression,0.5901274639224402
+793,Hungary,"Rice, paddy",mir_0.3_lasso_400,0.46696493490218727
+794,Hungary,Rye,lasso_0.8,0.5538756161612703
+795,Hungary,Sugar beet,mir_0.3_lasso_400,0.5048845018382739
+796,Hungary,Sunflower seed,mir_0.4_classic_linear_regression,0.5966043715197648
+797,Hungary,"Tobacco, unmanufactured",mir_0.4_classic_linear_regression,0.671892995527984
+798,Hungary,Tomatoes,mir_0.4_lasso_200,0.3500431489295083
+799,Hungary,Wheat,mir_0.3_lasso_8,0.5151275750379074
+800,Iceland,Potatoes,mir_0.5_classic_linear_regression,0.5178304359590405
+801,Iceland,Tomatoes,mir_0.3_lasso_400,0.6089929807910271
+802,India,Apples,mir_0.5_classic_linear_regression,0.33096523434814695
+803,India,Bananas,mir_0.5_classic_linear_regression,0.3417608985652375
+804,India,Barley,mir_0.2_lasso_400,0.2306367135610884
+805,India,"Beans, dry",mir_0.4_lasso_400,0.4766572069991385
+806,India,"Cashew nuts, with shell",mir_0.3_lasso_0.02,0.43688279944635267
+807,India,Cassava,mir_0.4_classic_linear_regression,0.7112989965761087
+808,India,Cereals (Rice Milled Eqv),mir_0.3_lasso_400,0.46741815051886026
+809,India,"Coffee, green",mir_0.2_lasso_0.5,0.4134726056728467
+810,India,Grapes,mir_0.3_lasso_400,0.473670635577052
+811,India,Maize,mir_0.4_classic_linear_regression,0.6319795280622427
+812,India,Oranges,mir_0.3_lasso_400,0.6043842874534084
+813,India,"Peas, dry",mir_0.3_lasso_2,0.6898696775493753
+814,India,Potatoes,mir_0.4_lasso_0.02,0.9031222548989915
+815,India,Rapeseed,mir_0.4_classic_linear_regression,0.5776367545404658
+816,India,"Rice, paddy",mir_0.4_classic_linear_regression,0.5825652202231169
+817,India,Sesame seed,mir_0.5_classic_linear_regression,0.6132253964271586
+818,India,Soybeans,mir_0.4_classic_linear_regression,0.7041546509745416
+819,India,Sugar cane,mir_0.3_lasso_400,0.61227169732662
+820,India,Sweet potatoes,mir_0.5_classic_linear_regression,0.05754886835232309
+821,India,Tea,lasso_2,0.4245110254821255
+822,India,"Tobacco, unmanufactured",mir_0.4_lasso_200,0.3844699067050318
+823,India,Tomatoes,mir_0.4_lasso_0.02,0.31096263275043
+824,India,Wheat,mir_0.5_classic_linear_regression,0.5188500202870798
+825,Indonesia,Avocados,mir_0.4_classic_linear_regression,0.7066289537233371
+826,Indonesia,Bananas,mir_0.4_classic_linear_regression,0.5648012728716698
+827,Indonesia,"Beans, dry",mir_0.3_lasso_2,0.6191758809904435
+828,Indonesia,Cassava,mir_0.3_lasso_30,-0.25937568773558084
+829,Indonesia,Cereals (Rice Milled Eqv),mir_0.2_lasso_100,0.5136421404916875
+830,Indonesia,"Cocoa, beans",mir_0.4_classic_linear_regression,0.530050684515158
+831,Indonesia,"Coffee, green",mir_0.4_classic_linear_regression,0.5221669779853446
+832,Indonesia,Maize,mir_0.4_classic_linear_regression,0.4938564802019194
+833,Indonesia,"Oil, palm",mir_0.5_classic_linear_regression,0.782388883693212
+834,Indonesia,Oranges,mir_0.5_classic_linear_regression,0.5922157393726419
+835,Indonesia,Potatoes,mir_0.3_lasso_30,0.7262103709074789
+836,Indonesia,"Rice, paddy",mir_0.3_lasso_400,0.6007859203214329
+837,Indonesia,Soybeans,mir_0.3_lasso_200,0.5233620554081774
+838,Indonesia,Sugar cane,mir_0.5_classic_linear_regression,0.38928456552483093
+839,Indonesia,Sweet potatoes,mir_0.4_classic_linear_regression,0.6416372215145123
+840,Indonesia,Tea,mir_0.3_lasso_400,0.47276417981742525
+841,Indonesia,"Tobacco, unmanufactured",mir_0.4_classic_linear_regression,0.6190443435883239
+842,Indonesia,Tomatoes,lasso_2,0.5690769547122756
+843,Iraq,Apples,lasso_0.02,0.6109002904521403
+844,Iraq,Barley,mir_0.2_lasso_400,0.423315021736122
+845,Iraq,"Beans, dry",mir_0.4_classic_linear_regression,0.5239512747530828
+846,Iraq,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.5905258940321938
+847,Iraq,Grapes,mir_0.4_classic_linear_regression,0.5482142148729787
+848,Iraq,Maize,mir_0.3_lasso_400,0.5950539507246722
+849,Iraq,Oranges,mir_0.3_lasso_400,0.5188477174683712
+850,Iraq,Potatoes,mir_0.3_lasso_2,0.4403173186316798
+851,Iraq,"Rice, paddy",mir_0.3_lasso_400,0.5508398306081859
+852,Iraq,Sesame seed,mir_0.4_classic_linear_regression,0.6794034878188342
+853,Iraq,Sugar beet,mir_0.4_classic_linear_regression,0.3713342009046475
+854,Iraq,Sunflower seed,mir_0.3_lasso_400,0.7217256363870905
+855,Iraq,"Tobacco, unmanufactured",mir_0.3_lasso_400,0.5391950214648847
+856,Iraq,Tomatoes,mir_0.3_lasso_8,0.44052970145417425
+857,Iraq,Wheat,mir_0.4_classic_linear_regression,0.7549532361224399
+858,Ireland,Apples,mir_0.3_lasso_400,0.5726683202544423
+859,Ireland,Barley,mir_0.3_lasso_2,0.638576774414694
+860,Ireland,Cereals (Rice Milled Eqv),mir_0.4_lasso_400,0.5131600105773523
+861,Ireland,"Peas, dry",lasso_0.5,0.42276260110385844
+862,Ireland,Potatoes,lasso_0.5,0.4504530081859659
+863,Ireland,Rye,mir_0.4_classic_linear_regression,0.746953873709761
+864,Ireland,Sugar beet,mir_0.3_lasso_400,0.608309113653978
+865,Ireland,Tomatoes,mir_0.4_classic_linear_regression,0.7124699784718775
+866,Ireland,Wheat,lasso_2,0.5840607363706115
+867,Israel,Apples,mir_0.4_classic_linear_regression,0.7582286005371525
+868,Israel,Avocados,mir_0.3_lasso_400,0.5450409213060641
+869,Israel,Bananas,mir_0.3_lasso_400,0.5621727854269913
+870,Israel,Barley,mir_0.3_lasso_400,0.7090731701500543
+871,Israel,Cereals (Rice Milled Eqv),mir_0.3_lasso_400,0.492191717106088
+872,Israel,Grapes,mir_0.5_classic_linear_regression,0.42933127634437296
+873,Israel,Maize,mir_0.3_lasso_400,0.5205728008563018
+874,Israel,Oranges,lasso_0.8,0.5850190651072463
+875,Israel,"Peas, dry",mir_0.5_lasso_0.02,-0.2842819355184245
+876,Israel,Potatoes,lasso_0.02,0.3695340140753277
+877,Israel,Sesame seed,mir_0.3_lasso_400,0.5848882712732577
+878,Israel,Sunflower seed,mir_0.4_classic_linear_regression,0.45199372153504724
+879,Israel,Sweet potatoes,mir_0.4_lasso_400,0.565538625283355
+880,Israel,"Tobacco, unmanufactured",mir_0.3_lasso_400,0.40938023423702785
+881,Israel,Tomatoes,mir_0.3_lasso_400,0.7377541751866562
+882,Israel,Wheat,mir_0.4_lasso_0.02,0.6281688524100391
+883,Italy,Apples,lasso_0.8,0.4655989507618331
+884,Italy,Bananas,mir_0.3_lasso_8,0.622990109580038
+885,Italy,Barley,mir_0.3_lasso_0.8,0.7731876004349791
+886,Italy,"Beans, dry",mir_0.3_lasso_400,-0.4736035780581933
+887,Italy,Cereals (Rice Milled Eqv),mir_0.5_lasso_0.02,0.6498210611547635
+888,Italy,Grapes,mir_0.3_lasso_400,0.48129648976280626
+889,Italy,Maize,lasso_2,0.626323593508118
+890,Italy,Oranges,mir_0.3_lasso_400,0.411125325900213
+891,Italy,"Peas, dry",mir_0.3_lasso_400,0.5045066435191236
+892,Italy,Potatoes,mir_0.3_lasso_400,0.48259690424212687
+893,Italy,Rapeseed,mir_0.4_classic_linear_regression,0.7237970543589429
+894,Italy,"Rice, paddy",mir_0.5_classic_linear_regression,0.2319816020599107
+895,Italy,Rye,mir_0.2_lasso_400,0.43603313669555965
+896,Italy,Sesame seed,mir_0.4_classic_linear_regression,0.5309764985778862
+897,Italy,Soybeans,mir_0.5_classic_linear_regression,0.6320495532295786
+898,Italy,Sugar beet,mir_0.3_lasso_400,0.5827016573778506
+899,Italy,Sunflower seed,mir_0.5_classic_linear_regression,0.5118714358432043
+900,Italy,Sweet potatoes,mir_0.4_classic_linear_regression,0.20553800247165233
+901,Italy,"Tobacco, unmanufactured",mir_0.3_lasso_400,0.5498815956350007
+902,Italy,Tomatoes,mir_0.4_lasso_400,0.5616646876299075
+903,Italy,Wheat,mir_0.3_lasso_8,0.6300672151744877
+904,Jamaica,Avocados,mir_0.3_lasso_400,0.6899379198543366
+905,Jamaica,Bananas,mir_0.3_lasso_8,0.5539382960888515
+906,Jamaica,"Beans, dry",mir_0.3_lasso_0.8,0.642593386370799
+907,Jamaica,Cassava,mir_0.4_lasso_400,0.319380292063456
+908,Jamaica,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.6091276939980073
+909,Jamaica,"Cocoa, beans",mir_0.5_classic_linear_regression,0.49462757970232774
+910,Jamaica,"Coffee, green",mir_0.3_lasso_30,0.5581171547205175
+911,Jamaica,Maize,mir_0.4_classic_linear_regression,0.6244499085545856
+912,Jamaica,Oranges,mir_0.4_lasso_400,0.38598075829927303
+913,Jamaica,"Peas, dry",mir_0.5_classic_linear_regression,0.44409479438735555
+914,Jamaica,Potatoes,mir_0.4_classic_linear_regression,0.490141819305114
+915,Jamaica,"Rice, paddy",mir_0.3_lasso_400,0.5605638483846707
+916,Jamaica,Sugar cane,mir_0.4_classic_linear_regression,0.6126881906323371
+917,Jamaica,Sweet potatoes,mir_0.4_lasso_0.02,0.1112974378980639
+918,Jamaica,"Tobacco, unmanufactured",mir_0.3_lasso_400,0.7024756016762792
+919,Jamaica,Tomatoes,mir_0.3_lasso_400,0.5213333676815888
+920,Jamaica,Yams,mir_0.2_lasso_400,0.4677567665534864
+921,Japan,Apples,lasso_0.02,0.6623835011506207
+922,Japan,Bananas,mir_0.4_lasso_0.02,0.33176149842507063
+923,Japan,Barley,mir_0.2_lasso_200,0.41985666084952866
+924,Japan,"Beans, dry",mir_0.4_classic_linear_regression,0.6389964790251561
+925,Japan,Cereals (Rice Milled Eqv),mir_0.3_lasso_400,0.4217550363579259
+926,Japan,Grapes,mir_0.5_classic_linear_regression,0.5758808839050618
+927,Japan,Maize,mir_0.4_classic_linear_regression,0.3984322611706892
+928,Japan,Oranges,mir_0.5_classic_linear_regression,0.42669954722683157
+929,Japan,"Peas, dry",mir_0.3_lasso_400,0.582357282349386
+930,Japan,Potatoes,mir_0.3_lasso_400,0.4104638994332521
+931,Japan,Rapeseed,lasso_200,0.5920427969368682
+932,Japan,"Rice, paddy",mir_0.5_classic_linear_regression,0.5382028913678134
+933,Japan,Sesame seed,lasso_200,0.4841044604371554
+934,Japan,Soybeans,mir_0.4_classic_linear_regression,0.497290824976534
+935,Japan,Sugar beet,mir_0.5_classic_linear_regression,0.5880107300355456
+936,Japan,Sugar cane,mir_0.3_lasso_2,0.6897738769306829
+937,Japan,Sweet potatoes,mir_0.3_lasso_20,0.5241992553831267
+938,Japan,Tea,mir_0.3_lasso_0.02,0.5687314476664198
+939,Japan,"Tobacco, unmanufactured",mir_0.3_classic_linear_regression,0.5338729372396918
+940,Japan,Tomatoes,mir_0.4_lasso_400,0.581466092744304
+941,Japan,Wheat,mir_0.4_classic_linear_regression,0.6979210783791165
+942,Japan,Yams,mir_0.4_classic_linear_regression,0.6960799433670013
+943,Jordan,Apples,mir_0.4_classic_linear_regression,0.6503657769456341
+944,Jordan,Bananas,mir_0.3_lasso_400,0.07668099871159695
+945,Jordan,Barley,mir_0.5_classic_linear_regression,0.4120907316514658
+946,Jordan,Cereals (Rice Milled Eqv),lasso_0.8,0.5003662752616782
+947,Jordan,Grapes,mir_0.4_classic_linear_regression,0.6041664471568626
+948,Jordan,Maize,mir_0.4_classic_linear_regression,0.3503116898423617
+949,Jordan,Oranges,mir_0.3_lasso_400,0.6080026576213737
+950,Jordan,Potatoes,lasso_0.5,0.5250725040727686
+951,Jordan,Sesame seed,lasso_400,0.06101707780927035
+952,Jordan,"Tobacco, unmanufactured",mir_0.5_classic_linear_regression,0.47449516023125304
+953,Jordan,Tomatoes,mir_0.5_classic_linear_regression,0.565822361058329
+954,Jordan,Wheat,mir_0.4_lasso_400,0.40714637517573604
+955,Kenya,Avocados,mir_0.3_lasso_400,0.5030164095498466
+956,Kenya,Bananas,mir_0.3_lasso_400,0.6197914015262476
+957,Kenya,Barley,mir_0.3_lasso_400,0.6528118343487568
+958,Kenya,"Beans, dry",mir_0.4_classic_linear_regression,0.43006672718466776
+959,Kenya,"Cashew nuts, with shell",mir_0.4_classic_linear_regression,0.5065732318018382
+960,Kenya,Cassava,mir_0.4_lasso_400,0.5762556107865371
+961,Kenya,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.44016054963228457
+962,Kenya,"Coffee, green",mir_0.4_classic_linear_regression,0.7092275584567949
+963,Kenya,Maize,mir_0.5_classic_linear_regression,0.7697188666083206
+964,Kenya,Oranges,mir_0.3_classic_linear_regression,0.596615458120675
+965,Kenya,Potatoes,mir_0.5_classic_linear_regression,0.6880640438625569
+966,Kenya,"Rice, paddy",mir_0.4_classic_linear_regression,0.7132619318216338
+967,Kenya,Sesame seed,mir_0.2_lasso_400,0.4519438166548414
+968,Kenya,Sugar cane,mir_0.5_classic_linear_regression,0.6053548415146354
+969,Kenya,Sunflower seed,mir_0.3_lasso_400,0.6609462269642311
+970,Kenya,Sweet potatoes,mir_0.3_lasso_400,0.7532367733669131
+971,Kenya,Tea,mir_0.3_lasso_400,0.42951599866991086
+972,Kenya,"Tobacco, unmanufactured",lasso_0.8,0.4533387102547026
+973,Kenya,Tomatoes,mir_0.4_classic_linear_regression,0.6192397728670693
+974,Kenya,Wheat,mir_0.3_lasso_400,0.6795711661838779
+975,Kiribati,Bananas,mir_0.4_classic_linear_regression,0.41981458471178046
+976,Kuwait,Oranges,mir_0.3_lasso_30,0.4418464233210192
+977,Kuwait,Tomatoes,mir_0.3_lasso_8,0.7374387297045548
+978,Lebanon,Apples,mir_0.4_classic_linear_regression,0.37274628283759803
+979,Lebanon,Bananas,mir_0.3_lasso_8,0.5514453096251335
+980,Lebanon,Barley,mir_0.3_lasso_400,0.3567752808840978
+981,Lebanon,"Beans, dry",lasso_0.02,0.30058801578685856
+982,Lebanon,Cereals (Rice Milled Eqv),lasso_0.5,0.4695853709845864
+983,Lebanon,Grapes,mir_0.2_lasso_400,0.5604985038961583
+984,Lebanon,Maize,mir_0.5_classic_linear_regression,0.17960458162664128
+985,Lebanon,Oranges,mir_0.3_lasso_400,0.6426632025344223
+986,Lebanon,"Peas, dry",mir_0.3_lasso_400,0.7447584555660458
+987,Lebanon,Potatoes,mir_0.4_lasso_0.02,0.42216599265337507
+988,Lebanon,Sesame seed,mir_0.4_lasso_50,0.32538986092277755
+989,Lebanon,Sugar beet,mir_0.2_lasso_400,0.48321142988219534
+990,Lebanon,Sugar cane,mir_0.2_lasso_400,0.2780064277313359
+991,Lebanon,"Tobacco, unmanufactured",mir_0.4_classic_linear_regression,0.7309240006636515
+992,Lebanon,Tomatoes,mir_0.5_classic_linear_regression,0.7697765832444525
+993,Lebanon,Wheat,mir_0.4_classic_linear_regression,0.5794199135786078
+994,Lesotho,Barley,mir_0.3_lasso_400,0.6014169036840795
+995,Lesotho,"Beans, dry",mir_0.5_classic_linear_regression,0.1900286829754606
+996,Lesotho,Cereals (Rice Milled Eqv),mir_0.4_lasso_0.02,0.6147153138237795
+997,Lesotho,Maize,mir_0.4_lasso_0.02,0.5940211870667946
+998,Lesotho,"Peas, dry",mir_0.3_lasso_400,0.5721001449155019
+999,Lesotho,Potatoes,mir_0.4_classic_linear_regression,0.5226062022963358
+1000,Lesotho,Wheat,mir_0.5_classic_linear_regression,0.6114253467521253
+1001,Liberia,Bananas,mir_0.3_lasso_400,0.43789043899756963
+1002,Liberia,Cassava,lasso_0.5,0.5219925843170834
+1003,Liberia,Cereals (Rice Milled Eqv),mir_0.2_lasso_400,0.39033504248443773
+1004,Liberia,"Cocoa, beans",mir_0.3_lasso_2,0.6129091631255004
+1005,Liberia,"Coffee, green",mir_0.3_lasso_8,0.5960608490144671
+1006,Liberia,"Oil, palm",mir_0.4_classic_linear_regression,0.6261843520975271
+1007,Liberia,Oranges,mir_0.3_lasso_200,0.48213162021281564
+1008,Liberia,"Rice, paddy",mir_0.4_classic_linear_regression,0.6994652167662734
+1009,Liberia,Soybeans,mir_0.3_lasso_400,0.5350768269054946
+1010,Liberia,Sugar cane,mir_0.4_classic_linear_regression,0.34431015469485493
+1011,Liberia,Sweet potatoes,mir_0.4_classic_linear_regression,0.6638480996045623
+1012,Liberia,Yams,mir_0.4_lasso_0.02,0.5167377823388576
+1013,Libya,Apples,mir_0.4_classic_linear_regression,0.4779096632837321
+1014,Libya,Barley,mir_0.4_lasso_400,0.7264945352458454
+1015,Libya,Cereals (Rice Milled Eqv),mir_0.3_lasso_400,0.614647186865739
+1016,Libya,Grapes,mir_0.3_lasso_400,0.6486312552915642
+1017,Libya,Maize,lasso_0.8,0.5210036499441969
+1018,Libya,Oranges,mir_0.3_lasso_2,0.5182272948877806
+1019,Libya,"Peas, dry",mir_0.2_lasso_400,0.41545533993232775
+1020,Libya,Potatoes,mir_0.4_classic_linear_regression,0.7003911292044592
+1021,Libya,"Tobacco, unmanufactured",mir_0.3_lasso_400,0.5011681754170463
+1022,Libya,Tomatoes,mir_0.4_classic_linear_regression,0.6671896775070333
+1023,Libya,Wheat,mir_0.4_classic_linear_regression,0.6838515884870369
+1024,Liechtenstein,Grapes,mir_0.3_lasso_400,0.4700244130603446
+1025,Madagascar,Apples,mir_0.5_classic_linear_regression,0.6650769226794325
+1026,Madagascar,Bananas,mir_0.4_classic_linear_regression,0.6318182463205282
+1027,Madagascar,"Beans, dry",mir_0.4_lasso_400,0.3721580668229779
+1028,Madagascar,"Cashew nuts, with shell",mir_0.3_lasso_0.02,0.6301848092303517
+1029,Madagascar,Cassava,mir_0.4_classic_linear_regression,0.5453042216208946
+1030,Madagascar,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.4929982071275518
+1031,Madagascar,"Cocoa, beans",mir_0.5_classic_linear_regression,0.7156627741508845
+1032,Madagascar,"Coffee, green",mir_0.4_classic_linear_regression,0.7123636410171171
+1033,Madagascar,Grapes,mir_0.5_classic_linear_regression,0.5986066271545398
+1034,Madagascar,Maize,mir_0.3_lasso_400,0.5491789290243261
+1035,Madagascar,Oranges,mir_0.4_classic_linear_regression,0.6987578076581843
+1036,Madagascar,Potatoes,mir_0.4_lasso_0.02,0.7084821705390818
+1037,Madagascar,"Rice, paddy",mir_0.4_lasso_0.02,0.554763801882889
+1038,Madagascar,Sugar cane,lasso_2,0.5922555853120242
+1039,Madagascar,Sweet potatoes,mir_0.3_classic_linear_regression,0.5063472142940791
+1040,Madagascar,"Tobacco, unmanufactured",lasso_0.8,0.5646938451836586
+1041,Madagascar,Tomatoes,mir_0.3_classic_linear_regression,0.6583070393807537
+1042,Malawi,Bananas,mir_0.3_lasso_100,0.5495227328325766
+1043,Malawi,"Beans, dry",mir_0.5_classic_linear_regression,0.5552134706055913
+1044,Malawi,Cassava,mir_0.4_classic_linear_regression,0.4208610233985747
+1045,Malawi,Cereals (Rice Milled Eqv),mir_0.4_lasso_0.02,0.6375607616156611
+1046,Malawi,"Coffee, green",mir_0.5_classic_linear_regression,0.796764859168142
+1047,Malawi,Maize,mir_0.4_classic_linear_regression,0.6489791071120019
+1048,Malawi,Potatoes,mir_0.3_lasso_8,0.5922188373069113
+1049,Malawi,"Rice, paddy",mir_0.2_classic_linear_regression,0.43652203677906565
+1050,Malawi,Sunflower seed,mir_0.4_classic_linear_regression,0.42407732888528593
+1051,Malawi,Tea,mir_0.5_classic_linear_regression,0.4418576323441198
+1052,Malawi,"Tobacco, unmanufactured",mir_0.4_classic_linear_regression,0.6934078996760143
+1053,Malawi,Tomatoes,mir_0.3_lasso_400,0.43080063672343105
+1054,Malawi,Wheat,mir_0.4_classic_linear_regression,0.6480160935705145
+1055,Malaysia,Bananas,mir_0.4_lasso_20,0.3394892450165753
+1056,Malaysia,"Cashew nuts, with shell",lasso_0.5,0.5430035027835409
+1057,Malaysia,Cassava,mir_0.4_lasso_100,0.6719640394025497
+1058,Malaysia,Cereals (Rice Milled Eqv),lasso_0.8,0.37928005047631475
+1059,Malaysia,"Cocoa, beans",mir_0.3_lasso_400,0.48856141464025993
+1060,Malaysia,"Coffee, green",mir_0.5_classic_linear_regression,0.379702019143521
+1061,Malaysia,Maize,mir_0.3_lasso_2,0.5555457108260204
+1062,Malaysia,"Oil, palm",mir_0.5_lasso_400,-0.10779085773347963
+1063,Malaysia,Oranges,mir_0.4_classic_linear_regression,0.7076444848245619
+1064,Malaysia,"Rice, paddy",mir_0.5_classic_linear_regression,0.5218112764912413
+1065,Malaysia,Sugar cane,mir_0.3_lasso_400,0.46515272795444906
+1066,Malaysia,Sweet potatoes,lasso_0.8,0.4831564379217904
+1067,Malaysia,Tea,lasso_2,0.47795616065387125
+1068,Malaysia,"Tobacco, unmanufactured",mir_0.4_classic_linear_regression,0.5898895830974248
+1069,Malaysia,Tomatoes,mir_0.5_classic_linear_regression,0.018630800880700682
+1070,Maldives,Bananas,mir_0.3_lasso_400,0.5093031621358993
+1071,Maldives,Cereals (Rice Milled Eqv),mir_0.5_classic_linear_regression,0.36287211056457724
+1072,Maldives,Maize,mir_0.3_lasso_20,0.6070181175330605
+1073,Maldives,Sweet potatoes,mir_0.3_lasso_8,0.8200236402198614
+1074,Mali,Bananas,mir_0.4_classic_linear_regression,0.7400667342743792
+1075,Mali,Cassava,mir_0.5_lasso_0.02,0.5070380910773695
+1076,Mali,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.20647707536522553
+1077,Mali,Maize,mir_0.2_lasso_400,0.3848054822998842
+1078,Mali,Oranges,mir_0.4_classic_linear_regression,0.6837191298797287
+1079,Mali,"Rice, paddy",mir_0.2_lasso_400,0.46870255857551824
+1080,Mali,Sugar cane,lasso_0.5,0.6124280975524498
+1081,Mali,Sweet potatoes,mir_0.4_classic_linear_regression,0.512837342563401
+1082,Mali,"Tobacco, unmanufactured",mir_0.4_lasso_0.02,0.27187890276768734
+1083,Mali,Tomatoes,mir_0.2_lasso_400,0.43083095339702415
+1084,Mali,Wheat,mir_0.3_lasso_0.02,0.5461721384987581
+1085,Mali,Yams,mir_0.5_lasso_0.02,-0.07754066867474463
+1086,Malta,Apples,mir_0.3_lasso_400,0.390977164679842
+1087,Malta,Barley,mir_0.3_lasso_400,0.603065357104281
+1088,Malta,"Beans, dry",mir_0.4_classic_linear_regression,0.539237289777893
+1089,Malta,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.6921126617838617
+1090,Malta,Grapes,lasso_0.8,0.697567642338584
+1091,Malta,Potatoes,mir_0.4_classic_linear_regression,0.7188204776989453
+1092,Malta,Tomatoes,mir_0.4_classic_linear_regression,0.6720407871049536
+1093,Malta,Wheat,mir_0.3_lasso_400,0.5193986664371861
+1094,Mauritania,Cereals (Rice Milled Eqv),mir_0.3_lasso_400,0.5976191756150588
+1095,Mauritania,Maize,mir_0.4_classic_linear_regression,0.7751536253362141
+1096,Mauritania,Potatoes,mir_0.3_lasso_400,0.4451473686945937
+1097,Mauritania,"Rice, paddy",mir_0.4_classic_linear_regression,0.722330234368687
+1098,Mauritania,Sweet potatoes,mir_0.5_classic_linear_regression,0.2233185423926486
+1099,Mauritania,Wheat,lasso_0.8,0.22122244529883806
+1100,Mauritania,Yams,mir_0.4_classic_linear_regression,0.6942940583598953
+1101,Mauritius,Bananas,lasso_8,0.5617624786067366
+1102,Mauritius,Cassava,mir_0.3_lasso_400,0.5664400410245218
+1103,Mauritius,Cereals (Rice Milled Eqv),lasso_0.5,0.7623500987053553
+1104,Mauritius,Maize,mir_0.4_classic_linear_regression,0.6568980849242709
+1105,Mauritius,Potatoes,mir_0.5_classic_linear_regression,0.7186879504226169
+1106,Mauritius,Sugar cane,mir_0.2_lasso_400,0.2401325043269551
+1107,Mauritius,Sweet potatoes,mir_0.2_classic_linear_regression,0.502274966954712
+1108,Mauritius,Tea,mir_0.4_classic_linear_regression,0.7149082938673674
+1109,Mauritius,"Tobacco, unmanufactured",lasso_2,0.5526727378660738
+1110,Mauritius,Tomatoes,mir_0.4_classic_linear_regression,0.5768237055416767
+1111,Mexico,Apples,mir_0.3_lasso_400,0.47556763401584967
+1112,Mexico,Avocados,mir_0.3_lasso_400,0.673171657856895
+1113,Mexico,Bananas,mir_0.5_classic_linear_regression,0.6018086063385362
+1114,Mexico,Barley,mir_0.4_classic_linear_regression,0.6035261499338739
+1115,Mexico,"Beans, dry",mir_0.4_classic_linear_regression,0.6079888742762024
+1116,Mexico,Cassava,mir_0.4_classic_linear_regression,0.4457524961405033
+1117,Mexico,Cereals (Rice Milled Eqv),mir_0.5_classic_linear_regression,0.5503617313978604
+1118,Mexico,"Cocoa, beans",mir_0.4_classic_linear_regression,0.5304778432497728
+1119,Mexico,"Coffee, green",mir_0.5_classic_linear_regression,0.5937470861700203
+1120,Mexico,Grapes,mir_0.3_lasso_20,0.5078595318867558
+1121,Mexico,Maize,mir_0.4_classic_linear_regression,0.6133420574915203
+1122,Mexico,"Oil, palm",mir_0.4_classic_linear_regression,0.7417508744832413
+1123,Mexico,Oranges,lasso_0.8,0.1403328715645138
+1124,Mexico,"Peas, dry",mir_0.4_classic_linear_regression,0.578560698711609
+1125,Mexico,Potatoes,lasso_8,0.4408163725589135
+1126,Mexico,Rapeseed,mir_0.3_lasso_2,0.7160963924790766
+1127,Mexico,"Rice, paddy",mir_0.3_lasso_2,0.6143999766243237
+1128,Mexico,Sesame seed,mir_0.4_lasso_0.8,0.5971726551115475
+1129,Mexico,Soybeans,mir_0.3_lasso_2,0.6155897982875713
+1130,Mexico,Sugar cane,mir_0.4_lasso_400,0.3845980836267868
+1131,Mexico,Sweet potatoes,lasso_0.8,0.4357036101901415
+1132,Mexico,"Tobacco, unmanufactured",mir_0.4_classic_linear_regression,0.5738642310724645
+1133,Mexico,Tomatoes,lasso_0.8,0.5905743206078026
+1134,Mexico,Wheat,mir_0.4_classic_linear_regression,0.45244759841048
+1135,Mongolia,Barley,mir_0.4_classic_linear_regression,-1.1043707648498864
+1136,Mongolia,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.5172436617803702
+1137,Mongolia,Potatoes,mir_0.4_classic_linear_regression,0.7598112845425449
+1138,Mongolia,Wheat,mir_0.5_lasso_0.02,-0.44217318516557014
+1139,Morocco,Apples,lasso_2,0.08195997758987816
+1140,Morocco,Avocados,mir_0.3_lasso_400,-0.4747777837509717
+1141,Morocco,Barley,mir_0.3_lasso_400,0.5382085106613466
+1142,Morocco,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.7161661174760332
+1143,Morocco,Grapes,mir_0.4_classic_linear_regression,0.5973957864666077
+1144,Morocco,Maize,mir_0.3_lasso_400,0.740132081275789
+1145,Morocco,Oranges,mir_0.4_lasso_400,0.7089757158532528
+1146,Morocco,"Peas, dry",mir_0.5_classic_linear_regression,0.01668968199206422
+1147,Morocco,Potatoes,mir_0.5_classic_linear_regression,0.3959531753329676
+1148,Morocco,"Rice, paddy",mir_0.4_lasso_400,0.7475839668778315
+1149,Morocco,Rye,mir_0.3_lasso_200,0.49141729772914955
+1150,Morocco,Sesame seed,mir_0.4_classic_linear_regression,0.39586108974665923
+1151,Morocco,Sugar beet,mir_0.2_lasso_400,0.4304694504708758
+1152,Morocco,Sunflower seed,mir_0.4_lasso_0.02,0.5882632835144426
+1153,Morocco,Sweet potatoes,mir_0.3_lasso_20,0.6254020138877239
+1154,Morocco,"Tobacco, unmanufactured",mir_0.5_classic_linear_regression,0.30482283810917865
+1155,Morocco,Tomatoes,mir_0.5_classic_linear_regression,0.5590385803648334
+1156,Morocco,Wheat,mir_0.5_classic_linear_regression,0.1772924509660695
+1157,Mozambique,Bananas,mir_0.3_lasso_400,0.6088848008083632
+1158,Mozambique,"Cashew nuts, with shell",lasso_0.8,0.4691664276770541
+1159,Mozambique,Cassava,mir_0.3_lasso_8,0.7441922481966216
+1160,Mozambique,Cereals (Rice Milled Eqv),mir_0.3_lasso_400,0.3988846588717091
+1161,Mozambique,"Coffee, green",lasso_0.02,0.3629259951036672
+1162,Mozambique,Maize,mir_0.3_lasso_8,0.43710021355667694
+1163,Mozambique,Oranges,mir_0.5_classic_linear_regression,0.5036870836842724
+1164,Mozambique,Potatoes,mir_0.3_lasso_400,0.6994840746441622
+1165,Mozambique,"Rice, paddy",mir_0.4_classic_linear_regression,0.630394473161668
+1166,Mozambique,Sesame seed,mir_0.3_lasso_2,0.5833704533074107
+1167,Mozambique,Sugar cane,mir_0.3_lasso_400,0.5440194466095016
+1168,Mozambique,Sunflower seed,lasso_0.02,0.4331966328072324
+1169,Mozambique,Sweet potatoes,mir_0.4_classic_linear_regression,0.4046205061694761
+1170,Mozambique,Tea,mir_0.4_classic_linear_regression,0.37247889317132243
+1171,Mozambique,"Tobacco, unmanufactured",mir_0.3_lasso_400,0.45807580555302085
+1172,Mozambique,Tomatoes,lasso_0.02,0.4137555150025951
+1173,Mozambique,Wheat,mir_0.4_lasso_0.02,0.6907955887227919
+1174,Namibia,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.6624445236028154
+1175,Namibia,Maize,mir_0.5_classic_linear_regression,0.5790610226664723
+1176,Namibia,Wheat,mir_0.5_classic_linear_regression,0.192887450470962
+1177,Nepal,Barley,mir_0.3_lasso_400,0.4750122325084082
+1178,Nepal,"Beans, dry",mir_0.3_lasso_400,0.4735578173778582
+1179,Nepal,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.7005783405339818
+1180,Nepal,Maize,mir_0.5_classic_linear_regression,0.30410260245681464
+1181,Nepal,Potatoes,mir_0.3_lasso_400,0.3484718924844328
+1182,Nepal,"Rice, paddy",mir_0.3_lasso_400,0.30063466440731457
+1183,Nepal,Soybeans,mir_0.5_classic_linear_regression,0.41717373202760033
+1184,Nepal,Sugar cane,mir_0.4_lasso_0.02,0.6351816464180469
+1185,Nepal,"Tobacco, unmanufactured",mir_0.3_lasso_400,0.6832996190406775
+1186,Nepal,Wheat,mir_0.3_lasso_400,0.5436075952567407
+1187,Netherlands,Apples,mir_0.4_lasso_0.5,0.5027386128497875
+1188,Netherlands,Barley,mir_0.3_lasso_400,0.3622071039224082
+1189,Netherlands,"Beans, dry",mir_0.4_lasso_30,0.21597346524758154
+1190,Netherlands,Cereals (Rice Milled Eqv),mir_0.5_classic_linear_regression,0.3276733755225798
+1191,Netherlands,Grapes,lasso_0.8,0.5827428441868899
+1192,Netherlands,Maize,mir_0.4_classic_linear_regression,0.6637188383525343
+1193,Netherlands,"Peas, dry",mir_0.2_lasso_0.02,0.4097861150570473
+1194,Netherlands,Potatoes,mir_0.3_lasso_400,0.45191908923441804
+1195,Netherlands,Rapeseed,mir_0.4_lasso_400,0.6252754335908466
+1196,Netherlands,Rye,lasso_0.8,0.4966775350884486
+1197,Netherlands,Sugar beet,mir_0.4_classic_linear_regression,0.6201232714135825
+1198,Netherlands,Tomatoes,mir_0.4_classic_linear_regression,0.725235902153156
+1199,Netherlands,Wheat,classic_linear_regression,0.5398867497836106
+1200,New Caledonia,Bananas,mir_0.4_lasso_400,0.5221378952798725
+1201,New Caledonia,Cassava,mir_0.4_classic_linear_regression,0.6097870771545115
+1202,New Caledonia,Cereals (Rice Milled Eqv),mir_0.2_lasso_400,0.4570625700091464
+1203,New Caledonia,"Coffee, green",mir_0.5_classic_linear_regression,0.6056666802058972
+1204,New Caledonia,Maize,mir_0.3_lasso_400,0.41999857720791445
+1205,New Caledonia,Potatoes,mir_0.2_lasso_400,0.2980339633913045
+1206,New Caledonia,Sweet potatoes,mir_0.4_lasso_400,0.6737322627422362
+1207,New Caledonia,Wheat,mir_0.4_classic_linear_regression,0.3619031815468152
+1208,New Caledonia,Yams,mir_0.4_classic_linear_regression,0.6585876255884502
+1209,New Zealand,Apples,mir_0.4_classic_linear_regression,0.6895166397126826
+1210,New Zealand,Barley,mir_0.4_classic_linear_regression,0.457344813719315
+1211,New Zealand,Cereals (Rice Milled Eqv),mir_0.3_lasso_400,0.541106708797742
+1212,New Zealand,Grapes,mir_0.3_lasso_400,0.4443329063229142
+1213,New Zealand,Maize,mir_0.4_classic_linear_regression,0.592658310274005
+1214,New Zealand,Oranges,mir_0.3_lasso_400,0.4069565243220764
+1215,New Zealand,"Peas, dry",mir_0.4_classic_linear_regression,0.49981699052367945
+1216,New Zealand,Potatoes,mir_0.3_lasso_0.5,0.5426678694499008
+1217,New Zealand,Rapeseed,mir_0.4_lasso_0.02,0.6463142348452162
+1218,New Zealand,Sweet potatoes,lasso_0.8,0.4717133998530668
+1219,New Zealand,Tomatoes,mir_0.4_classic_linear_regression,0.7353294093248296
+1220,New Zealand,Wheat,mir_0.4_classic_linear_regression,0.6334454992901142
+1221,Nicaragua,Bananas,mir_0.4_classic_linear_regression,0.7154487344369274
+1222,Nicaragua,"Beans, dry",mir_0.3_lasso_8,0.41258813346011336
+1223,Nicaragua,Cassava,mir_0.4_lasso_0.02,0.6002150344583543
+1224,Nicaragua,Cereals (Rice Milled Eqv),mir_0.2_lasso_400,0.2901591352392714
+1225,Nicaragua,"Cocoa, beans",lasso_400,0.403829790321242
+1226,Nicaragua,"Coffee, green",mir_0.4_classic_linear_regression,0.5148671841152059
+1227,Nicaragua,Maize,mir_0.4_classic_linear_regression,0.6701467797804861
+1228,Nicaragua,Oranges,mir_0.3_lasso_30,0.775664646370145
+1229,Nicaragua,Potatoes,mir_0.2_lasso_400,0.3742497961976642
+1230,Nicaragua,"Rice, paddy",mir_0.4_classic_linear_regression,0.48840603808130223
+1231,Nicaragua,Sesame seed,lasso_400,0.4338493828423591
+1232,Nicaragua,Sugar cane,mir_0.3_lasso_2,0.4729785230653407
+1233,Nicaragua,"Tobacco, unmanufactured",mir_0.2_lasso_400,0.442276433491379
+1234,Nicaragua,Tomatoes,mir_0.5_classic_linear_regression,0.5787441442602073
+1235,Niger,Cassava,mir_0.2_lasso_200,0.5137851053391722
+1236,Niger,Cereals (Rice Milled Eqv),mir_0.4_lasso_30,0.6430452545539466
+1237,Niger,Maize,mir_0.3_lasso_2,0.5800401109118474
+1238,Niger,"Rice, paddy",mir_0.4_lasso_400,0.07720652558563268
+1239,Niger,Sugar cane,lasso_2,0.5579329202707031
+1240,Niger,Sweet potatoes,mir_0.4_lasso_0.02,0.37247589171716355
+1241,Niger,"Tobacco, unmanufactured",mir_0.4_classic_linear_regression,0.4818394595081674
+1242,Niger,Tomatoes,mir_0.3_lasso_400,0.4088026539215911
+1243,Niger,Wheat,mir_0.5_classic_linear_regression,0.3280142852307758
+1244,Nigeria,"Cashew nuts, with shell",mir_0.3_lasso_50,0.6319006525492707
+1245,Nigeria,Cassava,mir_0.3_lasso_8,0.5470560210401225
+1246,Nigeria,Cereals (Rice Milled Eqv),mir_0.4_lasso_400,0.5714933207561514
+1247,Nigeria,"Cocoa, beans",lasso_2,0.2991118709411017
+1248,Nigeria,"Coffee, green",mir_0.3_lasso_400,0.6877429392953254
+1249,Nigeria,Maize,lasso_400,0.3207642110209392
+1250,Nigeria,"Oil, palm",mir_0.5_classic_linear_regression,0.5348869310922681
+1251,Nigeria,Potatoes,mir_0.3_lasso_100,0.6905909649861761
+1252,Nigeria,"Rice, paddy",mir_0.3_lasso_400,0.6028205808151919
+1253,Nigeria,Sesame seed,lasso_400,0.4181323246996138
+1254,Nigeria,Soybeans,mir_0.4_classic_linear_regression,0.7449303947003747
+1255,Nigeria,Sugar cane,mir_0.4_lasso_400,0.6356255138017477
+1256,Nigeria,Sweet potatoes,mir_0.3_lasso_400,0.629907154299296
+1257,Nigeria,"Tobacco, unmanufactured",mir_0.4_classic_linear_regression,0.5347965241051179
+1258,Nigeria,Tomatoes,mir_0.3_lasso_400,0.5590049007862512
+1259,Nigeria,Wheat,mir_0.4_lasso_8,0.528871964885441
+1260,Nigeria,Yams,mir_0.4_classic_linear_regression,0.4626315507870855
+1261,Norway,Apples,mir_0.4_classic_linear_regression,0.713713014543471
+1262,Norway,Barley,mir_0.4_classic_linear_regression,0.7536656488182787
+1263,Norway,Cereals (Rice Milled Eqv),mir_0.3_lasso_0.02,0.5145057240028676
+1264,Norway,Potatoes,mir_0.5_classic_linear_regression,0.35253743877792443
+1265,Norway,Rapeseed,mir_0.4_classic_linear_regression,0.6409197265287079
+1266,Norway,Rye,classic_linear_regression,0.6817624602033399
+1267,Norway,Tomatoes,mir_0.3_lasso_400,0.4802298555629678
+1268,Norway,Wheat,lasso_0.8,0.4866956278882375
+1269,Oman,Bananas,mir_0.4_lasso_0.02,0.594547080918199
+1270,Oman,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.6784381178232304
+1271,Oman,Wheat,mir_0.5_classic_linear_regression,0.2690349288844458
+1272,Pakistan,Apples,mir_0.3_lasso_2,0.5089100760046517
+1273,Pakistan,Bananas,mir_0.5_classic_linear_regression,0.23390502797088564
+1274,Pakistan,Barley,mir_0.5_classic_linear_regression,0.5772556122437233
+1275,Pakistan,"Beans, dry",mir_0.4_classic_linear_regression,0.7459301706691
+1276,Pakistan,Cereals (Rice Milled Eqv),lasso_0.02,0.5701024641662338
+1277,Pakistan,Grapes,mir_0.3_lasso_400,0.5696164094039362
+1278,Pakistan,Maize,lasso_0.5,0.5027235598313551
+1279,Pakistan,Oranges,mir_0.3_lasso_200,0.7213483747412639
+1280,Pakistan,"Peas, dry",mir_0.3_lasso_400,0.7538927594598652
+1281,Pakistan,Potatoes,mir_0.4_classic_linear_regression,0.5815985272008486
+1282,Pakistan,Rapeseed,mir_0.3_lasso_0.02,0.6347191016079657
+1283,Pakistan,"Rice, paddy",mir_0.3_lasso_400,0.7283033978839281
+1284,Pakistan,Sesame seed,mir_0.5_classic_linear_regression,0.6972568953685971
+1285,Pakistan,Soybeans,mir_0.4_classic_linear_regression,0.4717887202897574
+1286,Pakistan,Sugar beet,mir_0.4_classic_linear_regression,0.627829917503706
+1287,Pakistan,Sugar cane,mir_0.2_lasso_0.5,0.6116824303623248
+1288,Pakistan,Sunflower seed,mir_0.5_classic_linear_regression,0.2672216486027593
+1289,Pakistan,Sweet potatoes,lasso_400,0.3372839096369933
+1290,Pakistan,"Tobacco, unmanufactured",mir_0.4_classic_linear_regression,0.5223557996666093
+1291,Pakistan,Wheat,mir_0.4_classic_linear_regression,0.5580166824703707
+1292,Panama,Avocados,lasso_2,0.17693515566446427
+1293,Panama,Bananas,mir_0.5_classic_linear_regression,0.4725408532769738
+1294,Panama,"Beans, dry",mir_0.2_lasso_400,0.4058226723266787
+1295,Panama,Cassava,mir_0.4_lasso_0.02,0.663737419403384
+1296,Panama,Cereals (Rice Milled Eqv),mir_0.4_lasso_0.02,0.687851336048743
+1297,Panama,"Cocoa, beans",mir_0.4_lasso_0.02,0.4707853371923554
+1298,Panama,"Coffee, green",lasso_0.5,0.5908985780076426
+1299,Panama,Maize,lasso_50,-0.024477441182927162
+1300,Panama,Oranges,lasso_0.5,0.6123560546330123
+1301,Panama,Potatoes,mir_0.4_classic_linear_regression,0.5918699349802227
+1302,Panama,"Rice, paddy",mir_0.4_classic_linear_regression,0.7290743307255421
+1303,Panama,Sesame seed,mir_0.4_lasso_400,0.5470648381946661
+1304,Panama,Sugar cane,mir_0.3_lasso_400,0.47320068390809045
+1305,Panama,"Tobacco, unmanufactured",mir_0.3_lasso_400,0.5485799104952909
+1306,Panama,Tomatoes,mir_0.3_lasso_400,0.4603299521460815
+1307,Panama,Yams,mir_0.3_lasso_0.02,0.5462233565069734
+1308,Papua New Guinea,Bananas,lasso_0.8,0.5777661431449482
+1309,Papua New Guinea,Cassava,mir_0.4_lasso_0.02,0.5578962187054959
+1310,Papua New Guinea,Cereals (Rice Milled Eqv),mir_0.3_lasso_400,0.5473367936450225
+1311,Papua New Guinea,"Cocoa, beans",mir_0.3_lasso_100,0.6518537951568194
+1312,Papua New Guinea,"Coffee, green",mir_0.4_lasso_0.02,0.5875491935589016
+1313,Papua New Guinea,Maize,mir_0.4_lasso_400,0.6360936792947935
+1314,Papua New Guinea,Potatoes,lasso_0.8,0.4539988485591606
+1315,Papua New Guinea,"Rice, paddy",mir_0.4_classic_linear_regression,0.5888875472361127
+1316,Papua New Guinea,Sugar cane,mir_0.4_classic_linear_regression,0.6763851394784008
+1317,Papua New Guinea,Sweet potatoes,mir_0.3_lasso_400,0.39150172791243987
+1318,Papua New Guinea,Tea,lasso_400,0.002224817909868726
+1319,Papua New Guinea,Tomatoes,mir_0.4_lasso_100,0.7405994238777652
+1320,Papua New Guinea,Yams,mir_0.4_classic_linear_regression,0.6754218979075932
+1321,Paraguay,Apples,mir_0.3_lasso_400,0.5467266226163026
+1322,Paraguay,Avocados,mir_0.4_classic_linear_regression,0.6714167064221541
+1323,Paraguay,Bananas,mir_0.4_lasso_400,0.6310656759862772
+1324,Paraguay,"Beans, dry",mir_0.3_lasso_400,0.780530331355223
+1325,Paraguay,Cassava,mir_0.3_lasso_400,0.6687632320248849
+1326,Paraguay,Cereals (Rice Milled Eqv),mir_0.5_classic_linear_regression,0.37740813906881077
+1327,Paraguay,"Coffee, green",mir_0.5_classic_linear_regression,0.24078320014097798
+1328,Paraguay,Grapes,mir_0.5_classic_linear_regression,0.7780733948878458
+1329,Paraguay,Maize,mir_0.4_classic_linear_regression,0.6658070239082934
+1330,Paraguay,"Oil, palm",lasso_0.02,0.4421726856134678
+1331,Paraguay,Oranges,mir_0.3_lasso_400,0.6057881084035366
+1332,Paraguay,"Peas, dry",mir_0.4_lasso_200,0.4082813621221033
+1333,Paraguay,Potatoes,mir_0.4_classic_linear_regression,0.744287982692647
+1334,Paraguay,"Rice, paddy",lasso_0.8,0.5369173811675685
+1335,Paraguay,Soybeans,mir_0.3_lasso_400,0.6116334455670689
+1336,Paraguay,Sugar cane,mir_0.4_classic_linear_regression,0.5124073516511858
+1337,Paraguay,Sweet potatoes,mir_0.3_lasso_400,0.5911454457579995
+1338,Paraguay,"Tobacco, unmanufactured",mir_0.4_classic_linear_regression,0.7134472192665973
+1339,Paraguay,Tomatoes,mir_0.4_classic_linear_regression,0.5738410885864785
+1340,Paraguay,Wheat,mir_0.4_lasso_0.02,0.7298824992956453
+1341,Peru,Apples,mir_0.3_lasso_400,0.7361775287489076
+1342,Peru,Avocados,mir_0.4_classic_linear_regression,0.6854478250536404
+1343,Peru,Barley,mir_0.4_classic_linear_regression,0.6573629622565011
+1344,Peru,"Beans, dry",mir_0.4_classic_linear_regression,0.6379073006458633
+1345,Peru,Cassava,mir_0.4_classic_linear_regression,0.7359414137491154
+1346,Peru,Cereals (Rice Milled Eqv),mir_0.4_lasso_400,0.24457411728985146
+1347,Peru,"Cocoa, beans",mir_0.5_classic_linear_regression,0.5877470188051814
+1348,Peru,"Coffee, green",mir_0.4_lasso_400,0.2373745062746725
+1349,Peru,Grapes,mir_0.4_lasso_0.02,0.5494355293586443
+1350,Peru,Maize,lasso_0.8,0.4603905437314014
+1351,Peru,Oranges,mir_0.4_classic_linear_regression,0.7250599204173467
+1352,Peru,"Peas, dry",mir_0.5_classic_linear_regression,0.2611625113680477
+1353,Peru,Potatoes,mir_0.3_lasso_400,0.48501328959280254
+1354,Peru,"Rice, paddy",mir_0.4_classic_linear_regression,0.7170355624329348
+1355,Peru,Rye,mir_0.4_classic_linear_regression,0.5962510907339104
+1356,Peru,Sesame seed,mir_0.3_lasso_8,0.5321573928862803
+1357,Peru,Soybeans,lasso_0.5,0.4894767276723181
+1358,Peru,Sugar cane,mir_0.4_lasso_100,0.35085928507122877
+1359,Peru,Sweet potatoes,mir_0.5_classic_linear_regression,0.710998390744806
+1360,Peru,Tea,mir_0.4_classic_linear_regression,0.754527326648333
+1361,Peru,"Tobacco, unmanufactured",mir_0.3_lasso_400,0.43304854970632123
+1362,Peru,Tomatoes,mir_0.3_classic_linear_regression,0.44102844909990324
+1363,Peru,Wheat,mir_0.4_lasso_400,0.7939894976907873
+1364,Philippines,Avocados,mir_0.2_classic_linear_regression,0.42586947235729444
+1365,Philippines,Bananas,mir_0.3_lasso_400,0.40494276208965374
+1366,Philippines,"Beans, dry",mir_0.4_classic_linear_regression,0.622184894101645
+1367,Philippines,"Cashew nuts, with shell",mir_0.4_classic_linear_regression,0.5787917475220898
+1368,Philippines,Cassava,lasso_0.02,0.462025168954286
+1369,Philippines,Cereals (Rice Milled Eqv),mir_0.3_lasso_50,0.5475402737052324
+1370,Philippines,"Cocoa, beans",mir_0.3_lasso_20,0.5378868506782067
+1371,Philippines,"Coffee, green",mir_0.4_classic_linear_regression,0.6664333643118105
+1372,Philippines,Maize,mir_0.3_lasso_400,0.5291028198834112
+1373,Philippines,"Oil, palm",mir_0.5_classic_linear_regression,0.3104557021391373
+1374,Philippines,Oranges,mir_0.5_classic_linear_regression,0.32506076947215945
+1375,Philippines,Potatoes,mir_0.3_lasso_400,0.23819113840342843
+1376,Philippines,"Rice, paddy",lasso_400,0.3380470084812447
+1377,Philippines,Soybeans,mir_0.5_classic_linear_regression,0.7294758007152127
+1378,Philippines,Sugar cane,mir_0.4_lasso_0.02,0.6299958504793951
+1379,Philippines,Sweet potatoes,mir_0.4_classic_linear_regression,0.5108577972707762
+1380,Philippines,"Tobacco, unmanufactured",mir_0.4_classic_linear_regression,0.6928949900472302
+1381,Philippines,Tomatoes,mir_0.5_lasso_0.02,0.5277670266752928
+1382,Philippines,Yams,mir_0.4_classic_linear_regression,0.3842752143320003
+1383,Poland,Apples,lasso_0.5,0.45756355012998884
+1384,Poland,Barley,mir_0.5_classic_linear_regression,0.4659896370733174
+1385,Poland,"Beans, dry",mir_0.3_lasso_400,0.501280980434759
+1386,Poland,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.327091600615969
+1387,Poland,Maize,mir_0.3_lasso_400,0.4355634423663918
+1388,Poland,"Peas, dry",mir_0.2_lasso_200,0.46115397506882294
+1389,Poland,Potatoes,lasso_0.8,0.5644856643466277
+1390,Poland,Rapeseed,mir_0.5_classic_linear_regression,0.3446450832474929
+1391,Poland,Rye,mir_0.4_classic_linear_regression,0.7364220063691405
+1392,Poland,Sugar beet,mir_0.4_classic_linear_regression,0.6003349757696541
+1393,Poland,"Tobacco, unmanufactured",mir_0.4_lasso_400,0.6759709660939781
+1394,Poland,Tomatoes,mir_0.4_classic_linear_regression,0.742675908431075
+1395,Poland,Wheat,mir_0.3_lasso_400,0.5261228665077472
+1396,Portugal,Apples,mir_0.3_lasso_2,0.6286228837844522
+1397,Portugal,Bananas,mir_0.2_lasso_200,0.2448380989086999
+1398,Portugal,Barley,mir_0.4_lasso_400,0.6120651172799845
+1399,Portugal,"Beans, dry",mir_0.5_classic_linear_regression,0.05351126657695371
+1400,Portugal,Cereals (Rice Milled Eqv),mir_0.4_lasso_200,0.3377733473988327
+1401,Portugal,Grapes,lasso_200,0.44636082109940567
+1402,Portugal,Maize,lasso_2,0.634335550874867
+1403,Portugal,Oranges,mir_0.3_lasso_8,0.4705833261739861
+1404,Portugal,Potatoes,mir_0.5_classic_linear_regression,0.1959522860936027
+1405,Portugal,"Rice, paddy",mir_0.4_lasso_400,0.3584994266331585
+1406,Portugal,Rye,lasso_0.8,0.6069946676746847
+1407,Portugal,Sugar beet,mir_0.4_lasso_8,0.30121283994875003
+1408,Portugal,Sugar cane,mir_0.2_lasso_400,0.3493052208733093
+1409,Portugal,Sweet potatoes,mir_0.3_lasso_400,0.6177360714732245
+1410,Portugal,Tea,mir_0.4_classic_linear_regression,0.6955295350718996
+1411,Portugal,"Tobacco, unmanufactured",mir_0.3_lasso_0.5,0.6583645956374583
+1412,Portugal,Tomatoes,mir_0.4_lasso_200,0.563052312475715
+1413,Portugal,Wheat,mir_0.4_classic_linear_regression,0.48561551423620286
+1414,Portugal,Yams,mir_0.4_classic_linear_regression,0.6240064401500807
+1415,Puerto Rico,Avocados,mir_0.3_lasso_400,0.6682974942288867
+1416,Puerto Rico,Bananas,mir_0.3_lasso_8,0.5665359565207937
+1417,Puerto Rico,"Beans, dry",mir_0.4_lasso_0.02,0.6173539432235251
+1418,Puerto Rico,Cassava,mir_0.4_classic_linear_regression,0.44648977471094287
+1419,Puerto Rico,Cereals (Rice Milled Eqv),mir_0.2_lasso_400,0.5310159723244285
+1420,Puerto Rico,"Coffee, green",mir_0.3_lasso_400,0.5012688843272051
+1421,Puerto Rico,Maize,mir_0.4_classic_linear_regression,0.5137636627384822
+1422,Puerto Rico,Oranges,mir_0.4_lasso_400,0.34660953933806515
+1423,Puerto Rico,"Rice, paddy",mir_0.4_lasso_400,0.6298848815128633
+1424,Puerto Rico,Sweet potatoes,mir_0.4_classic_linear_regression,0.6416962612334873
+1425,Puerto Rico,"Tobacco, unmanufactured",mir_0.4_lasso_400,0.3549064206935717
+1426,Puerto Rico,Tomatoes,mir_0.3_lasso_400,0.5326316014894141
+1427,Puerto Rico,Yams,mir_0.2_lasso_400,0.26513807186648364
+1428,Romania,Apples,mir_0.3_lasso_400,0.49957956770173984
+1429,Romania,Barley,mir_0.3_lasso_200,0.5395822931552723
+1430,Romania,"Beans, dry",mir_0.3_lasso_400,0.482117695202102
+1431,Romania,Cereals (Rice Milled Eqv),mir_0.2_lasso_400,0.5369807427233175
+1432,Romania,Grapes,mir_0.3_lasso_400,0.6664338632531314
+1433,Romania,Maize,mir_0.3_lasso_2,0.5389983999832955
+1434,Romania,"Peas, dry",mir_0.4_lasso_400,0.32314377738844846
+1435,Romania,Potatoes,mir_0.4_lasso_0.02,0.5355524177352169
+1436,Romania,Rapeseed,mir_0.3_lasso_200,0.48983324486486146
+1437,Romania,"Rice, paddy",mir_0.3_lasso_400,0.6551630376651978
+1438,Romania,Rye,mir_0.3_lasso_0.8,0.5810173778901422
+1439,Romania,Soybeans,mir_0.4_classic_linear_regression,0.3958873336873132
+1440,Romania,Sugar beet,mir_0.4_lasso_400,0.49764029197712956
+1441,Romania,Sunflower seed,mir_0.4_classic_linear_regression,0.48393992121598683
+1442,Romania,"Tobacco, unmanufactured",mir_0.4_lasso_200,0.37435604459049265
+1443,Romania,Tomatoes,mir_0.5_classic_linear_regression,0.23218745432868104
+1444,Romania,Wheat,mir_0.3_lasso_200,0.47494902110634596
+1445,Rwanda,"Beans, dry",mir_0.3_lasso_400,0.5663878576990238
+1446,Rwanda,Cassava,mir_0.3_lasso_400,0.4695143704858593
+1447,Rwanda,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.865824619493349
+1448,Rwanda,"Coffee, green",mir_0.3_lasso_20,0.5441634916626346
+1449,Rwanda,Maize,mir_0.4_classic_linear_regression,0.6628548503315963
+1450,Rwanda,"Peas, dry",mir_0.4_lasso_0.02,0.5193107559495356
+1451,Rwanda,Potatoes,mir_0.3_lasso_2,0.560003205415011
+1452,Rwanda,Sweet potatoes,lasso_2,0.4142745183898656
+1453,Rwanda,Tea,mir_0.4_classic_linear_regression,0.6186061461596788
+1454,Rwanda,"Tobacco, unmanufactured",lasso_20,0.5919289322777235
+1455,Rwanda,Wheat,mir_0.3_lasso_8,0.5018247050426196
+1456,Rwanda,Yams,mir_0.4_classic_linear_regression,0.5583649271208113
+1457,Samoa,Avocados,mir_0.4_lasso_400,0.6241616755719843
+1458,Samoa,Bananas,mir_0.4_classic_linear_regression,0.5685840737798391
+1459,Samoa,Cassava,mir_0.4_lasso_400,0.36833415097511824
+1460,Samoa,"Cocoa, beans",lasso_0.02,0.5760926956995696
+1461,Samoa,"Coffee, green",lasso_0.8,0.474798139385031
+1462,Samoa,Sugar cane,mir_0.3_lasso_8,0.5300588834841662
+1463,Samoa,"Tobacco, unmanufactured",mir_0.4_lasso_400,0.3546254051396295
+1464,Samoa,Yams,mir_0.4_lasso_0.02,0.29458428874729015
+1465,Sao Tome and Principe,Bananas,mir_0.4_classic_linear_regression,0.556390326160908
+1466,Sao Tome and Principe,Cassava,mir_0.3_lasso_400,0.3436985499765949
+1467,Sao Tome and Principe,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.5867632017535094
+1468,Sao Tome and Principe,"Cocoa, beans",lasso_0.5,0.3902421373780184
+1469,Sao Tome and Principe,"Coffee, green",lasso_0.8,0.5653182654968942
+1470,Sao Tome and Principe,Maize,lasso_400,0.30379744439548106
+1471,Sao Tome and Principe,"Oil, palm",mir_0.4_classic_linear_regression,0.6545291170917193
+1472,Sao Tome and Principe,Yams,mir_0.5_classic_linear_regression,0.21274813646435464
+1473,Saudi Arabia,Barley,classic_linear_regression,0.44439413215141577
+1474,Saudi Arabia,Cereals (Rice Milled Eqv),mir_0.5_classic_linear_regression,0.24641812471181102
+1475,Saudi Arabia,Grapes,mir_0.2_lasso_400,0.4436533163640718
+1476,Saudi Arabia,Maize,mir_0.4_classic_linear_regression,0.684738728931366
+1477,Saudi Arabia,Potatoes,mir_0.4_lasso_400,0.3603737038030317
+1478,Saudi Arabia,Sesame seed,mir_0.3_lasso_400,0.5144239326093356
+1479,Saudi Arabia,Tomatoes,lasso_0.8,0.5051493381395677
+1480,Saudi Arabia,Wheat,mir_0.5_classic_linear_regression,0.3668967095662232
+1481,Senegal,Bananas,mir_0.4_classic_linear_regression,0.5188147798528833
+1482,Senegal,Cassava,lasso_2,0.5819834069468106
+1483,Senegal,Cereals (Rice Milled Eqv),mir_0.3_lasso_2,0.705710800607219
+1484,Senegal,Maize,mir_0.4_classic_linear_regression,0.6860958983356753
+1485,Senegal,"Oil, palm",mir_0.4_classic_linear_regression,0.7361777844621402
+1486,Senegal,Oranges,lasso_0.02,0.32021973671541126
+1487,Senegal,Potatoes,mir_0.4_classic_linear_regression,0.4960782672678907
+1488,Senegal,"Rice, paddy",mir_0.3_lasso_400,0.48396933153366695
+1489,Senegal,Sweet potatoes,mir_0.5_classic_linear_regression,0.520779922352048
+1490,Senegal,Tomatoes,mir_0.3_lasso_0.02,0.7528060931496842
+1491,Seychelles,Avocados,mir_0.4_classic_linear_regression,0.7145991474184483
+1492,Seychelles,Bananas,mir_0.4_classic_linear_regression,0.6589720956552063
+1493,Seychelles,Cassava,mir_0.5_classic_linear_regression,-0.030148283559381372
+1494,Seychelles,Oranges,mir_0.3_lasso_400,0.5339786686761816
+1495,Seychelles,Tea,mir_0.4_lasso_0.02,0.6370400858423804
+1496,Seychelles,Tomatoes,mir_0.4_lasso_400,0.7278085516728598
+1497,Sierra Leone,Cassava,mir_0.4_classic_linear_regression,0.7257295782969095
+1498,Sierra Leone,Cereals (Rice Milled Eqv),mir_0.3_lasso_100,0.7690845068472644
+1499,Sierra Leone,"Cocoa, beans",mir_0.5_classic_linear_regression,0.5772712013547918
+1500,Sierra Leone,"Coffee, green",mir_0.5_classic_linear_regression,0.3486342077408767
+1501,Sierra Leone,Maize,lasso_0.8,0.5521624671193022
+1502,Sierra Leone,"Oil, palm",mir_0.3_lasso_0.5,0.4508240545668962
+1503,Sierra Leone,"Peas, dry",mir_0.3_lasso_400,0.4661748259189429
+1504,Sierra Leone,"Rice, paddy",mir_0.5_classic_linear_regression,0.4829394275782857
+1505,Sierra Leone,Sesame seed,mir_0.4_classic_linear_regression,0.6169045287494539
+1506,Sierra Leone,Sweet potatoes,mir_0.4_classic_linear_regression,0.6359415044819907
+1507,Sierra Leone,Tomatoes,mir_0.4_classic_linear_regression,0.4903476744771441
+1508,Singapore,Cassava,mir_0.4_classic_linear_regression,0.5915289294700508
+1509,Singapore,Sweet potatoes,mir_0.3_lasso_200,0.4644451998337281
+1510,Singapore,"Tobacco, unmanufactured",mir_0.4_classic_linear_regression,0.6372505738927783
+1511,Solomon Islands,Bananas,mir_0.4_lasso_400,0.5712948836028713
+1512,Solomon Islands,Cassava,mir_0.4_classic_linear_regression,0.7063459378769134
+1513,Solomon Islands,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.5666754686639022
+1514,Solomon Islands,"Cocoa, beans",lasso_0.5,0.45800759629175947
+1515,Solomon Islands,"Oil, palm",mir_0.4_classic_linear_regression,0.37299822849222275
+1516,Solomon Islands,"Rice, paddy",mir_0.4_classic_linear_regression,0.6601826227856229
+1517,Solomon Islands,Sweet potatoes,mir_0.2_lasso_200,0.4656461081219361
+1518,Solomon Islands,"Tobacco, unmanufactured",mir_0.2_lasso_400,0.43630332015815243
+1519,Solomon Islands,Yams,mir_0.3_lasso_400,0.5267580298183214
+1520,Somalia,Bananas,mir_0.4_lasso_400,0.3875542438208722
+1521,Somalia,"Beans, dry",mir_0.5_lasso_0.02,0.4587626130935881
+1522,Somalia,Cassava,mir_0.5_classic_linear_regression,0.2477433264270401
+1523,Somalia,Cereals (Rice Milled Eqv),mir_0.3_lasso_400,0.6002490531293043
+1524,Somalia,Maize,mir_0.3_lasso_200,0.5110027556082276
+1525,Somalia,Oranges,mir_0.4_classic_linear_regression,0.5001955008060261
+1526,Somalia,Sesame seed,mir_0.4_classic_linear_regression,0.6250453611741681
+1527,Somalia,Sugar cane,lasso_0.8,0.6631617136465131
+1528,Somalia,Sweet potatoes,mir_0.4_lasso_400,0.5153173432432747
+1529,Somalia,"Tobacco, unmanufactured",mir_0.3_classic_linear_regression,0.5848853504682415
+1530,South Africa,Apples,mir_0.5_classic_linear_regression,0.5817702362827608
+1531,South Africa,Avocados,lasso_50,0.49346795657164233
+1532,South Africa,Bananas,mir_0.2_lasso_400,0.23414059127336306
+1533,South Africa,Barley,mir_0.4_classic_linear_regression,0.6377117650411391
+1534,South Africa,"Beans, dry",classic_linear_regression,0.5731158898932811
+1535,South Africa,Cereals (Rice Milled Eqv),lasso_0.02,0.43461780574777686
+1536,South Africa,Grapes,mir_0.4_classic_linear_regression,0.4036151277424066
+1537,South Africa,Maize,mir_0.3_lasso_400,0.5029730096804748
+1538,South Africa,Oranges,mir_0.4_classic_linear_regression,0.37104945885813445
+1539,South Africa,"Peas, dry",mir_0.4_classic_linear_regression,0.6794487574857209
+1540,South Africa,Potatoes,mir_0.5_classic_linear_regression,0.6640740934071876
+1541,South Africa,"Rice, paddy",mir_0.4_classic_linear_regression,0.6646116334848636
+1542,South Africa,Rye,mir_0.3_lasso_400,0.4979518193389313
+1543,South Africa,Soybeans,mir_0.4_lasso_400,0.3001541418422975
+1544,South Africa,Sugar cane,mir_0.3_lasso_400,0.5428452459687699
+1545,South Africa,Sunflower seed,lasso_400,0.6416269965509288
+1546,South Africa,Sweet potatoes,mir_0.3_lasso_400,0.8491216557075025
+1547,South Africa,Tea,mir_0.4_classic_linear_regression,0.687215016978028
+1548,South Africa,"Tobacco, unmanufactured",mir_0.3_lasso_400,0.6594707854171835
+1549,South Africa,Tomatoes,mir_0.5_lasso_0.02,0.06946681421651968
+1550,South Africa,Wheat,mir_0.5_classic_linear_regression,0.4293352004119195
+1551,Spain,Apples,mir_0.5_classic_linear_regression,0.7620972145530717
+1552,Spain,Avocados,mir_0.3_lasso_400,0.44376811562309326
+1553,Spain,Bananas,mir_0.4_classic_linear_regression,0.49183156817759
+1554,Spain,Barley,mir_0.3_lasso_400,0.7110788783033355
+1555,Spain,"Beans, dry",mir_0.4_lasso_0.02,0.5913343620719638
+1556,Spain,Cereals (Rice Milled Eqv),lasso_0.02,0.3889002205705977
+1557,Spain,Grapes,lasso_0.02,0.6598870767828113
+1558,Spain,Maize,mir_0.4_classic_linear_regression,0.6153199201128308
+1559,Spain,Oranges,mir_0.4_classic_linear_regression,0.563535663171894
+1560,Spain,"Peas, dry",mir_0.2_lasso_8,0.3874126163464192
+1561,Spain,Potatoes,lasso_0.02,0.6417208397025487
+1562,Spain,"Rice, paddy",mir_0.3_lasso_20,0.5344569448763927
+1563,Spain,Rye,mir_0.4_lasso_400,0.33501172702685245
+1564,Spain,Sugar beet,mir_0.3_lasso_0.02,0.7764025119244422
+1565,Spain,Sugar cane,mir_0.2_lasso_30,0.5002481037906158
+1566,Spain,Sunflower seed,mir_0.4_classic_linear_regression,0.5633345589940787
+1567,Spain,Sweet potatoes,mir_0.3_lasso_400,0.6562169599625449
+1568,Spain,"Tobacco, unmanufactured",mir_0.3_lasso_400,0.29707784715881635
+1569,Spain,Tomatoes,mir_0.5_classic_linear_regression,0.17634238333616725
+1570,Spain,Wheat,mir_0.3_lasso_100,0.7194480717610194
+1571,Sri Lanka,"Beans, dry",mir_0.4_classic_linear_regression,0.32418971357661297
+1572,Sri Lanka,"Cashew nuts, with shell",mir_0.3_lasso_400,0.4375006536480245
+1573,Sri Lanka,Cassava,mir_0.4_classic_linear_regression,0.6693716286928761
+1574,Sri Lanka,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.6165168867591234
+1575,Sri Lanka,"Cocoa, beans",mir_0.3_lasso_20,0.6553018882007977
+1576,Sri Lanka,"Coffee, green",mir_0.2_lasso_400,0.27806298241858474
+1577,Sri Lanka,Maize,mir_0.4_classic_linear_regression,0.6083216955297663
+1578,Sri Lanka,Oranges,mir_0.4_classic_linear_regression,0.7407870608529679
+1579,Sri Lanka,Potatoes,mir_0.4_classic_linear_regression,0.4065710647007912
+1580,Sri Lanka,"Rice, paddy",mir_0.5_classic_linear_regression,0.6542897150093557
+1581,Sri Lanka,Sesame seed,mir_0.3_lasso_400,0.5536349235575826
+1582,Sri Lanka,Soybeans,mir_0.5_classic_linear_regression,0.3626583727609818
+1583,Sri Lanka,Sugar cane,lasso_0.8,0.47039360603837077
+1584,Sri Lanka,Sweet potatoes,mir_0.4_classic_linear_regression,0.6801827012683777
+1585,Sri Lanka,Tea,mir_0.4_lasso_200,0.3412982433552676
+1586,Sri Lanka,"Tobacco, unmanufactured",mir_0.4_lasso_400,0.5773280138114989
+1587,Sri Lanka,Tomatoes,mir_0.2_lasso_400,0.4306141486674515
+1588,Suriname,Bananas,mir_0.4_classic_linear_regression,0.4116516520417699
+1589,Suriname,Cassava,lasso_0.5,0.42573570039929887
+1590,Suriname,Cereals (Rice Milled Eqv),mir_0.3_lasso_400,0.5119658868758148
+1591,Suriname,"Cocoa, beans",mir_0.4_classic_linear_regression,0.6761867068413889
+1592,Suriname,"Coffee, green",lasso_0.5,0.6500531349124787
+1593,Suriname,Maize,mir_0.2_lasso_400,0.6271849028284224
+1594,Suriname,Oranges,mir_0.4_classic_linear_regression,0.552375175030769
+1595,Suriname,"Rice, paddy",mir_0.4_lasso_400,0.3377299222987761
+1596,Suriname,Soybeans,mir_0.3_lasso_400,0.6392636928720833
+1597,Suriname,Sugar cane,lasso_0.5,0.3289509418800056
+1598,Suriname,Sweet potatoes,mir_0.4_lasso_0.02,0.3343183552968848
+1599,Suriname,Tomatoes,lasso_0.8,0.6358520399530408
+1600,Sweden,Apples,mir_0.3_lasso_400,0.6190011031166782
+1601,Sweden,Barley,mir_0.5_classic_linear_regression,0.7986465380252785
+1602,Sweden,Cereals (Rice Milled Eqv),lasso_0.02,0.6092574215810086
+1603,Sweden,"Peas, dry",mir_0.5_classic_linear_regression,0.7646295314157467
+1604,Sweden,Potatoes,mir_0.4_lasso_400,0.4725555882406921
+1605,Sweden,Rapeseed,mir_0.4_lasso_400,0.38213755991961307
+1606,Sweden,Rye,mir_0.4_classic_linear_regression,0.5026266594363953
+1607,Sweden,Sugar beet,mir_0.4_lasso_400,0.35751703985202765
+1608,Sweden,Tomatoes,mir_0.2_lasso_400,0.16031951747399198
+1609,Sweden,Wheat,mir_0.4_classic_linear_regression,0.7005980745398928
+1610,Switzerland,Apples,mir_0.3_lasso_400,0.6064640314174863
+1611,Switzerland,Barley,mir_0.2_classic_linear_regression,0.5543869537031085
+1612,Switzerland,Cereals (Rice Milled Eqv),mir_0.3_lasso_20,0.572081913664032
+1613,Switzerland,Grapes,mir_0.5_classic_linear_regression,0.1671967263083295
+1614,Switzerland,Maize,lasso_400,0.45982956931391883
+1615,Switzerland,Potatoes,mir_0.5_classic_linear_regression,0.65014622643639
+1616,Switzerland,Rapeseed,mir_0.4_lasso_100,0.5962709277700863
+1617,Switzerland,Rye,mir_0.5_classic_linear_regression,0.6832160223298636
+1618,Switzerland,Sugar beet,lasso_0.8,0.4533741156420459
+1619,Switzerland,"Tobacco, unmanufactured",mir_0.5_classic_linear_regression,0.587739947952191
+1620,Switzerland,Tomatoes,lasso_0.02,0.5815591589473892
+1621,Switzerland,Wheat,mir_0.3_lasso_8,0.6116700616594031
+1622,Thailand,Bananas,mir_0.4_classic_linear_regression,0.6616798260969039
+1623,Thailand,"Beans, dry",mir_0.2_lasso_400,0.5135311524682404
+1624,Thailand,"Cashew nuts, with shell",mir_0.4_lasso_400,0.2869458174404981
+1625,Thailand,Cassava,mir_0.4_classic_linear_regression,0.2792794843776011
+1626,Thailand,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.5941924520388122
+1627,Thailand,"Coffee, green",mir_0.2_lasso_400,0.30881120058671596
+1628,Thailand,Grapes,lasso_0.8,0.520600748004231
+1629,Thailand,Maize,mir_0.3_lasso_400,0.46267905321089253
+1630,Thailand,"Oil, palm",mir_0.5_lasso_0.02,-0.21435136879681016
+1631,Thailand,Oranges,mir_0.5_classic_linear_regression,0.5663374364204213
+1632,Thailand,Potatoes,mir_0.3_lasso_30,0.5924383033907066
+1633,Thailand,"Rice, paddy",mir_0.3_lasso_400,0.6571365329802337
+1634,Thailand,Sesame seed,mir_0.3_lasso_400,0.626855538549072
+1635,Thailand,Soybeans,mir_0.4_classic_linear_regression,0.48464234684206564
+1636,Thailand,Sugar cane,mir_0.5_classic_linear_regression,0.07325997513897475
+1637,Thailand,"Tobacco, unmanufactured",mir_0.4_lasso_30,0.779106666633325
+1638,Thailand,Tomatoes,lasso_0.8,0.3073285551619259
+1639,Togo,Bananas,mir_0.4_classic_linear_regression,0.7185318346134242
+1640,Togo,"Beans, dry",mir_0.4_classic_linear_regression,0.1287161859649001
+1641,Togo,Cassava,mir_0.4_classic_linear_regression,0.6680439894823413
+1642,Togo,Cereals (Rice Milled Eqv),mir_0.4_lasso_0.8,0.5782010757311831
+1643,Togo,"Cocoa, beans",mir_0.3_lasso_400,0.4357600628278988
+1644,Togo,"Coffee, green",mir_0.3_lasso_400,0.7459429555393358
+1645,Togo,Maize,mir_0.4_classic_linear_regression,0.5633820040611996
+1646,Togo,"Oil, palm",mir_0.4_classic_linear_regression,0.668814898157876
+1647,Togo,Oranges,mir_0.4_classic_linear_regression,0.5373912545556341
+1648,Togo,"Rice, paddy",mir_0.3_lasso_400,0.45191473632885415
+1649,Togo,Sesame seed,lasso_0.5,0.44887932365907013
+1650,Togo,Sweet potatoes,mir_0.4_classic_linear_regression,0.46524485560910545
+1651,Togo,"Tobacco, unmanufactured",mir_0.4_lasso_0.02,0.6013272769713056
+1652,Togo,Tomatoes,lasso_400,0.7120935028205436
+1653,Togo,Yams,mir_0.4_classic_linear_regression,0.4570272397391897
+1654,Tonga,Bananas,mir_0.4_lasso_0.02,0.6301658494643871
+1655,Tonga,Cassava,mir_0.3_lasso_400,0.5908060009823864
+1656,Tonga,Oranges,mir_0.5_classic_linear_regression,0.636523386086066
+1657,Tonga,Sweet potatoes,mir_0.4_lasso_400,0.3457737782258802
+1658,Tonga,Tomatoes,mir_0.5_classic_linear_regression,0.3218616567137057
+1659,Tonga,Yams,mir_0.4_lasso_0.02,0.5545259051622516
+1660,Trinidad and Tobago,Avocados,lasso_0.8,0.5546173470604794
+1661,Trinidad and Tobago,Bananas,mir_0.4_classic_linear_regression,0.7094317865146629
+1662,Trinidad and Tobago,Cassava,mir_0.4_classic_linear_regression,0.44306933295738604
+1663,Trinidad and Tobago,Cereals (Rice Milled Eqv),mir_0.3_lasso_200,0.49906970186754285
+1664,Trinidad and Tobago,"Cocoa, beans",mir_0.3_lasso_400,0.41897449279123655
+1665,Trinidad and Tobago,"Coffee, green",mir_0.3_classic_linear_regression,0.5122142028444812
+1666,Trinidad and Tobago,Maize,lasso_0.5,0.5416566121994495
+1667,Trinidad and Tobago,Oranges,mir_0.3_lasso_200,0.5356223282425849
+1668,Trinidad and Tobago,"Rice, paddy",lasso_0.8,0.5018397483781951
+1669,Trinidad and Tobago,Sweet potatoes,mir_0.4_lasso_400,0.3431647436659023
+1670,Trinidad and Tobago,"Tobacco, unmanufactured",mir_0.4_classic_linear_regression,0.6324619812028698
+1671,Trinidad and Tobago,Tomatoes,mir_0.4_classic_linear_regression,0.7441828140516065
+1672,Trinidad and Tobago,Yams,mir_0.3_lasso_20,0.5904551888291578
+1673,Tunisia,Apples,mir_0.4_lasso_20,0.3395091559299632
+1674,Tunisia,Barley,mir_0.3_lasso_400,0.7363198662090459
+1675,Tunisia,Cereals (Rice Milled Eqv),mir_0.3_lasso_2,0.7319021738846614
+1676,Tunisia,Grapes,mir_0.3_lasso_400,0.5651065813536589
+1677,Tunisia,Oranges,lasso_0.8,0.5042047761949283
+1678,Tunisia,Potatoes,mir_0.3_lasso_400,0.45292833349838924
+1679,Tunisia,Sugar beet,mir_0.3_lasso_50,0.5558641614780354
+1680,Tunisia,"Tobacco, unmanufactured",mir_0.4_lasso_400,0.6428559010842783
+1681,Tunisia,Tomatoes,mir_0.4_classic_linear_regression,0.7450253091581049
+1682,Tunisia,Wheat,mir_0.4_classic_linear_regression,0.7462956144028621
+1683,Turkey,Apples,mir_0.4_lasso_400,0.536459284560165
+1684,Turkey,Bananas,mir_0.4_classic_linear_regression,0.7598676915593594
+1685,Turkey,Barley,lasso_400,0.44399210082300156
+1686,Turkey,"Beans, dry",mir_0.4_classic_linear_regression,0.7389189216496201
+1687,Turkey,Cereals (Rice Milled Eqv),mir_0.3_lasso_20,0.6644381506805772
+1688,Turkey,Grapes,mir_0.3_lasso_0.02,0.6689433281325436
+1689,Turkey,Maize,mir_0.4_classic_linear_regression,0.6680948056351683
+1690,Turkey,Oranges,mir_0.5_classic_linear_regression,0.2972985456524674
+1691,Turkey,"Peas, dry",mir_0.4_classic_linear_regression,0.4499171202303839
+1692,Turkey,Potatoes,mir_0.5_classic_linear_regression,0.34786576922568146
+1693,Turkey,Rapeseed,mir_0.4_classic_linear_regression,0.6700401041471731
+1694,Turkey,"Rice, paddy",mir_0.3_lasso_400,0.7483199517524968
+1695,Turkey,Rye,mir_0.3_lasso_400,0.5349545837449811
+1696,Turkey,Sesame seed,lasso_2,0.5896481426224851
+1697,Turkey,Soybeans,mir_0.3_lasso_200,0.7683930160439498
+1698,Turkey,Sugar beet,mir_0.4_classic_linear_regression,0.6937806179004207
+1699,Turkey,Sunflower seed,mir_0.4_classic_linear_regression,0.521347076756754
+1700,Turkey,Tea,mir_0.4_classic_linear_regression,0.36105201710587764
+1701,Turkey,"Tobacco, unmanufactured",mir_0.4_classic_linear_regression,0.5942424396074709
+1702,Turkey,Tomatoes,mir_0.5_classic_linear_regression,0.5399088547564852
+1703,Turkey,Wheat,mir_0.4_lasso_400,0.5436976006669252
+1704,Tuvalu,Bananas,lasso_0.8,0.6852486829534954
+1705,Uganda,Bananas,mir_0.4_classic_linear_regression,0.660514786373781
+1706,Uganda,"Beans, dry",mir_0.5_classic_linear_regression,0.3756321816701539
+1707,Uganda,Cassava,mir_0.4_classic_linear_regression,0.6365440095926247
+1708,Uganda,Cereals (Rice Milled Eqv),mir_0.3_lasso_400,0.5143211963046133
+1709,Uganda,"Cocoa, beans",mir_0.3_lasso_8,0.5372309179970527
+1710,Uganda,"Coffee, green",lasso_20,0.48719229811886067
+1711,Uganda,Maize,mir_0.3_lasso_400,0.4998757598705076
+1712,Uganda,"Peas, dry",mir_0.2_lasso_400,0.4437834264773951
+1713,Uganda,Potatoes,mir_0.4_classic_linear_regression,0.8781217665117581
+1714,Uganda,"Rice, paddy",mir_0.3_lasso_400,0.6299694481066156
+1715,Uganda,Sesame seed,mir_0.3_lasso_400,0.3960462060620642
+1716,Uganda,Soybeans,mir_0.4_classic_linear_regression,0.6880930198167587
+1717,Uganda,Sugar cane,mir_0.4_lasso_400,0.8601923636057309
+1718,Uganda,Sunflower seed,mir_0.4_lasso_0.02,0.577013547608776
+1719,Uganda,Sweet potatoes,mir_0.4_classic_linear_regression,0.7431541601507619
+1720,Uganda,Tea,mir_0.3_lasso_400,-0.6172679488594845
+1721,Uganda,"Tobacco, unmanufactured",mir_0.4_classic_linear_regression,0.6275364053690796
+1722,Uganda,Tomatoes,mir_0.4_classic_linear_regression,0.753981123953404
+1723,United Arab Emirates,Tomatoes,mir_0.4_classic_linear_regression,0.5919801858055909
+1724,United Kingdom,Apples,mir_0.5_classic_linear_regression,0.19552792891905646
+1725,United Kingdom,Barley,mir_0.4_classic_linear_regression,0.11677104431660967
+1726,United Kingdom,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.4292752868748958
+1727,United Kingdom,"Peas, dry",mir_0.3_lasso_400,0.6248213399011053
+1728,United Kingdom,Potatoes,mir_0.3_lasso_2,0.6469830287025498
+1729,United Kingdom,Rapeseed,mir_0.3_lasso_400,0.769271124003846
+1730,United Kingdom,Rye,lasso_0.8,0.4770105073938784
+1731,United Kingdom,Sugar beet,lasso_0.8,0.5622513998191409
+1732,United Kingdom,Tomatoes,mir_0.4_classic_linear_regression,0.7080572413049386
+1733,United Kingdom,Wheat,mir_0.4_lasso_0.02,0.6067173893300926
+1734,United States,Apples,mir_0.4_classic_linear_regression,0.6357097864980701
+1735,United States,Avocados,mir_0.4_lasso_0.02,0.671617233177094
+1736,United States,Bananas,mir_0.4_classic_linear_regression,0.7144463441418256
+1737,United States,Barley,mir_0.3_lasso_400,0.5717465633717027
+1738,United States,"Beans, dry",mir_0.2_lasso_200,0.35839320845687894
+1739,United States,Cereals (Rice Milled Eqv),mir_0.4_lasso_0.02,0.5911964590357937
+1740,United States,"Coffee, green",mir_0.2_lasso_400,0.4085683267357766
+1741,United States,Grapes,mir_0.4_classic_linear_regression,0.4254897775192158
+1742,United States,Maize,mir_0.3_lasso_400,0.40838765580122816
+1743,United States,Oranges,lasso_0.02,0.5040650853328702
+1744,United States,"Peas, dry",mir_0.4_classic_linear_regression,0.6182833654310321
+1745,United States,Potatoes,classic_linear_regression,0.5595338482227288
+1746,United States,"Rice, paddy",lasso_30,0.5968456635661502
+1747,United States,Rye,mir_0.2_lasso_20,0.6048035708884942
+1748,United States,Soybeans,lasso_100,0.4841227599742056
+1749,United States,Sugar beet,mir_0.2_lasso_50,0.580208302471463
+1750,United States,Sugar cane,mir_0.2_lasso_200,0.32449866081733936
+1751,United States,Sunflower seed,mir_0.4_lasso_400,0.5326530827488274
+1752,United States,Sweet potatoes,mir_0.5_classic_linear_regression,0.26587480696629184
+1753,United States,"Tobacco, unmanufactured",mir_0.3_lasso_8,0.5491701137979248
+1754,United States,Tomatoes,mir_0.2_lasso_400,0.5129387863827105
+1755,United States,Wheat,mir_0.4_classic_linear_regression,0.6183582392771413
+1756,Uruguay,Apples,lasso_8,0.615637259740211
+1757,Uruguay,Barley,mir_0.4_classic_linear_regression,0.6958926690283815
+1758,Uruguay,"Beans, dry",mir_0.3_lasso_400,0.6294470657313951
+1759,Uruguay,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.6384288531077351
+1760,Uruguay,Grapes,mir_0.5_classic_linear_regression,0.3905172136718221
+1761,Uruguay,Maize,lasso_0.8,0.5134377171969071
+1762,Uruguay,Oranges,mir_0.3_lasso_100,0.7400893884468662
+1763,Uruguay,"Peas, dry",mir_0.5_classic_linear_regression,-0.003577407509273378
+1764,Uruguay,Potatoes,mir_0.4_lasso_0.02,0.44753912915223404
+1765,Uruguay,"Rice, paddy",mir_0.5_classic_linear_regression,0.605944101888856
+1766,Uruguay,Soybeans,lasso_0.8,0.4237417251207183
+1767,Uruguay,Sugar cane,mir_0.3_lasso_400,0.6758078384856634
+1768,Uruguay,Sunflower seed,mir_0.4_classic_linear_regression,0.8087793817141349
+1769,Uruguay,Sweet potatoes,mir_0.5_classic_linear_regression,0.6719375275972885
+1770,Uruguay,"Tobacco, unmanufactured",mir_0.4_classic_linear_regression,0.44933964230317636
+1771,Uruguay,Tomatoes,mir_0.3_lasso_400,0.4884369043638921
+1772,Uruguay,Wheat,mir_0.4_classic_linear_regression,0.40127070927903685
+1773,Vanuatu,Bananas,mir_0.4_classic_linear_regression,0.6354836920713307
+1774,Vanuatu,Cereals (Rice Milled Eqv),mir_0.4_lasso_0.02,-0.07461771512002047
+1775,Vanuatu,"Cocoa, beans",lasso_400,0.3957788588738347
+1776,Vanuatu,"Coffee, green",mir_0.5_classic_linear_regression,0.41034524891451496
+1777,Vanuatu,Maize,mir_0.3_lasso_400,0.6471063443317254
+1778,Vietnam,Bananas,mir_0.5_classic_linear_regression,0.35097525130162754
+1779,Vietnam,"Beans, dry",mir_0.4_lasso_0.02,0.5987944677452988
+1780,Vietnam,"Cashew nuts, with shell",mir_0.4_classic_linear_regression,0.601732616447501
+1781,Vietnam,Cassava,mir_0.3_lasso_400,0.5369545641927371
+1782,Vietnam,Cereals (Rice Milled Eqv),mir_0.4_lasso_0.02,0.5770061061101215
+1783,Vietnam,"Coffee, green",mir_0.5_classic_linear_regression,0.33084824669308155
+1784,Vietnam,Maize,lasso_0.02,0.5413746806026827
+1785,Vietnam,Oranges,mir_0.3_lasso_400,0.5915091950189661
+1786,Vietnam,Potatoes,mir_0.4_lasso_400,0.37703155043861414
+1787,Vietnam,"Rice, paddy",lasso_0.8,0.32584151942862194
+1788,Vietnam,Sesame seed,mir_0.4_lasso_400,0.3025641172721316
+1789,Vietnam,Soybeans,mir_0.4_classic_linear_regression,0.6645175317239953
+1790,Vietnam,Sugar cane,mir_0.4_classic_linear_regression,0.607251652492778
+1791,Vietnam,Sweet potatoes,mir_0.5_classic_linear_regression,0.5517586145685023
+1792,Vietnam,Tea,mir_0.3_lasso_400,0.5218191213426168
+1793,Vietnam,"Tobacco, unmanufactured",mir_0.3_lasso_50,0.6367587757827018
+1794,Zambia,Bananas,mir_0.3_classic_linear_regression,0.747003121349179
+1795,Zambia,Cassava,lasso_400,0.4829774865146266
+1796,Zambia,Cereals (Rice Milled Eqv),mir_0.5_classic_linear_regression,0.3605219672712209
+1797,Zambia,Maize,lasso_0.8,0.585798628229357
+1798,Zambia,Oranges,mir_0.5_classic_linear_regression,0.537264601149537
+1799,Zambia,Potatoes,mir_0.5_classic_linear_regression,0.4638140038279793
+1800,Zambia,Sunflower seed,mir_0.5_classic_linear_regression,0.22558275183314813
+1801,Zambia,Sweet potatoes,lasso_0.5,0.6973088591425938
+1802,Zambia,"Tobacco, unmanufactured",mir_0.2_lasso_400,0.40421347801504426
+1803,Zambia,Tomatoes,mir_0.3_lasso_400,0.6190073295001693
+1804,Zambia,Wheat,mir_0.4_classic_linear_regression,0.6812864520099339
+1805,Zimbabwe,Apples,mir_0.4_classic_linear_regression,0.6685590102901582
+1806,Zimbabwe,Bananas,mir_0.5_classic_linear_regression,0.5397615014720007
+1807,Zimbabwe,Barley,mir_0.3_lasso_400,0.35974506459829425
+1808,Zimbabwe,"Beans, dry",mir_0.3_lasso_400,0.49317627353877935
+1809,Zimbabwe,Cassava,mir_0.3_lasso_400,0.6041199574968117
+1810,Zimbabwe,Cereals (Rice Milled Eqv),mir_0.4_classic_linear_regression,0.5467507553611676
+1811,Zimbabwe,Maize,mir_0.4_lasso_0.02,0.5683172472181535
+1812,Zimbabwe,Oranges,mir_0.4_classic_linear_regression,0.6199478263273999
+1813,Zimbabwe,Potatoes,mir_0.3_lasso_200,0.5012356091210899
+1814,Zimbabwe,"Rice, paddy",mir_0.3_lasso_400,0.6486134768773805
+1815,Zimbabwe,Soybeans,mir_0.3_lasso_400,0.7135586599787598
+1816,Zimbabwe,Sugar cane,lasso_0.8,0.6178768836096693
+1817,Zimbabwe,Sunflower seed,mir_0.4_classic_linear_regression,0.4004037084546168
+1818,Zimbabwe,Sweet potatoes,lasso_2,0.3695018510683965
+1819,Zimbabwe,Tea,lasso_400,0.12015396890467955
+1820,Zimbabwe,"Tobacco, unmanufactured",lasso_2,0.5680896882129665
+1821,Zimbabwe,Tomatoes,mir_0.3_lasso_400,0.7216975490337831
+1822,Zimbabwe,Wheat,mir_0.5_classic_linear_regression,0.5069895097665298
