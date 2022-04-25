@@ -195,7 +195,7 @@
             // create Choropleth with default option. Call createMapAndLegend() with required arguments.
         }
 
-        function openPage(){
+        function openVisualsPage(){
           var countryString = document.getElementById("countryHeading").innerHTML
           var country = countryString.split(": ")[1];
           var crop = document.getElementById("gameDropdown").value
@@ -209,10 +209,34 @@
           };
           var country = country.replaceAll(" ","_");
           var crop = crop.replaceAll(" ","_");
-          var page = country + '-' + crop + '.html?' + country + '|' + crop
+          var page = '../Visuals/'+country + '-' + crop + '.html?' + country + '|' + crop
+          var test = 'Forecast_Crop_Yield_Form.html?' + country + '|' + crop
+          //window.location = test;
+          //window.open(test);
+          window.location = page;
+          window.open(page);
+        }
+
+        function openRegressionPage(){
+          var countryString = document.getElementById("countryHeading").innerHTML
+          var country = countryString.split(": ")[1];
+          var crop = document.getElementById("gameDropdown").value
+          if (typeof country == 'undefined') {
+            alert("Please select a country by clicking it on the map.");
+            return false;
+          };
+          if (crop == '') {
+            alert("Please select a crop from the dropdown. If the dropdown is blank, there is no crop data available for your chosen country. Choose a different country.");
+            return false;
+          };
+          var country = country.replaceAll(" ","_");
+          var crop = crop.replaceAll(" ","_");
+          var page = '../Visuals/'+country + '-' + crop + '.html?' + country + '|' + crop
           var test = 'Forecast_Crop_Yield_Form.html?' + country + '|' + crop
           window.location = test;
           window.open(test);
+          // window.location = page;
+          // window.open(page);
         }
 
         // this function should create a Choropleth and legend using the world and gameData arguments for a selectedGame
@@ -227,7 +251,8 @@
       <select class="centered" id="gameDropdown"></select>
     </div>
     <div class="row top-spacing">
-      <a class="btn btn-lg booking-button centered" id="mapButton" onclick="openPage();">Submit</a>
+      <a class="btn btn-lg booking-button centered" id="mapButton" onclick="openVisualsPage();">View Trends</a>
+      <a class="btn btn-lg booking-button centered" id="mapButton" onclick="openRegressionPage();">Make Prediction</a>
     </div>
   </div>
 </body>
